@@ -25,7 +25,6 @@ major,alvorlig,module,Magento_AdminNotification
 minor,mindre,module,Magento_AdminNotification
 notice,info,module,Magento_AdminNotification
 "Wrong message type","Forkert beskedtype",module,Magento_AdminNotification
-"One or more of the Cache Types are invalidated: %1. ","En eller flere cachetyper er forældede: %1. ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Klik her for at gå til<a href=""%1""> Cachestyring</a> og forny cachen.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","Synkronisering af mediebiblioteket er fuldført.",module,Magento_AdminNotification
 "Close popup","Luk vindue",module,Magento_AdminNotification
@@ -43,18 +42,13 @@ All,Alle,module,Magento_Catalog
 "Shop By",Filtre,module,Magento_Catalog
 "Remove This Item","Fjerne dette produkt",module,Magento_Catalog
 "Clear All","Ryd alle",module,Magento_Catalog
-Summary,Resumé,module,Magento_ConfigurableProduct
 "Address Book",Adressebog,module,Magento_Customer
 "Account Information","Konto Information",module,Magento_Customer
 None,Ingen,module,Magento_Dhl
 None,Ingen,module,Magento_Eav
 None,Ingen,module,Magento_Fedex
 Remove,Fjern,module,Magento_Integration
-Custom,Brugerdefineret,module,Magento_Integration
-All,Alle,module,Magento_Integration
-"Now Shopping by","Aktive filtre",module,Magento_LayeredNavigation
 Previous,Forrige,module,Magento_LayeredNavigation
-Remove,Fjern,module,Magento_LayeredNavigation
 "Remove This Item","Fjerne dette produkt",module,Magento_LayeredNavigation
 "Shop By",Filtre,module,Magento_LayeredNavigation
 "Clear All","Ryd alle",module,Magento_LayeredNavigation
@@ -65,7 +59,6 @@ Summary,Resumé,module,Magento_Review
 Remove,Fjern,module,Magento_Rule
 "Account Information","Konto Information",module,Magento_Sales
 Remove,Fjern,module,Magento_Sales
-Remove,Fjern,module,Magento_SendFriend
 None,Ingen,module,Magento_Sitemap
 All,Alle,module,Magento_Sitemap
 None,Ingen,module,Magento_Tax
@@ -78,23 +71,9 @@ Custom,Brugerdefineret,module,Magento_User
 All,Alle,module,Magento_User
 None,Ingen,module,Magento_Usps
 Settings,Instillinger,module,Magento_Widget
-None,Ingen,module,Magento_Widget
 All,Alle,module,Magento_Widget
 "Remove This Item","Fjerne dette produkt",module,Magento_Wishlist
-"Now Shopping by","Aktive filtre",theme,frontend/Magento/luma
-Previous,Forrige,theme,frontend/Magento/luma
-Remove,Fjern,theme,frontend/Magento/luma
-"Remove This Item","Fjerne dette produkt",theme,frontend/Magento/luma
 "Shop By",Filtre,theme,frontend/Magento/luma
-"Clear All","Ryd alle",theme,frontend/Magento/luma
-"Welcome to %store_name.","Velkommen til %store_name.",module,Magento_Customer
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","For at logge på vores webshop, skal du bruge disse oplysninger i checkout forløbet eller på <a href=""%customer_url"">login siden </a>:",module,Magento_Customer
-Email:,E-mail:,module,Magento_Customer
-Password:,Kodeord:,module,Magento_Customer
-"Welcome to %store_name.","Velkommen til %store_name.",theme,frontend/Magento/luma
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","For at logge på vores webshop, skal du bruge disse oplysninger i checkout forløbet eller på <a href=""%customer_url"">login siden </a>:",theme,frontend/Magento/luma
-Email:,E-mail:,theme,frontend/Magento/luma
-Password:,Kodeord:,theme,frontend/Magento/luma
 "Use HTTPS to Get Feed","Brug HTTPS for at hente et feed",module,Magento_AdminNotification
 "Update Frequency","Opdatere frekvens",module,Magento_AdminNotification
 "Last Update","Sidst opdateret",module,Magento_AdminNotification
@@ -102,11 +81,4 @@ Severity,Alvorlighed,module,Magento_AdminNotification
 "Date Added","Dato tilføjet",module,Magento_AdminNotification
 Message,Besked,module,Magento_AdminNotification
 Actions,Handlinger,module,Magento_AdminNotification
-"Account Dashboard",Betjeningspanel,module,Magento_Customer
-Summary,Resumé,module,Magento_ImportExport
 Summary,Resumé,theme,frontend/Magento/blank
-"Account Dashboard",Betjeningspanel,theme,frontend/Magento/blank
-"Account Information","Konto Information",theme,frontend/Magento/blank
-"Address Book",Adressebog,theme,frontend/Magento/blank
-Account,Konto,theme,frontend/Magento/blank
-Settings,Instillinger,theme,frontend/Magento/blank
