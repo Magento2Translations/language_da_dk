@@ -9,11 +9,9 @@ Remove,Fjern,module,Magento_AdminNotification
 close,luk,module,Magento_AdminNotification
 Notifications,Meddelelser,module,Magento_AdminNotification
 "The message has been marked as Read.","Meddelelsen er markeret som læst.",module,Magento_AdminNotification
-"We couldn't mark the notification as Read because of an error.","Vi kunne ikke markerer beskeden som læst.",module,Magento_AdminNotification
 "Please select messages.","Vælg beskeder.",module,Magento_AdminNotification
 "A total of %1 record(s) have been marked as Read.","%1 besked(er) er nu markeret som læst.",module,Magento_AdminNotification
 "Total of %1 record(s) have been removed.","%1 besked(er) er blevet slettet.",module,Magento_AdminNotification
-"We couldn't remove the messages because of an error.","Vi kunne ikke slette på grund af en fejl.",module,Magento_AdminNotification
 "The message has been removed.","Beskeden er blevet slettet.",module,Magento_AdminNotification
 "1 Hour","1 time",module,Magento_AdminNotification
 "2 Hours","2 timer",module,Magento_AdminNotification
@@ -25,7 +23,6 @@ major,alvorlig,module,Magento_AdminNotification
 minor,mindre,module,Magento_AdminNotification
 notice,info,module,Magento_AdminNotification
 "Wrong message type","Forkert beskedtype",module,Magento_AdminNotification
-"One or more of the Cache Types are invalidated: %1. ","En eller flere cachetyper er forældede: %1. ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Klik her for at gå til<a href=""%1""> Cachestyring</a> og forny cachen.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","Synkronisering af mediebiblioteket er fuldført.",module,Magento_AdminNotification
 "Close popup","Luk vindue",module,Magento_AdminNotification
