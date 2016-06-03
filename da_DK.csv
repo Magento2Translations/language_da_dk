@@ -25,10 +25,8 @@ major,alvorlig,module,Magento_AdminNotification
 minor,mindre,module,Magento_AdminNotification
 notice,info,module,Magento_AdminNotification
 "Wrong message type","Forkert beskedtype",module,Magento_AdminNotification
-"One or more of the Cache Types are invalidated: %1. ","En eller flere cachetyper er forældede: %1. ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Klik her for at gå til<a href=""%1""> Cachestyring</a> og forny cachen.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","Synkronisering af mediebiblioteket er fuldført.",module,Magento_AdminNotification
-"Close popup","Luk vindue",module,Magento_AdminNotification
 Close,Luk,module,Magento_AdminNotification
 "Critical System Messages","Kritiske systembeskeder",module,Magento_AdminNotification
 "Major System Messages","Alvorlige systembeskeder",module,Magento_AdminNotification
