@@ -37,6 +37,10 @@ Previous,Forrige,module,Magento_Backend
 None,Ingen,module,Magento_Bundle
 Summary,Resumé,module,Magento_Bundle
 All,Alle,module,Magento_CatalogSearch
+Root,Rod,module,Magento_Catalog
+"Use Config Settings","Brug Konfigurationsindstillinger",module,Magento_Catalog
+Delete,Slet,module,Magento_Catalog
+Save,Gem,module,Magento_Catalog
 None,Ingen,module,Magento_Catalog
 All,Alle,module,Magento_Catalog
 "Shop By",Filtre,module,Magento_Catalog
