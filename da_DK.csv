@@ -25,17 +25,27 @@ major,alvorlig,module,Magento_AdminNotification
 minor,mindre,module,Magento_AdminNotification
 notice,info,module,Magento_AdminNotification
 "Wrong message type","Forkert beskedtype",module,Magento_AdminNotification
+"Wrong notification ID specified.","Forkert besked ID angivet.",module,Magento_AdminNotification
+"{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","Vi anbefaler ikke at bruge {{base_url}} i et produktionsmiljø. Du kan ændre denne værdi i din Magento <a href=""%1"">konfiguration</a>.",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Klik her for at gå til<a href=""%1""> Cachestyring</a> og forny cachen.",module,Magento_AdminNotification
+"We were unable to synchronize one or more media files. Please refer to the log file for details.","Vi var ikke i stand til at synkronisere en eller flere mediefiler. Se venligst detaljer i logfilen.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","Synkronisering af mediebiblioteket er fuldført.",module,Magento_AdminNotification
+"Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","Webserveren er konfigureret forkert og giver uautoriseret adgang til følsomme filer. Kontakt din hosting udbyder.",module,Magento_AdminNotification
 Close,Luk,module,Magento_AdminNotification
+"System Messages:",Systembeskeder:,module,Magento_AdminNotification
 "Critical System Messages","Kritiske systembeskeder",module,Magento_AdminNotification
 "Major System Messages","Alvorlige systembeskeder",module,Magento_AdminNotification
 "System messages",Systembeskeder,module,Magento_AdminNotification
+"See All (","Vis alle (",module,Magento_AdminNotification
 "Account Information","Konto Information",module,Magento_Backend
 Previous,Forrige,module,Magento_Backend
 None,Ingen,module,Magento_Bundle
 Summary,Resumé,module,Magento_Bundle
 All,Alle,module,Magento_CatalogSearch
+Root,Rod,module,Magento_Catalog
+"Use Config Settings","Brug Konfigurationsindstillinger",module,Magento_Catalog
+Delete,Slet,module,Magento_Catalog
+Save,Gem,module,Magento_Catalog
 None,Ingen,module,Magento_Catalog
 All,Alle,module,Magento_Catalog
 "Shop By",Filtre,module,Magento_Catalog
