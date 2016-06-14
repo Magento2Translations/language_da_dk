@@ -36,6 +36,11 @@ Close,Luk,module,Magento_AdminNotification
 "Major System Messages","Alvorlige systembeskeder",module,Magento_AdminNotification
 "System messages",Systembeskeder,module,Magento_AdminNotification
 "See All (","Vis alle (",module,Magento_AdminNotification
+"We can't find the role for the user you wanted.","Vi kan ikke finde rollen, for den bruger du ønskede.",module,Magento_Authorization
+"We can't process your order right now. Please try again later.","Vi kan ikke behandle din ordre i øjeblikket, prøv igen senere.",module,Magento_Authorizenet
+"Cannot place order.","Kan ikke placere ordren.",module,Magento_Authorizenet
+"This payment didn't work out because we can't find this order.","Betalingen fungerede ikke, fordi vi ikke kan finde ordren.",module,Magento_Authorizenet
+"Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Noget gik galt: det betalte beløb ikke matcher ordrebeløb. Venligst ret dette og prøv igen.",module,Magento_Authorizenet
 "Account Information","Konto Information",module,Magento_Backend
 Previous,Forrige,module,Magento_Backend
 None,Ingen,module,Magento_Bundle
