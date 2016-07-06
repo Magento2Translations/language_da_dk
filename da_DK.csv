@@ -43,15 +43,105 @@ Close,Luk,module,Magento_AdminNotification
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Noget gik galt: det betalte beløb ikke matcher ordrebeløb. Venligst ret dette og prøv igen.",module,Magento_Authorizenet
 "Account Information","Konto Information",module,Magento_Backend
 Previous,Forrige,module,Magento_Backend
+"We can't create the backup right now.","Vi kan ikke oprette sikkerhedskopien lige nu.",module,Magento_Backup
+"We can't delete one or more backups.","Vi kan ikke slette en eller flere sikkerhedskopier.",module,Magento_Backup
+"We can't find the backup file.","Vi kan ikke finde den fil med sikkerhedskopien.",module,Magento_Backup
+"We can't connect to the FTP right now.","Vi kan ikke forbinde til FTP lige nu.",module,Magento_Backup
+Month,Måned,module,Magento_Braintree
+Year,År,module,Magento_Braintree
+"Stored Card","Gemte kort",module,Magento_Braintree
+"Credit card successfully added","Kreditkort blev tilføjet",module,Magento_Braintree
+"Something went wrong while saving the card.","Noget gik galt under gemning af kortet.",module,Magento_Braintree
+"Credit card does not exist","Kreditkort findes ikke",module,Magento_Braintree
+"Delete Credit Card","Slet kreditkort",module,Magento_Braintree
+"There was error deleting the credit card","Der opstod fejl under sletning af kreditkort",module,Magento_Braintree
+"Credit card successfully deleted","Kreditkort blev slettet",module,Magento_Braintree
+"Edit Credit Card","Redigere kreditkort",module,Magento_Braintree
+"My Credit Cards","Mit kreditkort",module,Magento_Braintree
+"New Credit Card","Nyt kreditkort",module,Magento_Braintree
+"There was error during saving card data","Der opstod fejl under lagring af kortdata",module,Magento_Braintree
+"We can't place the order.","Vi kan ikke placere ordren.",module,Magento_Braintree
+"Incorrect payment method.","Forkert betalingsmetode.",module,Magento_Braintree
+"We can't update shipping method.","Vi kan ikke opdatere forsendelsesmetode.",module,Magento_Braintree
+"The processor declined your transaction, please re-enter your payment information","Processoren afviste din transaktion, venligst genindtast dine betalingsoplysninger",module,Magento_Braintree
+"Transaction declined by gateway: Check card details or try another card","Transaktion afvist af gateway: Tjek kortoplysninger eller prøv et andet kort",module,Magento_Braintree
+"The processor responded with an unknown error","Processoren reagerede med en ukendt fejl",module,Magento_Braintree
+"Credit card type is not allowed for your country.","Kreditkorttypen er ikke tilladt for dit land.",module,Magento_Braintree
+"Incomplete payment information.","Ufuldstændig betalingsoplysninger.",module,Magento_Braintree
+"Please try again later","Prøv igen senere",module,Magento_Braintree
+"Please wait 24 hours before trying to issue a partial refund.","Vent venligst 24 timer før forsøger at udstede en delvis tilbagebetaling.",module,Magento_Braintree
+"Some transactions are already settled or voided and cannot be voided.","Nogle transaktioner er allerede afgjort eller annulleret og kan ikke blive annulleret.",module,Magento_Braintree
+Invoice,Faktura,module,Magento_Braintree
+Shipment,Forsendelse,module,Magento_Braintree
+"some error","en fejl",module,Magento_Braintree
+"Something went wrong while processing.","Noget gik galt under behandling.",module,Magento_Braintree
+error,fejl,module,Magento_Braintree
+exception,undtagelse,module,Magento_Braintree
+"Payment Information",Betalingsoplysninger,module,Magento_Braintree
+"Add new card","Tilføj nyt kort",module,Magento_Braintree
+"Please Select","Vælg venligst",module,Magento_Braintree
+"Save this card for future use","Gem dette kort til fremtidig brug",module,Magento_Braintree
+or,eller,module,Magento_Braintree
+"Please confirm that you want to delete this credit card","Bekræft, at du vil slette dette kreditkort",module,Magento_Braintree
+"Cardholder Name","Kortindehavers navn",module,Magento_Braintree
+Delete,Slet,module,Magento_Braintree
+Back,Tilbage,module,Magento_Braintree
+"* Required Fields","* Påkrævede felter",module,Magento_Braintree
+"Credit Card",Kreditkort,module,Magento_Braintree
+"Billing Address",Faktureringsadresse,module,Magento_Braintree
+"First Name",Fornavn,module,Magento_Braintree
+"Last Name",Efternavn,module,Magento_Braintree
+Company,Virksomheden,module,Magento_Braintree
+Address,Adresse,module,Magento_Braintree
+City,By,module,Magento_Braintree
+"Zip/Postal Code",Postnummer,module,Magento_Braintree
+"Add Credit Card","Tilføj kreditkort",module,Magento_Braintree
+"Card Number",Kortnummer,module,Magento_Braintree
+"Is Default","Er standard",module,Magento_Braintree
+Actions,Handlinger,module,Magento_Braintree
+Yes,Ja,module,Magento_Braintree
+No,Nej,module,Magento_Braintree
+Edit,Rediger,module,Magento_Braintree
+"Requested option doesn't exist","Ønskede mulighed eksisterer ikke",module,Magento_Bundle
+"We can't add this item to your shopping cart right now.","Vi kan ikke føje dette emne til din indkøbskurv lige nu.",module,Magento_Bundle
 None,Ingen,module,Magento_Bundle
 Summary,Resumé,module,Magento_Bundle
 All,Alle,module,Magento_CatalogSearch
 Root,Rod,module,Magento_Catalog
+"Save Category","Gem kategori",module,Magento_Catalog
+"Delete Category","Slet kategori",module,Magento_Catalog
+"New Subcategory","Ny underkategori",module,Magento_Catalog
+"New Root Category","Nye rod kategori",module,Magento_Catalog
+"Set Root Category for Store","Sæt Root kategori for butik",module,Magento_Catalog
 "Use Config Settings","Brug Konfigurationsindstillinger",module,Magento_Catalog
+"Category Data",Kategoridata,module,Magento_Catalog
+"This is used internally. Make sure you don't use spaces or more than %1 symbols.","Dette bruges internt. Kontroller, at du ikke bruger mellemrum eller mere end %1 symboler.",module,Magento_Catalog
+"Not shared with other products","Ikke delt med andre produkter",module,Magento_Catalog
+"Depends on design theme","Afhænger af designtema",module,Magento_Catalog
 Delete,Slet,module,Magento_Catalog
 Save,Gem,module,Magento_Catalog
+"We saved the price alert subscription.","Vi gemte prise alarm abonnement.",module,Magento_Catalog
+"We saved the stock notification.","Vi gemte lager notifikationen.",module,Magento_Catalog
+"Images and Videos","Billeder og videoer",module,Magento_Catalog
+"Click here or drag and drop to add images.","Klik her eller træk og slip for at tilføje billeder.",module,Magento_Catalog
 None,Ingen,module,Magento_Catalog
+"We can't find an attribute to delete.","Vi kan ikke finde en attribut til at slette.",module,Magento_Catalog
+"An attribute set named '%1' already exists.","En attribut med navnet '%1' allerede findes.",module,Magento_Catalog
+"We can't update the attribute.","Vi kan ikke opdatere attributten.",module,Magento_Catalog
+"This product no longer exists.","Dette produkt findes ikke længere.",module,Magento_Catalog
 All,Alle,module,Magento_Catalog
+"Sorry, but we can't find the new parent category you selected.","Beklager, men vi kan ikke finde den nye overordnede kategori du har valgt.",module,Magento_Catalog
+"Sorry, but we can't find the new category you selected.","Beklager, men vi kan ikke finde den nye kategori du har valgt.",module,Magento_Catalog
+"We can't move the category because the parent category name matches the child category name.","Vi kan ikke flytte kategorien, fordi det overordnede kategorinavn matcher underkategoriens navn.",module,Magento_Catalog
+"Can't delete root category.","Kan ikke slette rod kategori.",module,Magento_Catalog
+"We can't rebuild the index for an undefined product.","Vi kan ikke genopbygge indekset for en udefineret produkt.",module,Magento_Catalog
+"We couldn't move this file: %1.","Vi kunne ikke flytte denne fil: %1.",module,Magento_Catalog
+"We couldn't copy file %1. Please delete media with non-existing images and try again.","Vi kunne ikke kopiere filen %1. Slet medier med ikke-eksisterende billeder, og prøv igen.",module,Magento_Catalog
+"Such product doesn't exist","Sådan et produkt findes ikke",module,Magento_Catalog
+"Such image doesn't exist","Sådan et billede findes ikke",module,Magento_Catalog
+"We can't find the image file.","Vi kan ikke finde billedfilen.",module,Magento_Catalog
+"Could not save product option","Kunne ikke gemme produktet valg",module,Magento_Catalog
+"Please specify product's required option(s).","Angiv produktets indstillings krav.",module,Magento_Catalog
 "Shop By",Filtre,module,Magento_Catalog
 "Remove This Item","Fjerne dette produkt",module,Magento_Catalog
 "Clear All","Ryd alle",module,Magento_Catalog
@@ -60,6 +150,8 @@ Summary,Resumé,module,Magento_ConfigurableProduct
 "Account Information","Konto Information",module,Magento_Customer
 None,Ingen,module,Magento_Dhl
 None,Ingen,module,Magento_Eav
+"We can't delete email template data right now. Please review log and try again.","Vi kan ikke slette e-mail skabelon data lige nu. Læs log, og prøv igen.",module,Magento_Email
+"We can't find an email template to delete.","Vi kan ikke finde en e-mail-skabelon til at slette.",module,Magento_Email
 None,Ingen,module,Magento_Fedex
 Remove,Fjern,module,Magento_Integration
 Custom,Brugerdefineret,module,Magento_Integration
@@ -71,6 +163,9 @@ Remove,Fjern,module,Magento_LayeredNavigation
 "Shop By",Filtre,module,Magento_LayeredNavigation
 "Clear All","Ryd alle",module,Magento_LayeredNavigation
 None,Ingen,module,Magento_OfflineShipping
+"The credit card number doesn't match the credit card type.","Kreditkortnummeret matcher ikke kreditkorttypen.",module,Magento_Payment
+"Start Date","Start dato",module,Magento_Payment
+"We'll ask for your payment details before you place an order.","Vi vil bede om dine betalingsoplysninger, før du afgiver en ordre.",module,Magento_Payment
 Custom,Brugerdefineret,module,Magento_Paypal
 Previous,Forrige,module,Magento_Review
 Summary,Resumé,module,Magento_Review
@@ -99,6 +194,7 @@ Remove,Fjern,theme,frontend/Magento/luma
 "Remove This Item","Fjerne dette produkt",theme,frontend/Magento/luma
 "Shop By",Filtre,theme,frontend/Magento/luma
 "Clear All","Ryd alle",theme,frontend/Magento/luma
+"Shopping Options","Shopping muligheder",theme,frontend/Magento/luma
 "Welcome to %store_name.","Velkommen til %store_name.",module,Magento_Customer
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","For at logge på vores webshop, skal du bruge disse oplysninger i checkout forløbet eller på <a href=""%customer_url"">login siden </a>:",module,Magento_Customer
 Email:,E-mail:,module,Magento_Customer
@@ -107,6 +203,30 @@ Password:,Kodeord:,module,Magento_Customer
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","For at logge på vores webshop, skal du bruge disse oplysninger i checkout forløbet eller på <a href=""%customer_url"">login siden </a>:",theme,frontend/Magento/luma
 Email:,E-mail:,theme,frontend/Magento/luma
 Password:,Kodeord:,theme,frontend/Magento/luma
+"Password you set when creating account","Adgangskode du angav ved oprettelse af konto",theme,frontend/Magento/luma
+"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Har du glemt din adgangskode? Klik <a href=""%reset_url""> her</a> til at nulstille den.",theme,frontend/Magento/luma
+"When you sign in to your account, you will be able to:","Når du logger på din konto, vil du være i stand til at:",theme,frontend/Magento/luma
+"Order Status",Ordrestatus,theme,frontend/Magento/luma
+"Check the status of orders","Kontrollere status for ordrer",theme,frontend/Magento/luma
+"Manage Addresses","Administrere adresser",theme,frontend/Magento/luma
+"Store alternative addresses","Gem alternative adresser",theme,frontend/Magento/luma
+"For shipping to multiple family members and friends","For forsendelse til flere familiemedlemmer og venner",theme,frontend/Magento/luma
+"Order History",Ordreoversigten,theme,frontend/Magento/luma
+"View past orders","Se tidligere ordrer",theme,frontend/Magento/luma
+"About Us","Om os",theme,frontend/Magento/luma
+"Customer Service",Kundeservice,theme,frontend/Magento/luma
+"<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone""> %store_phone</a>",theme,frontend/Magento/luma
+"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Åbningstider: < br / > <span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
+"Thank you for your order from %store_name.","Tak for din ordre fra %store_name.",theme,frontend/Magento/luma
+"Billing Info","Fakturering Info",theme,frontend/Magento/luma
+"Shipping Info","Fragt information",theme,frontend/Magento/luma
+"Payment Method",Betalingsmåde,theme,frontend/Magento/luma
+"Shipping Method",Forsendelsesmetode,theme,frontend/Magento/luma
+"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","Din ordre #%increment_id er blevet opdateret med en status for <strong>%order_status</strong>.",theme,frontend/Magento/luma
+"Your Invoice #%invoice_id for Order #%order_id","Din faktura #%invoice_id for ordre #%order_id",theme,frontend/Magento/luma
+"Once your package ships we will send you a tracking number.","Når din pakke skibe vil vi sende dig et trackingnummer.",theme,frontend/Magento/luma
+"Your Order <span class=""no-link"">#%increment_id</span>","Din ordre <span class=""no-link""> #%increment_id</span>",theme,frontend/Magento/luma
+"Placed on <span class=""no-link"">%created_at</span>","Placeret på <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
 "Use HTTPS to Get Feed","Brug HTTPS for at hente et feed",module,Magento_AdminNotification
 "Update Frequency","Opdatere frekvens",module,Magento_AdminNotification
 "Last Update","Sidst opdateret",module,Magento_AdminNotification
@@ -114,7 +234,14 @@ Severity,Alvorlighed,module,Magento_AdminNotification
 "Date Added","Dato tilføjet",module,Magento_AdminNotification
 Message,Besked,module,Magento_AdminNotification
 Actions,Handlinger,module,Magento_AdminNotification
+"New Order Status","Nye ordrestatus",module,Magento_Braintree
+"Allow Duplicate Cards","Tillad dubletter af kort",module,Magento_Braintree
+"Use Cache","Brug Cache",module,Magento_Braintree
+"Edit My Credit Cards","Redigere mine kreditkort",module,Magento_Braintree
 "Account Dashboard",Betjeningspanel,module,Magento_Customer
+Emails,E-mails,module,Magento_Email
+"Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in width/height fields below.","Tilladte filtyper: jpg, jpeg, gif, png. For at optimere logo til høj opløsning skærme, uploade et billede, der er 3 x normal størrelse, og angiv derefter 1 x dimensioner i bredde/højde felterne nedenfor.",module,Magento_Email
+"Only necessary if image has been uploaded above. Enter number of pixels, without appending ""px"".","Kun nødvendig, hvis billedet er blevet uploadet ovenfor. Angiv antallet af pixel, uden at tilføje ""px"".",module,Magento_Email
 Summary,Resumé,module,Magento_ImportExport
 Summary,Resumé,theme,frontend/Magento/blank
 "Account Dashboard",Betjeningspanel,theme,frontend/Magento/blank
