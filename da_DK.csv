@@ -34,14 +34,58 @@ Close,Luk,module,Magento_AdminNotification
 "System messages",Systembeskeder,module,Magento_AdminNotification
 "Account Information","Konto Information",module,Magento_Backend
 Previous,Forrige,module,Magento_Backend
+"Stored Card","Gemte kort",module,Magento_Braintree
+"Credit card successfully added","Kreditkort blev tilføjet",module,Magento_Braintree
+"Delete Credit Card","Slet kreditkort",module,Magento_Braintree
+"Credit card successfully deleted","Kreditkort blev slettet",module,Magento_Braintree
+"Edit Credit Card","Redigere kreditkort",module,Magento_Braintree
+"My Credit Cards","Mit kreditkort",module,Magento_Braintree
+"There was error during saving card data","Der opstod fejl under lagring af kortdata",module,Magento_Braintree
+"Transaction declined by gateway: Check card details or try another card","Transaktion afvist af gateway: Tjek kortoplysninger eller prøv et andet kort",module,Magento_Braintree
+"Credit card type is not allowed for your country.","Kreditkorttypen er ikke tilladt for dit land.",module,Magento_Braintree
+"Please try again later","Prøv igen senere",module,Magento_Braintree
+"Please wait 24 hours before trying to issue a partial refund.","Vent venligst 24 timer før forsøger at udstede en delvis tilbagebetaling.",module,Magento_Braintree
+"Some transactions are already settled or voided and cannot be voided.","Nogle transaktioner er allerede afgjort eller annulleret og kan ikke blive annulleret.",module,Magento_Braintree
+"Payment Information",Betalingsoplysninger,module,Magento_Braintree
+"Add new card","Tilføj nyt kort",module,Magento_Braintree
+"Please Select","Vælg venligst",module,Magento_Braintree
+"Save this card for future use","Gem dette kort til fremtidig brug",module,Magento_Braintree
+"Please confirm that you want to delete this credit card","Bekræft, at du vil slette dette kreditkort",module,Magento_Braintree
+"Cardholder Name","Kortindehavers navn",module,Magento_Braintree
+Delete,Slet,module,Magento_Braintree
+Back,Tilbage,module,Magento_Braintree
+"* Required Fields","* Påkrævede felter",module,Magento_Braintree
+"Billing Address",Faktureringsadresse,module,Magento_Braintree
+"First Name",Fornavn,module,Magento_Braintree
+"Last Name",Efternavn,module,Magento_Braintree
+Company,Virksomheden,module,Magento_Braintree
+City,By,module,Magento_Braintree
+"Add Credit Card","Tilføj kreditkort",module,Magento_Braintree
+"Is Default","Er standard",module,Magento_Braintree
+Actions,Handlinger,module,Magento_Braintree
+Yes,Ja,module,Magento_Braintree
+No,Nej,module,Magento_Braintree
+Edit,Rediger,module,Magento_Braintree
 None,Ingen,module,Magento_Bundle
 Summary,Resumé,module,Magento_Bundle
 All,Alle,module,Magento_CatalogSearch
 Root,Rod,module,Magento_Catalog
+"Save Category","Gem kategori",module,Magento_Catalog
+"Delete Category","Slet kategori",module,Magento_Catalog
+"New Subcategory","Ny underkategori",module,Magento_Catalog
+"New Root Category","Nye rod kategori",module,Magento_Catalog
+"Set Root Category for Store","Sæt Root kategori for butik",module,Magento_Catalog
 "Use Config Settings","Brug Konfigurationsindstillinger",module,Magento_Catalog
+"Category Data",Kategoridata,module,Magento_Catalog
+"Not shared with other products","Ikke delt med andre produkter",module,Magento_Catalog
+"Depends on design theme","Afhænger af designtema",module,Magento_Catalog
 Delete,Slet,module,Magento_Catalog
 Save,Gem,module,Magento_Catalog
+"We saved the price alert subscription.","Vi gemte prise alarm abonnement.",module,Magento_Catalog
+"We saved the stock notification.","Vi gemte lager notifikationen.",module,Magento_Catalog
+"Click here or drag and drop to add images.","Klik her eller træk og slip for at tilføje billeder.",module,Magento_Catalog
 None,Ingen,module,Magento_Catalog
+"This product no longer exists.","Dette produkt findes ikke længere.",module,Magento_Catalog
 All,Alle,module,Magento_Catalog
 "Shop By",Filtre,module,Magento_Catalog
 "Remove This Item","Fjerne dette produkt",module,Magento_Catalog
@@ -57,6 +101,7 @@ Previous,Forrige,module,Magento_LayeredNavigation
 "Shop By",Filtre,module,Magento_LayeredNavigation
 "Clear All","Ryd alle",module,Magento_LayeredNavigation
 None,Ingen,module,Magento_OfflineShipping
+"Start Date","Start dato",module,Magento_Payment
 Custom,Brugerdefineret,module,Magento_Paypal
 Previous,Forrige,module,Magento_Review
 Summary,Resumé,module,Magento_Review
@@ -85,4 +130,6 @@ Severity,Alvorlighed,module,Magento_AdminNotification
 "Date Added","Dato tilføjet",module,Magento_AdminNotification
 Message,Besked,module,Magento_AdminNotification
 Actions,Handlinger,module,Magento_AdminNotification
+"Allow Duplicate Cards","Tillad dubletter af kort",module,Magento_Braintree
+"Use Cache","Brug Cache",module,Magento_Braintree
 Summary,Resumé,theme,frontend/Magento/blank
