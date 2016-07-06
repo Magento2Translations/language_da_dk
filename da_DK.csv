@@ -95,6 +95,7 @@ Remove,Fjern,theme,frontend/Magento/luma
 "Remove This Item","Fjerne dette produkt",theme,frontend/Magento/luma
 "Shop By",Filtre,theme,frontend/Magento/luma
 "Clear All","Ryd alle",theme,frontend/Magento/luma
+"Shopping Options","Shopping muligheder",theme,frontend/Magento/luma
 "Welcome to %store_name.","Velkommen til %store_name.",module,Magento_Customer
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","For at logge på vores webshop, skal du bruge disse oplysninger i checkout forløbet eller på <a href=""%customer_url"">login siden </a>:",module,Magento_Customer
 Email:,E-mail:,module,Magento_Customer
@@ -103,6 +104,30 @@ Password:,Kodeord:,module,Magento_Customer
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","For at logge på vores webshop, skal du bruge disse oplysninger i checkout forløbet eller på <a href=""%customer_url"">login siden </a>:",theme,frontend/Magento/luma
 Email:,E-mail:,theme,frontend/Magento/luma
 Password:,Kodeord:,theme,frontend/Magento/luma
+"Password you set when creating account","Adgangskode du angav ved oprettelse af konto",theme,frontend/Magento/luma
+"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Har du glemt din adgangskode? Klik <a href=""%reset_url""> her</a> til at nulstille den.",theme,frontend/Magento/luma
+"When you sign in to your account, you will be able to:","Når du logger på din konto, vil du være i stand til at:",theme,frontend/Magento/luma
+"Order Status",Ordrestatus,theme,frontend/Magento/luma
+"Check the status of orders","Kontrollere status for ordrer",theme,frontend/Magento/luma
+"Manage Addresses","Administrere adresser",theme,frontend/Magento/luma
+"Store alternative addresses","Gem alternative adresser",theme,frontend/Magento/luma
+"For shipping to multiple family members and friends","For forsendelse til flere familiemedlemmer og venner",theme,frontend/Magento/luma
+"Order History",Ordreoversigten,theme,frontend/Magento/luma
+"View past orders","Se tidligere ordrer",theme,frontend/Magento/luma
+"About Us","Om os",theme,frontend/Magento/luma
+"Customer Service",Kundeservice,theme,frontend/Magento/luma
+"<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone""> %store_phone</a>",theme,frontend/Magento/luma
+"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Åbningstider: < br / > <span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
+"Thank you for your order from %store_name.","Tak for din ordre fra %store_name.",theme,frontend/Magento/luma
+"Billing Info","Fakturering Info",theme,frontend/Magento/luma
+"Shipping Info","Fragt information",theme,frontend/Magento/luma
+"Payment Method",Betalingsmåde,theme,frontend/Magento/luma
+"Shipping Method",Forsendelsesmetode,theme,frontend/Magento/luma
+"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","Din ordre #%increment_id er blevet opdateret med en status for <strong>%order_status</strong>.",theme,frontend/Magento/luma
+"Your Invoice #%invoice_id for Order #%order_id","Din faktura #%invoice_id for ordre #%order_id",theme,frontend/Magento/luma
+"Once your package ships we will send you a tracking number.","Når din pakke skibe vil vi sende dig et trackingnummer.",theme,frontend/Magento/luma
+"Your Order <span class=""no-link"">#%increment_id</span>","Din ordre <span class=""no-link""> #%increment_id</span>",theme,frontend/Magento/luma
+"Placed on <span class=""no-link"">%created_at</span>","Placeret på <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
 "Use HTTPS to Get Feed","Brug HTTPS for at hente et feed",module,Magento_AdminNotification
 "Update Frequency","Opdatere frekvens",module,Magento_AdminNotification
 "Last Update","Sidst opdateret",module,Magento_AdminNotification
