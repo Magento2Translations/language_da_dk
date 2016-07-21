@@ -52,6 +52,9 @@ All,Alle,module,Magento_Catalog
 "Remove This Item","Fjerne dette produkt",module,Magento_Catalog
 "Clear All","Ryd alle",module,Magento_Catalog
 Summary,Resumé,module,Magento_ConfigurableProduct
+Image,Billede,module,Magento_ConfigurableProduct
+Name,Navn,module,Magento_ConfigurableProduct
+Confirm,Bekræft,module,Magento_ConfigurableProduct
 "Address Book",Adressebog,module,Magento_Customer
 "Account Information","Konto Information",module,Magento_Customer
 None,Ingen,module,Magento_Dhl
