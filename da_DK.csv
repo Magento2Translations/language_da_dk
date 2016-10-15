@@ -1,127 +1,3 @@
-"Read Details","Læs detaljer",module,Magento_AdminNotification
-"Mark as Read","Marker som læst",module,Magento_AdminNotification
-"Are you sure?","Er du sikker?",module,Magento_AdminNotification
-Remove,Fjern,module,Magento_AdminNotification
-"Messages Inbox",Indbakke,module,Magento_AdminNotification
-"You have %1 new system messages","Du har %1 nye systembeskeder",module,Magento_AdminNotification
-"You have %1 new system message","Du har %1 ny systembesked",module,Magento_AdminNotification
-"Incoming Message",Beskeder,module,Magento_AdminNotification
-close,luk,module,Magento_AdminNotification
-Notifications,Meddelelser,module,Magento_AdminNotification
-"The message has been marked as Read.","Meddelelsen er markeret som læst.",module,Magento_AdminNotification
-"We couldn't mark the notification as Read because of an error.","Vi kunne ikke markerer beskeden som læst.",module,Magento_AdminNotification
-"Please select messages.","Vælg beskeder.",module,Magento_AdminNotification
-"A total of %1 record(s) have been marked as Read.","%1 besked(er) er nu markeret som læst.",module,Magento_AdminNotification
-"Total of %1 record(s) have been removed.","%1 besked(er) er blevet slettet.",module,Magento_AdminNotification
-"We couldn't remove the messages because of an error.","Vi kunne ikke slette på grund af en fejl.",module,Magento_AdminNotification
-"The message has been removed.","Beskeden er blevet slettet.",module,Magento_AdminNotification
-"1 Hour","1 time",module,Magento_AdminNotification
-"2 Hours","2 timer",module,Magento_AdminNotification
-"6 Hours","6 timer",module,Magento_AdminNotification
-"12 Hours","12 timer",module,Magento_AdminNotification
-"24 Hours","24 timer",module,Magento_AdminNotification
-critical,kritisk,module,Magento_AdminNotification
-major,alvorlig,module,Magento_AdminNotification
-minor,mindre,module,Magento_AdminNotification
-notice,info,module,Magento_AdminNotification
-"Wrong message type","Forkert beskedtype",module,Magento_AdminNotification
-"Wrong notification ID specified.","Forkert besked ID angivet.",module,Magento_AdminNotification
-"{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","Vi anbefaler ikke at bruge {{base_url}} i et produktionsmiljø. Du kan ændre denne værdi i din Magento <a href=""%1"">konfiguration</a>.",module,Magento_AdminNotification
-"Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Klik her for at gå til<a href=""%1""> Cachestyring</a> og forny cachen.",module,Magento_AdminNotification
-"We were unable to synchronize one or more media files. Please refer to the log file for details.","Vi var ikke i stand til at synkronisere en eller flere mediefiler. Se venligst detaljer i logfilen.",module,Magento_AdminNotification
-"Synchronization of media storages has been completed.","Synkronisering af mediebiblioteket er fuldført.",module,Magento_AdminNotification
-"Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","Webserveren er konfigureret forkert og giver uautoriseret adgang til følsomme filer. Kontakt din hosting udbyder.",module,Magento_AdminNotification
-"System Messages:",Systembeskeder:,module,Magento_AdminNotification
-"Critical System Messages","Kritiske systembeskeder",module,Magento_AdminNotification
-"Major System Messages","Alvorlige systembeskeder",module,Magento_AdminNotification
-"System messages",Systembeskeder,module,Magento_AdminNotification
-Close,Luk,module,Magento_AdminNotification
-"See All (","Vis alle (",module,Magento_AdminNotification
-"We can't find the role for the user you wanted.","Vi kan ikke finde rollen, for den bruger du ønskede.",module,Magento_Authorization
-"We can't process your order right now. Please try again later.","Vi kan ikke behandle din ordre i øjeblikket, prøv igen senere.",module,Magento_Authorizenet
-"This payment didn't work out because we can't find this order.","Betalingen fungerede ikke, fordi vi ikke kan finde ordren.",module,Magento_Authorizenet
-"Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Noget gik galt: det betalte beløb ikke matcher ordrebeløb. Venligst ret dette og prøv igen.",module,Magento_Authorizenet
-"Account Information","Konto Information",module,Magento_Backend
-Previous,Forrige,module,Magento_Backend
-"We can't create the backup right now.","Vi kan ikke oprette sikkerhedskopien lige nu.",module,Magento_Backup
-"We can't delete one or more backups.","Vi kan ikke slette en eller flere sikkerhedskopier.",module,Magento_Backup
-"We can't find the backup file.","Vi kan ikke finde den fil med sikkerhedskopien.",module,Magento_Backup
-"We can't connect to the FTP right now.","Vi kan ikke forbinde til FTP lige nu.",module,Magento_Backup
-"Requested option doesn't exist","Ønskede mulighed eksisterer ikke",module,Magento_Bundle
-"We can't add this item to your shopping cart right now.","Vi kan ikke føje dette emne til din indkøbskurv lige nu.",module,Magento_Bundle
-None,Ingen,module,Magento_Bundle
-Summary,Resumé,module,Magento_Bundle
-All,Alle,module,Magento_CatalogSearch
-Root,Rod,module,Magento_Catalog
-Delete,Slet,module,Magento_Catalog
-Save,Gem,module,Magento_Catalog
-"Use Config Settings","Brug Konfigurationsindstillinger",module,Magento_Catalog
-"This is used internally. Make sure you don't use spaces or more than %1 symbols.","Dette bruges internt. Kontroller, at du ikke bruger mellemrum eller mere end %1 symboler.",module,Magento_Catalog
-None,Ingen,module,Magento_Catalog
-"We can't find an attribute to delete.","Vi kan ikke finde en attribut til at slette.",module,Magento_Catalog
-"An attribute set named '%1' already exists.","En attribut med navnet '%1' allerede findes.",module,Magento_Catalog
-"We can't update the attribute.","Vi kan ikke opdatere attributten.",module,Magento_Catalog
-All,Alle,module,Magento_Catalog
-"Sorry, but we can't find the new parent category you selected.","Beklager, men vi kan ikke finde den nye overordnede kategori du har valgt.",module,Magento_Catalog
-"Sorry, but we can't find the new category you selected.","Beklager, men vi kan ikke finde den nye kategori du har valgt.",module,Magento_Catalog
-"We can't move the category because the parent category name matches the child category name.","Vi kan ikke flytte kategorien, fordi det overordnede kategorinavn matcher underkategoriens navn.",module,Magento_Catalog
-"Can't delete root category.","Kan ikke slette rod kategori.",module,Magento_Catalog
-"We can't rebuild the index for an undefined product.","Vi kan ikke genopbygge indekset for en udefineret produkt.",module,Magento_Catalog
-"We couldn't copy file %1. Please delete media with non-existing images and try again.","Vi kunne ikke kopiere filen %1. Slet medier med ikke-eksisterende billeder, og prøv igen.",module,Magento_Catalog
-"Such product doesn't exist","Sådan et produkt findes ikke",module,Magento_Catalog
-"Such image doesn't exist","Sådan et billede findes ikke",module,Magento_Catalog
-"We couldn't move this file: %1.","Vi kunne ikke flytte denne fil: %1.",module,Magento_Catalog
-"We can't find the image file.","Vi kan ikke finde billedfilen.",module,Magento_Catalog
-"Please specify product's required option(s).","Angiv produktets indstillings krav.",module,Magento_Catalog
-"Shop By",Filtre,module,Magento_Catalog
-"Remove This Item","Fjerne dette produkt",module,Magento_Catalog
-"Clear All","Ryd alle",module,Magento_Catalog
-Summary,Resumé,module,Magento_ConfigurableProduct
-Confirm,Bekræft,module,Magento_ConfigurableProduct
-Image,Billede,module,Magento_ConfigurableProduct
-Name,Navn,module,Magento_ConfigurableProduct
-"Address Book",Adressebog,module,Magento_Customer
-"Account Information","Konto Information",module,Magento_Customer
-None,Ingen,module,Magento_Dhl
-None,Ingen,module,Magento_Eav
-"We can't delete email template data right now. Please review log and try again.","Vi kan ikke slette e-mail skabelon data lige nu. Læs log, og prøv igen.",module,Magento_Email
-"We can't find an email template to delete.","Vi kan ikke finde en e-mail-skabelon til at slette.",module,Magento_Email
-None,Ingen,module,Magento_Fedex
-Remove,Fjern,module,Magento_Integration
-Custom,Brugerdefineret,module,Magento_Integration
-All,Alle,module,Magento_Integration
-"Now Shopping by","Aktive filtre",module,Magento_LayeredNavigation
-Previous,Forrige,module,Magento_LayeredNavigation
-Remove,Fjern,module,Magento_LayeredNavigation
-"Remove This Item","Fjerne dette produkt",module,Magento_LayeredNavigation
-"Shop By",Filtre,module,Magento_LayeredNavigation
-"Clear All","Ryd alle",module,Magento_LayeredNavigation
-None,Ingen,module,Magento_OfflineShipping
-"The credit card number doesn't match the credit card type.","Kreditkortnummeret matcher ikke kreditkorttypen.",module,Magento_Payment
-"We'll ask for your payment details before you place an order.","Vi vil bede om dine betalingsoplysninger, før du afgiver en ordre.",module,Magento_Payment
-Custom,Brugerdefineret,module,Magento_Paypal
-Previous,Forrige,module,Magento_Review
-Summary,Resumé,module,Magento_Review
-Remove,Fjern,module,Magento_Rule
-"Account Information","Konto Information",module,Magento_Sales
-Remove,Fjern,module,Magento_Sales
-None,Ingen,module,Magento_Security
-Remove,Fjern,module,Magento_SendFriend
-None,Ingen,module,Magento_Sitemap
-All,Alle,module,Magento_Sitemap
-None,Ingen,module,Magento_Tax
-Remove,Fjern,module,Magento_Theme
-Previous,Forrige,module,Magento_Theme
-None,Ingen,module,Magento_Ups
-Custom,Brugerdefineret,module,Magento_UrlRewrite
-"Account Information","Konto Information",module,Magento_User
-Custom,Brugerdefineret,module,Magento_User
-All,Alle,module,Magento_User
-None,Ingen,module,Magento_Usps
-Settings,Instillinger,module,Magento_Widget
-None,Ingen,module,Magento_Widget
-All,Alle,module,Magento_Widget
-"Remove This Item","Fjerne dette produkt",module,Magento_Wishlist
 "Now Shopping by","Aktive filtre",theme,frontend/Magento/luma
 Previous,Forrige,theme,frontend/Magento/luma
 Remove,Fjern,theme,frontend/Magento/luma
@@ -129,11 +5,6 @@ Remove,Fjern,theme,frontend/Magento/luma
 "Shop By",Filtre,theme,frontend/Magento/luma
 "Clear All","Ryd alle",theme,frontend/Magento/luma
 "Shopping Options","Shopping muligheder",theme,frontend/Magento/luma
-Remove,Fjern,module,Magento_Checkout
-"Welcome to %store_name.","Velkommen til %store_name.",module,Magento_Customer
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","For at logge på vores webshop, skal du bruge disse oplysninger i checkout forløbet eller på <a href=""%customer_url"">login siden </a>:",module,Magento_Customer
-Email:,E-mail:,module,Magento_Customer
-Password:,Kodeord:,module,Magento_Customer
 "Welcome to %store_name","Velkommen til %store_name",theme,frontend/Magento/luma
 "Welcome to %store_name.","Velkommen til %store_name.",theme,frontend/Magento/luma
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","For at logge på vores webshop, skal du bruge disse oplysninger i checkout forløbet eller på <a href=""%customer_url"">login siden </a>:",theme,frontend/Magento/luma
@@ -169,17 +40,6 @@ Footer,Sidefod,theme,frontend/Magento/luma
 "Once your package ships we will send you a tracking number.","Når din pakke skibe vil vi sende dig et trackingnummer.",theme,frontend/Magento/luma
 "Your Order <span class=""no-link"">#%increment_id</span>","Din ordre <span class=""no-link""> #%increment_id</span>",theme,frontend/Magento/luma
 "Placed on <span class=""no-link"">%created_at</span>","Placeret på <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
-"Show Toolbar","Vis værktøjslinje",module,Magento_AdminNotification
-"Show List","Vis liste",module,Magento_AdminNotification
-"Use HTTPS to Get Feed","Brug HTTPS for at hente et feed",module,Magento_AdminNotification
-"Update Frequency","Opdatere frekvens",module,Magento_AdminNotification
-"Last Update","Sidst opdateret",module,Magento_AdminNotification
-Severity,Alvorlighed,module,Magento_AdminNotification
-"Date Added","Dato tilføjet",module,Magento_AdminNotification
-Message,Besked,module,Magento_AdminNotification
-Actions,Handlinger,module,Magento_AdminNotification
-"Account Dashboard",Betjeningspanel,module,Magento_Customer
-Summary,Resumé,module,Magento_ImportExport
 "Account Dashboard",Betjeningspanel,theme,frontend/Magento/luma
 "Account Information",Kontooplysninger,theme,frontend/Magento/luma
 "Address Book",Adressebog,theme,frontend/Magento/luma
