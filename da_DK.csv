@@ -37,7 +37,13 @@ notice,info,module,Magento_AdminNotification
 "System messages",Systembeskeder,module,Magento_AdminNotification
 Close,Luk,module,Magento_AdminNotification
 "See All (","Vis alle (",module,Magento_AdminNotification
+"Please correct the data sent.","Venligst korrigere data, der sendes.",module,Magento_AdvancedPricingImportExport
+"Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Enhed type model skal være følgende typer\Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
+"There are no product types available for export","Der er ingen varetyper til eksport",module,Magento_AdvancedPricingImportExport
 "We can't find the role for the user you wanted.","Vi kan ikke finde rollen, for den bruger du ønskede.",module,Magento_Authorization
+"Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Noget gik galt under udarbejdelse af en liste over tilladte ressourcer. Du kan finde flere oplysninger i logfilen for undtagelser.",module,Magento_Authorization
+"You created the order.","Du har oprettet ordren.",module,Magento_Authorizenet
+"Order saving error: %1","Bestillingsfejl ikke gemt: %1",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","Vi kan ikke behandle din ordre i øjeblikket, prøv igen senere.",module,Magento_Authorizenet
 "This payment didn't work out because we can't find this order.","Betalingen fungerede ikke, fordi vi ikke kan finde ordren.",module,Magento_Authorizenet
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Noget gik galt: det betalte beløb ikke matcher ordrebeløb. Venligst ret dette og prøv igen.",module,Magento_Authorizenet
