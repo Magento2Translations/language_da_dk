@@ -32,6 +32,8 @@ Close,Luk,module,Magento_AdminNotification
 "Critical System Messages","Kritiske systembeskeder",module,Magento_AdminNotification
 "Major System Messages","Alvorlige systembeskeder",module,Magento_AdminNotification
 "System messages",Systembeskeder,module,Magento_AdminNotification
+"You created the order.","Du har oprettet ordren.",module,Magento_Authorizenet
+"Order saving error: %1","Bestillingsfejl ikke gemt: %1",module,Magento_Authorizenet
 "Account Information","Konto Information",module,Magento_Backend
 Previous,Forrige,module,Magento_Backend
 "Stored Card","Gemte kort",module,Magento_Braintree
