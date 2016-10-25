@@ -44,9 +44,26 @@ Close,Luk,module,Magento_AdminNotification
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Noget gik galt under udarbejdelse af en liste over tilladte ressourcer. Du kan finde flere oplysninger i logfilen for undtagelser.",module,Magento_Authorization
 "You created the order.","Du har oprettet ordren.",module,Magento_Authorizenet
 "Order saving error: %1","Bestillingsfejl ikke gemt: %1",module,Magento_Authorizenet
+"Please choose a payment method.","Vælg venligst betalingsmetode.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","Vi kan ikke behandle din ordre i øjeblikket, prøv igen senere.",module,Magento_Authorizenet
+"Credit Card: xxxx-%1","Kreditkort: xxxx-%1",module,Magento_Authorizenet
+"amount %1","beløb %1",module,Magento_Authorizenet
+failed.,"noget gik galt.",module,Magento_Authorizenet
+successful.,gennemført.,module,Magento_Authorizenet
+authorize,authoriser,module,Magento_Authorizenet
+refund,"betal tilbage",module,Magento_Authorizenet
+"Gateway error: %1","Gateway fejl: %1",module,Magento_Authorizenet
+"Something went wrong in the payment gateway.","Noget gik galt i betalingsgatewayen.",module,Magento_Authorizenet
+"Invalid transaction ID.","Ugyldig transaktions-ID.",module,Magento_Authorizenet
+"Invalid amount for refund.","Ugyldigt beløb til tilbagebetaling.",module,Magento_Authorizenet
+"Payment refunding error.","Tilbagebetalings fejl.",module,Magento_Authorizenet
+"The transaction was declined because the response hash validation failed.","Transaktionen blev afvist, fordi svar Hash-valideringen mislykkedes.",module,Magento_Authorizenet
 "This payment didn't work out because we can't find this order.","Betalingen fungerede ikke, fordi vi ikke kan finde ordren.",module,Magento_Authorizenet
+"There was a payment authorization error.","Der var en betaling autorisations fejl.",module,Magento_Authorizenet
+"Please enter a transaction ID to authorize this payment.","Angiv et transaktions-ID for at tillade denne betaling.",module,Magento_Authorizenet
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Noget gik galt: det betalte beløb ikke matcher ordrebeløb. Venligst ret dette og prøv igen.",module,Magento_Authorizenet
+"Transaction %1 has been approved. Amount %2. Transaction status is ""%3""","Transaktionen %1 er blevet godkendt. Antal %2. Posteringsstatus er ""%3""",module,Magento_Authorizenet
+"Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.","Transaktionen %1 er blevet annulleret/faldet. Posteringsstatussen er ""%2"". Mængde %3.",module,Magento_Authorizenet
 "Account Information","Konto Information",module,Magento_Backend
 Previous,Forrige,module,Magento_Backend
 "We can't create the backup right now.","Vi kan ikke oprette sikkerhedskopien lige nu.",module,Magento_Backup
