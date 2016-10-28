@@ -64,12 +64,191 @@ refund,"betal tilbage",module,Magento_Authorizenet
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Noget gik galt: det betalte beløb ikke matcher ordrebeløb. Venligst ret dette og prøv igen.",module,Magento_Authorizenet
 "Transaction %1 has been approved. Amount %2. Transaction status is ""%3""","Transaktionen %1 er blevet godkendt. Antal %2. Posteringsstatus er ""%3""",module,Magento_Authorizenet
 "Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.","Transaktionen %1 er blevet annulleret/faldet. Posteringsstatussen er ""%2"". Mængde %3.",module,Magento_Authorizenet
+"Cache Storage Management","Cache lager styring",module,Magento_Backend
+"Flush Magento Cache","Rens Magento Cache",module,Magento_Backend
+"The cache storage may contain additional data. Are you sure that you want to flush it?","Cache lager kan indeholde supplerende data. Er du sikker på at du vil slette det?",module,Magento_Backend
+"Flush Cache Storage","Rens Cache Lager",module,Magento_Backend
+Invalidated,Ødelagt,module,Magento_Backend
+Orders,Ordre,module,Magento_Backend
+Amounts,Beløb,module,Magento_Backend
+Bestsellers,Bestsellere,module,Magento_Backend
+"Most Viewed Products","Mest sete produkter",module,Magento_Backend
+"New Customers","Nye kunder",module,Magento_Backend
+Customers,Kunder,module,Magento_Backend
+Customer,Kunde,module,Magento_Backend
+Guest,Gæst,module,Magento_Backend
+Items,Antal,module,Magento_Backend
+Total,"I alt",module,Magento_Backend
+"Lifetime Sales","Totalt salg",module,Magento_Backend
+"Average Order","Gennemsnits ordre",module,Magento_Backend
+Average,Gennemsnit,module,Magento_Backend
+Product,Produkt,module,Magento_Backend
+Price,Pris,module,Magento_Backend
+Quantity,Antal,module,Magento_Backend
+Views,Visninger,module,Magento_Backend
+Revenue,Avance,module,Magento_Backend
+Tax,Moms/Skat,module,Magento_Backend
+Shipping,Forsendelse,module,Magento_Backend
+"Images (.gif, .jpg, .png)","Billeder (.gif, .jpg, .png)",module,Magento_Backend
+"Media (.avi, .flv, .swf)","Medier (.avi, .flv, .swf)",module,Magento_Backend
+"All Files","Alle Filer",module,Magento_Backend
+"Reset to Default","Nulstil til standard",module,Magento_Backend
+"All Store Views","Alle butiks visninger",module,Magento_Backend
+"What is this?","Hvad er dette?",module,Magento_Backend
+"Save Account","Gem konto",module,Magento_Backend
+"My Account","Min Konto",module,Magento_Backend
 "Account Information","Konto Information",module,Magento_Backend
+"User Name",Brugernavn,module,Magento_Backend
+"First Name",Fornavn,module,Magento_Backend
+"Last Name",Efternavn,module,Magento_Backend
+Email,E-Mail,module,Magento_Backend
+"User Email","Bruger Email",module,Magento_Backend
+"New Password","Ny adgangskode",module,Magento_Backend
+"Password Confirmation","Adgangskode bekræftelse",module,Magento_Backend
+"Current User Identity Verification","Aktuel bruger identitets kontrol",module,Magento_Backend
+"Your Password","Din adgangskode",module,Magento_Backend
+"Save Cache Settings","Gem Cache Indstillinger",module,Magento_Backend
+"Catalog Rewrites","Katalog fornyelse",module,Magento_Backend
+"Images Cache","Billede Cache",module,Magento_Backend
+Clear,Slet,module,Magento_Backend
+"Store Information","Butiks information",module,Magento_Backend
+Name,Navn,module,Magento_Backend
+"Root Category","Rod Kategori",module,Magento_Backend
+"Default Store View","Standard Butiksvisning",module,Magento_Backend
+"Store View Information","Butiksvisnings Information",module,Magento_Backend
+Code,Kode,module,Magento_Backend
+Disabled,"Slået fra",module,Magento_Backend
+Enabled,Aktiveret,module,Magento_Backend
+"Sort Order",Sorteringsorden,module,Magento_Backend
+"Default Store","Standard Butik",module,Magento_Backend
+"Set as Default","Sæt som standard",module,Magento_Backend
+Stores,Butikker,module,Magento_Backend
+"Create Website","Lav Website",module,Magento_Backend
+"Create Store","Lav Butik",module,Magento_Backend
+"Create Store View","Lav Butiks Design",module,Magento_Backend
+Home,Forside,module,Magento_Backend
+Reset,Nulstil,module,Magento_Backend
+"Are you sure you want to do this?","Er du sikker på at du vil gøre dette?",module,Magento_Backend
+"Add New Image","Tilføj Nyt Billede",module,Magento_Backend
+"Export block for grid %1 is not defined","Eksporter blok til net %1 er ikke defineret",module,Magento_Backend
+"Reset Filter","Nulstil Filter",module,Magento_Backend
+Search,Søg,module,Magento_Backend
+Any,Alle,module,Magento_Backend
+"All Countries","Alle Lande",module,Magento_Backend
+From,Fra,module,Magento_Backend
+To,Til,module,Magento_Backend
+"Date selector","Dato Vælger",module,Magento_Backend
+"[ deleted ]","[ slettet ]",module,Magento_Backend
+"Select All","Vælge Alle",module,Magento_Backend
+"Add New","Tilføj Ny",module,Magento_Backend
+"Invalid export type supplied for grid export block","Ugyldig eksport type for grid eksport blok",module,Magento_Backend
+Export,Eksport,module,Magento_Backend
+"Please correct the column format and try again.","Ret venligst kolonneformatet og prøv igen.",module,Magento_Backend
+"Please select items.","Vælg venligst enheder.",module,Magento_Backend
+Submit,Afsend,module,Magento_Backend
+"Unknown block type","Ukendt blok format",module,Magento_Backend
+"Please correct the tab configuration and try again. Tab Id should be not empty","Ret venligst tab konfigurationen og prøv igen. Tab Id må ikke være tom",module,Magento_Backend
+"Please correct the tab configuration and try again.","Ret venligst tab konfigurationen og prøv igen.",module,Magento_Backend
+"You have logged out.","Du har logget af.",module,Magento_Backend
+"The image cache was cleaned.","Billede cache er slettet.",module,Magento_Backend
+"An error occurred while clearing the image cache.","En fejl opstod under nulstilling af billede cache.",module,Magento_Backend
+"The JavaScript/CSS cache has been cleaned.","JavaScript/CSS cache er blevet slettet.",module,Magento_Backend
+"An error occurred while clearing the JavaScript/CSS cache.","En fejl opstod under sletning af JavaScript/CSS cache.",module,Magento_Backend
+"The static files cache has been cleaned.","Den statiske fil chache er slettet.",module,Magento_Backend
+"You flushed the cache storage.","Du har renset cache lager.",module,Magento_Backend
+"The Magento cache storage has been flushed.","Magento cache lager er blevet renset.",module,Magento_Backend
+"Something went wrong while saving. Please review the error log.","Noget gik galt under lagring. Se venligst fejl loggen.",module,Magento_Backend
+"Last 24 Hours","Sidste 24 timer",module,Magento_Backend
+"Last 7 Days","Sidste 7 dage",module,Magento_Backend
+"Current Month","Indeværende måned",module,Magento_Backend
+YTD,ÅTD,module,Magento_Backend
+2YTD,2ÅTD,module,Magento_Backend
+"Authentication storage is incorrect.","Fejl i Godkendelseslager.",module,Magento_Backend
+"You did not sign in correctly or your account is temporarily disabled.","Du har ikke logget ind korrekt eller din konto er midlertidig annuleret.",module,Magento_Backend
+"Authentication error occurred.","Der er opståen en godkendelsesfejl.",module,Magento_Backend
+"Admin session lifetime must be less than or equal to 31536000 seconds (one year)","Administrator login periode skal være mindre eller lig med 31536000 sekunder (et år)",module,Magento_Backend
+"Admin session lifetime must be greater than or equal to 60 seconds","Administrator login skal være længere eller lig med 60 sekunder",module,Magento_Backend
+Order,Rækkefølge,module,Magento_Backend
+"Order #%1","Ordre #%1",module,Magento_Backend
+"Access denied","Adgang nægtet",module,Magento_Backend
+"Please try to sign out and sign in again.","Prøv venligst at logge ud og log ind igen.",module,Magento_Backend
+"If you continue to receive this message, please contact the store owner.","Hvis du bliver ved med at modtage denne meddelelse, kontakt venligst ejeren af butikken.",module,Magento_Backend
+"You need more permissions to access this.","Du skal bruge flere tilladelser for at få adgang her.",module,Magento_Backend
+"Welcome, please sign in","Velkommen, log venligst ind",module,Magento_Backend
+Username,Brugernavn,module,Magento_Backend
+"user name","bruger navn",module,Magento_Backend
+"Sign in","Log ind",module,Magento_Backend
+"Select Range:","Vælg interval:",module,Magento_Backend
+"No Data Found","Der er ingen data",module,Magento_Backend
+"Chart is disabled. To enable the chart, click <a href=""%1"">here</a>.","Diagram er slået fra. For at aktivere diagrammet <a href=""%1"">here</a>.",module,Magento_Backend
+"Last Orders","Seneste Ordrer",module,Magento_Backend
+"Last Search Terms","Seneste søgetermer",module,Magento_Backend
+"Top Search Terms","Top søgninger",module,Magento_Backend
+"There are no search keywords.","Der er ingen søge nøgleord.",module,Magento_Backend
+"View Statistics For:","Se statistikker for:",module,Magento_Backend
+"All Websites","Alle Websites",module,Magento_Backend
+"Reload Data","Genopload Data",module,Magento_Backend
+"Browse Files...","Se filer...",module,Magento_Backend
+"Magento Admin Panel","Magento Administrator Panel",module,Magento_Backend
+"Account Setting","Konto Indstillinger",module,Magento_Backend
+"Customer View","Kunde visning",module,Magento_Backend
+"Sign Out","Log ud",module,Magento_Backend
+"About the calendar","Om kalenderen",module,Magento_Backend
+Close,Luk,module,Magento_Backend
+"Go Today","Go idag",module,Magento_Backend
 Previous,Forrige,module,Magento_Backend
+Next,Næste,module,Magento_Backend
+Time,Tid,module,Magento_Backend
+Hour,Time,module,Magento_Backend
+Minute,Minut,module,Magento_Backend
+"JavaScript may be disabled in your browser.","JavaScript kan være slået fra i din browser.",module,Magento_Backend
+"Database and Media Backup","Database og Medie Backup",module,Magento_Backup
+"The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","Arkivet kan udpakkes med <a href=""%1"">%2</a> på Windows systemer.",module,Magento_Backup
+"You need more permissions to activate maintenance mode right now.","Du har brug for flere tilladelser for at aktivere vedligeholdelse lige nu.",module,Magento_Backup
+"To create the backup, please deselect ""Put store into maintenance mode"" or update your permissions.","For at lave backuppen, fravælg ""Sæt butikken i vedligeholdelsestilstand"" eller opdater dine tilladelser.",module,Magento_Backup
+"Something went wrong while putting your store into maintenance mode.","Noget gik galt da din butik blev sat i vedligeholdelsestilstand.",module,Magento_Backup
+"You need more free space to create a backup.","Du har brug for yderligere ledig plads for at lave backup.",module,Magento_Backup
+"You need more permissions to create a backup.","Du har brug for flere tilladelser for at lave backup.",module,Magento_Backup
 "We can't create the backup right now.","Vi kan ikke oprette sikkerhedskopien lige nu.",module,Magento_Backup
+Tools,Værktøjer,module,Magento_Backup
 "We can't delete one or more backups.","Vi kan ikke slette en eller flere sikkerhedskopier.",module,Magento_Backup
+failed,fejlede,module,Magento_Backup
+successful,succes,module,Magento_Backup
+"You deleted the selected backup(s).","Du slettede de valgte backup(s).",module,Magento_Backup
+"Please correct the password.","Ret venligst password.",module,Magento_Backup
+"To complete the rollback, please deselect ""Put store into maintenance mode"" or update your permissions.","For at fuldende rollback, skal du fravælge ""Sæt butik i vedligeholdelsestilstand"" eller opdatere dine tilladelser.",module,Magento_Backup
 "We can't find the backup file.","Vi kan ikke finde den fil med sikkerhedskopien.",module,Magento_Backup
 "We can't connect to the FTP right now.","Vi kan ikke forbinde til FTP lige nu.",module,Magento_Backup
+"Failed to validate FTP.","Kunne ikke validere FTP.",module,Magento_Backup
+"You need more permissions to perform a rollback.","Du har brug for flere tilladelser for at kunne udføre en rollback.",module,Magento_Backup
+"Failed to rollback.","Kunne ikke rollback.",module,Magento_Backup
+"Database and Media","Database og Medie",module,Magento_Backup
+"System (excluding Media)","Systen (excl. Medie)",module,Magento_Backup
+"You created the system backup.","Du har lavet en system backup.",module,Magento_Backup
+"You created the system backup (excluding media).","Du har lavet en system backup (excl. medie).",module,Magento_Backup
+"You created the database and media backup.","Du har lavet database og media backup.",module,Magento_Backup
+"You created the database backup.","Du har lavet database backup.",module,Magento_Backup
+"Please correct the order of creation for a new backup.","Korriger venligst rækkefølgen for en ny backup.",module,Magento_Backup
+"The backup file does not exist.","Backupfilen eksisterer ikke.",module,Magento_Backup
+"The backup file path was not specified.","Stien til bakupfilen er ikke specificeret.",module,Magento_Backup
+"The backup file ""%1"" does not exist.","Backupfil ""%1"" eksisterer ikke.",module,Magento_Backup
+"Sorry, but we cannot read from or write to backup file ""%1"".","Beklager, vi kan ikke læse fra eller skrive fra backupfil ""%1"".",module,Magento_Backup
+"The backup file handler was unspecified.","Backupfil handleren er ikke specificeret.",module,Magento_Backup
+"Something went wrong while writing to the backup file ""%1"".","Noget fik galt under skrivning til backupfil ""%1"".",module,Magento_Backup
+"You will lose any data created since the backup was made, including admin users, customers and orders.","Du vil miste alle data dannet siden backupfilen var lavet, inclusive administratorbrugere, kunder og ordrer.",module,Magento_Backup
+"Are you sure you want to continue?","Er du sikker på du vil fortsætte?",module,Magento_Backup
+"This may take a few moments.","Det kan tage få øjeblikke.",module,Magento_Backup
+"Be sure your store is in maintenance mode during backup.","Vær sikker på din butik er i vedligeholdelsestilstand under backup.",module,Magento_Backup
+"Backup Name","Backup navn",module,Magento_Backup
+"Please use only letters (a-z or A-Z), numbers (0-9) or spaces in this field.","Brug venligst kun bogstaver (a-z eller A-Z), tal (0-9) eller mellemrum i dette felt.",module,Magento_Backup
+"Maintenance mode",Vedligeholdelsestilstand,module,Magento_Backup
+"Please put your store into maintenance mode during backup.","Sæt venligst butikken i vedligeholdelsestilstand under backup.",module,Magento_Backup
+Exclude,Inkluder,module,Magento_Backup
+"Exclude media folder from backup","Ekskluder media arkiv fra backup",module,Magento_Backup
+"Please enter the password to confirm rollback.","Indtast password for at bekræfte rollback.",module,Magento_Backup
+"This action cannot be undone.","Dette kan ikke ikke ændres igen.",module,Magento_Backup
+"User Password","Bruger Password",module,Magento_Backup
+"Please put your store into maintenance mode during rollback processing.","Sæt din butik i vedligeholdelsestilstand under rollback processen.",module,Magento_Backup
 "Requested option doesn't exist","Ønskede mulighed eksisterer ikke",module,Magento_Bundle
 "We can't add this item to your shopping cart right now.","Vi kan ikke føje dette emne til din indkøbskurv lige nu.",module,Magento_Bundle
 None,Ingen,module,Magento_Bundle
@@ -201,6 +380,91 @@ Severity,Alvorlighed,module,Magento_AdminNotification
 "Date Added","Dato tilføjet",module,Magento_AdminNotification
 Message,Besked,module,Magento_AdminNotification
 Actions,Handlinger,module,Magento_AdminNotification
+"Other Settings","Andre indstillinger",module,Magento_Backend
+"Data Transfer","Data overførsel",module,Magento_Backend
+"Package Extensions","Pakke tilføjelser",module,Magento_Backend
+Tools,Værktøjer,module,Magento_Backend
+Currency,Valuta,module,Magento_Backend
+Communications,Kommunikation,module,Magento_Backend
+Services,Tjenester,module,Magento_Backend
+Advanced,Avanceret,module,Magento_Backend
+"Disable Modules Output","Slå Modul Output fra",module,Magento_Backend
+"Store Email Addresses","Butiks Email adresser",module,Magento_Backend
+"Sender Email","Afsender E-mail",module,Magento_Backend
+"Sender Name","Afsender navn",module,Magento_Backend
+"General Contact","Hoved kontakt",module,Magento_Backend
+"Sales Representative",Sælger,module,Magento_Backend
+"Customer Support",Kundeservice,module,Magento_Backend
+Developer,Udvikler,module,Magento_Backend
+Debug,Fejlsøgning,module,Magento_Backend
+"Enabled Template Path Hints for Storefront","Aktiver Skabelon Sti Forslag for Butiksfacaden",module,Magento_Backend
+"Enabled Template Path Hints for Admin","Aktiver Skabelon Sti Forslag for Administrator",module,Magento_Backend
+"Add Block Names to Hints","Tilføj Blok Navne til Forslag",module,Magento_Backend
+"Template Settings",Skabelonindstillinger,module,Magento_Backend
+"Allow Symlinks","Tillad Symlinks",module,Magento_Backend
+"Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","Advarsel! Aktivering af denne funktion anbefales ikke i produktion miljøer, da det giver en potentiel sikkerhedsrisiko.",module,Magento_Backend
+"Minification is not applied in developer mode.","Minimering er ikke mulig i udviklingstilstand.",module,Magento_Backend
+"Translate Inline","Oversæt internt",module,Magento_Backend
+"Enabled for Storefront","Aktiveret for butiksforsiden",module,Magento_Backend
+"Enabled for Admin","Aktiveret for Administrator",module,Magento_Backend
+"Translate, blocks and other output caches should be disabled for both Storefront and Admin inline translations.","Oversæt, blokke og andre output caches bør være slået fra for både Butiksforside og Administrator interne oversættelser.",module,Magento_Backend
+"JavaScript Settings","JavaScript indstillinger",module,Magento_Backend
+"Merge JavaScript Files","Sammenlæg JavaScript Filer",module,Magento_Backend
+"Enable JavaScript Bundling","Aktiver bundt JavaScript",module,Magento_Backend
+"Minify JavaScript Files","Minimer JavaScript Filer",module,Magento_Backend
+"CSS Settings","CSS indstillinger",module,Magento_Backend
+"Merge CSS Files","Sammenkæd CSS Filer",module,Magento_Backend
+"Minify CSS Files","Minimer CSS Filer",module,Magento_Backend
+"Image Processing Settings","Billede genererings Indstillinger",module,Magento_Backend
+"Static Files Settings","Statiske Fil Indstillinger",module,Magento_Backend
+"Sign Static Files","Signer Statiske Filer",module,Magento_Backend
+"Country Options",Landemuligheder,module,Magento_Backend
+"Allow Countries","Tillad Lande",module,Magento_Backend
+"Default Country","Standard Land",module,Magento_Backend
+"European Union Countries","EU Lande",module,Magento_Backend
+"Top destinations","Top destinationer",module,Magento_Backend
+"Search Engine Optimization","Søgemaskine Optimering",module,Magento_Backend
+"Use Web Server Rewrites","Bruger Web Server Omskrivninger",module,Magento_Backend
+"Specify URL or {{base_url}} placeholder.","Specificer URL eller {{base_url}} placering.",module,Magento_Backend
+"May be empty or start with {{unsecure_base_url}} placeholder.","Kan være tom eller begynd med {{unsecure_base_url}} placering.",module,Magento_Backend
+"Base URL for User Media Files","Base URL for Bruger Medie Filer",module,Magento_Backend
+"Base URLs (Secure)","Base URLs (Sikker)",module,Magento_Backend
+"Secure Base URL","Sikker Base URL",module,Magento_Backend
+"Specify URL or {{base_url}}, or {{unsecure_base_url}} placeholder.","Specificer URL eller {{base_url}}, eller {{unsecure_base_url}} placering.",module,Magento_Backend
+"Secure Base Link URL","Sikker Base Link URL",module,Magento_Backend
+"Secure Base URL for Static View Files","Sikker Base URL for Statiske View Filer",module,Magento_Backend
+"May be empty or start with {{secure_base_url}}, or {{unsecure_base_url}} placeholder.","Må være tom eller begynd med {{secure_base_url}}, eller {{unsecure_base_url}} placering.",module,Magento_Backend
+"Secure Base URL for User Media Files","Sikker Base URL for Bruger Medie Filer",module,Magento_Backend
+"Use Secure URLs on Storefront","Brug Sikkre URLs på Butiksforsiden",module,Magento_Backend
+"Use Secure URLs in Admin","Brug Sikre URLs i Administrator",module,Magento_Backend
+"Enable HTTP Strict Transport Security (HSTS)","Aktiver HTTP Strict Transport Security (HSTS)",module,Magento_Backend
+"Upgrade Insecure Requests","Opgrader usikre forespørgsler",module,Magento_Backend
+"Default Pages","Standard Sider",module,Magento_Backend
+"Default Web URL","Standard Web URL",module,Magento_Backend
+"Default No-route URL","Standard No-Route URL",module,Magento_Backend
+"Session Validation Settings","Session Validerings Indstillinger",module,Magento_Backend
+"Validate REMOTE_ADDR","Valider REMOTE_ADDR",module,Magento_Backend
+"Validate HTTP_VIA","Valider HTTP_VIA",module,Magento_Backend
+"Validate HTTP_X_FORWARDED_FOR","Valider HTTP_X_FORWARDED_FOR",module,Magento_Backend
+"Validate HTTP_USER_AGENT","Valider HTTP_USER_AGENT",module,Magento_Backend
+"Use SID on Storefront","Brug SID på Butiksforsiden",module,Magento_Backend
+"Allows customers to stay logged in when switching between different stores.","Tillader alle kunder at forblive logget på mens de skifter mellem forskellige butikker.",module,Magento_Backend
+"Cache Type","Cache type",module,Magento_Backend
+Description,Beskrivelse,module,Magento_Backend
+"Community Edition","Community udgave",module,Magento_Backend
+"Default Theme","Standard Theme",module,Magento_Backend
+"Applied Theme","Tilføjet Theme",module,Magento_Backend
+"If no value is specified, the system default is used. The system default may be modified by third party extensions.","Hvis ingen værdi er specificeret, vil systemets standard blive brugt. Systemets standard kan modificeres af 3. parts extenstions.",module,Magento_Backend
+"Design Rule","Design regel",module,Magento_Backend
+"User Agent Rules","Bruger Agent Regler",module,Magento_Backend
+Pagination,Sidenummerering,module,Magento_Backend
+"Pagination Frame","Sidenummererings ramme",module,Magento_Backend
+"How many links to display at once.","Hvor mange links der kan vises på en gang.",module,Magento_Backend
+"Pagination Frame Skip","Spring sidenummererings ramme over",module,Magento_Backend
+"If current frame position does not cover utmost pages, it renders the link to current position plus/minus this value.","Hvis nuværende rammeplacering ikke dækker de fleste sider, renderer den linket til nuværende position plus/minus denne værdi.",module,Magento_Backend
+"Anchor Text for Previous","Anker Tekst for foregående",module,Magento_Backend
+"Alternative text for the previous pages link in the pagination menu. If empty, the default arrow image is used.","Alternativ tekst for den foregående side i nummereringsmenuen. Hvis tom, skal der anvendes standard billede af pil.",module,Magento_Backend
+"Anchor Text for Next","Anker tekst for Næste",module,Magento_Backend
 "Account Dashboard",Betjeningspanel,module,Magento_Customer
 Summary,Resumé,module,Magento_ImportExport
 "Account Dashboard",Betjeningspanel,theme,frontend/Magento/luma
