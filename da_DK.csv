@@ -280,6 +280,7 @@ All,Alle,module,Magento_CatalogSearch
 Root,Rod,module,Magento_Catalog
 "Save Category","Gem kategori",module,Magento_Catalog
 "Delete Category","Slet kategori",module,Magento_Catalog
+Reset,Nulstil,module,Magento_Catalog
 "New Subcategory","Ny underkategori",module,Magento_Catalog
 "New Root Category","Nye rod kategori",module,Magento_Catalog
 "Set Root Category for Store","Sæt Root kategori for butik",module,Magento_Catalog
@@ -316,9 +317,32 @@ label,etiket,module,Magento_Catalog
 "Not shared with other products","Ikke delt med andre produkter",module,Magento_Catalog
 "Input Validation for Store Owner","Input validering for butiksejeren",module,Magento_Catalog
 "Store View","Butiks visning",module,Magento_Catalog
+Scope,Rækkevidde,module,Magento_Catalog
 "Use for Promo Rule Conditions","Til brug for Promo regler",module,Magento_Catalog
 "Enable WYSIWYG","Aktiver WYSIWYG",module,Magento_Catalog
+"Used in Product Listing","Brugt på Produktlister",module,Magento_Catalog
 "Depends on design theme","Afhænger af designtema",module,Magento_Catalog
+"Used for Sorting in Product Listing","Brugt til at sortere Produktlister",module,Magento_Catalog
+"Media Image","Media billede",module,Magento_Catalog
+Gallery,Galleri,module,Magento_Catalog
+"System Properties","System egenskaber",module,Magento_Catalog
+No,Nej,module,Magento_Catalog
+Yes,Ja,module,Magento_Catalog
+"Data Type for Saving in Database","Arkiverings data type i Database",module,Magento_Catalog
+Text,Tekst,module,Magento_Catalog
+Static,Statisk,module,Magento_Catalog
+Datetime,Datotid,module,Magento_Catalog
+Integer,Heltal,module,Magento_Catalog
+"Globally Editable","Kan redigeres globalt",module,Magento_Catalog
+"Attribute Information","Atribut information",module,Magento_Catalog
+Properties,Egenskaber,module,Magento_Catalog
+"Manage Labels","Håndter etiketter",module,Magento_Catalog
+Visible,Synlig,module,Magento_Catalog
+Searchable,Søgbar,module,Magento_Catalog
+Comparable,Sammenlignlig,module,Magento_Catalog
+"Delete Selected Group","Slet valgt gruppe",module,Magento_Catalog
+"Add New","Tilføj ny",module,Magento_Catalog
+Back,Tilbage,module,Magento_Catalog
 Delete,Slet,module,Magento_Catalog
 Save,Gem,module,Magento_Catalog
 Change,Skift,module,Magento_Catalog
