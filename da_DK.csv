@@ -347,6 +347,9 @@ Always,Altid,module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>Vigtigt</strong>: Forskel på store og små bogstaver ved tastning af Captcha.",module,Magento_Captcha
 "Reload captcha","Genindlæs captcha",module,Magento_Captcha
 "Please type the letters below","Skriv venligst bogstaverne herunder",module,Magento_Captcha
+"ALL GROUPS","ALLE GRUPPER",module,Magento_CatalogInventory
+"Delete Rule","Slet reglen",module,Magento_CatalogRule
+Home,Hjem,module,Magento_CatalogSearch
 All,Alle,module,Magento_CatalogSearch
 Root,Rod,module,Magento_Catalog
 Delete,Slet,module,Magento_Catalog
@@ -557,13 +560,17 @@ Disabled,"Slået fra",module,Magento_Catalog
 "Shop By",Filtre,module,Magento_Catalog
 "Remove This Item","Fjerne dette produkt",module,Magento_Catalog
 "Clear All","Ryd alle",module,Magento_Catalog
+"Shopping Cart",Indkøbskurv,module,Magento_Checkout
+"Static Blocks","Statiske blokke",module,Magento_Cms
 Summary,Resumé,module,Magento_ConfigurableProduct
 Confirm,Bekræft,module,Magento_ConfigurableProduct
 Image,Billede,module,Magento_ConfigurableProduct
 Name,Navn,module,Magento_ConfigurableProduct
+"Sign Out","Log ud",module,Magento_Customer
 "Address Book",Adressebog,module,Magento_Customer
 "Account Information","Konto Information",module,Magento_Customer
 None,Ingen,module,Magento_Dhl
+State/Province,Stat/provins,module,Magento_Directory
 None,Ingen,module,Magento_Eav
 "We can't delete email template data right now. Please review log and try again.","Vi kan ikke slette e-mail skabelon data lige nu. Læs log, og prøv igen.",module,Magento_Email
 "We can't find an email template to delete.","Vi kan ikke finde en e-mail-skabelon til at slette.",module,Magento_Email
@@ -577,12 +584,19 @@ Remove,Fjern,module,Magento_LayeredNavigation
 "Remove This Item","Fjerne dette produkt",module,Magento_LayeredNavigation
 "Shop By",Filtre,module,Magento_LayeredNavigation
 "Clear All","Ryd alle",module,Magento_LayeredNavigation
+Country,Land,module,Magento_OfflineShipping
 None,Ingen,module,Magento_OfflineShipping
 "The credit card number doesn't match the credit card type.","Kreditkortnummeret matcher ikke kreditkorttypen.",module,Magento_Payment
 "We'll ask for your payment details before you place an order.","Vi vil bede om dine betalingsoplysninger, før du afgiver en ordre.",module,Magento_Payment
 Custom,Brugerdefineret,module,Magento_Paypal
+"Not you?","Ikke dig?",module,Magento_Persistent
+Url,URL,module,Magento_ProductVideo
+"New Accounts","Nye konti",module,Magento_Reports
+"Save Review","Gem anmeldelse",module,Magento_Review
 Previous,Forrige,module,Magento_Review
 Summary,Resumé,module,Magento_Review
+"Page not found.","Siden blev ikke fundet.",module,Magento_Rss
+Apply,Anvend,module,Magento_Rule
 Remove,Fjern,module,Magento_Rule
 "Account Information","Konto Information",module,Magento_Sales
 Remove,Fjern,module,Magento_Sales
