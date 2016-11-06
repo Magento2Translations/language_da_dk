@@ -276,6 +276,8 @@ Always,Altid,module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>Vigtigt</strong>: Forskel på store og små bogstaver ved tastning af Captcha.",module,Magento_Captcha
 "Reload captcha","Genindlæs captcha",module,Magento_Captcha
 "Please type the letters below","Skriv venligst bogstaverne herunder",module,Magento_Captcha
+"ALL GROUPS","ALLE GRUPPER",module,Magento_CatalogInventory
+Home,Hjem,module,Magento_CatalogSearch
 All,Alle,module,Magento_CatalogSearch
 Root,Rod,module,Magento_Catalog
 "Save Category","Gem kategori",module,Magento_Catalog
@@ -439,12 +441,15 @@ Disabled,"Slået fra",module,Magento_Catalog
 "Shop By",Filtre,module,Magento_Catalog
 "Remove This Item","Fjerne dette produkt",module,Magento_Catalog
 "Clear All","Ryd alle",module,Magento_Catalog
+"Shopping Cart",Indkøbskurv,module,Magento_Checkout
+"Static Blocks","Statiske blokke",module,Magento_Cms
 Image,Billede,module,Magento_ConfigurableProduct
 Name,Navn,module,Magento_ConfigurableProduct
 Confirm,Bekræft,module,Magento_ConfigurableProduct
 "Address Book",Adressebog,module,Magento_Customer
 "Account Information","Konto Information",module,Magento_Customer
 None,Ingen,module,Magento_Dhl
+State/Province,Stat/provins,module,Magento_Directory
 None,Ingen,module,Magento_Eav
 None,Ingen,module,Magento_Fedex
 Remove,Fjern,module,Magento_Integration
@@ -452,11 +457,16 @@ Previous,Forrige,module,Magento_LayeredNavigation
 "Remove This Item","Fjerne dette produkt",module,Magento_LayeredNavigation
 "Shop By",Filtre,module,Magento_LayeredNavigation
 "Clear All","Ryd alle",module,Magento_LayeredNavigation
+Country,Land,module,Magento_OfflineShipping
 None,Ingen,module,Magento_OfflineShipping
 "Start Date","Start dato",module,Magento_Payment
 Custom,Brugerdefineret,module,Magento_Paypal
+Url,URL,module,Magento_ProductVideo
+"New Accounts","Nye konti",module,Magento_Reports
+"Save Review","Gem anmeldelse",module,Magento_Review
 Previous,Forrige,module,Magento_Review
 Summary,Resumé,module,Magento_Review
+Apply,Anvend,module,Magento_Rule
 Remove,Fjern,module,Magento_Rule
 "Account Information","Konto Information",module,Magento_Sales
 Remove,Fjern,module,Magento_Sales
