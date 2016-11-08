@@ -347,6 +347,23 @@ Comparable,Sammenlignlig,module,Magento_Catalog
 Back,Tilbage,module,Magento_Catalog
 Delete,Slet,module,Magento_Catalog
 Save,Gem,module,Magento_Catalog
+"New Set Name","Nyt set navn",module,Magento_Catalog
+"Edit Attribute Set '%1'","Rediger egenskabet '%1'",module,Magento_Catalog
+Empty,Tom,module,Magento_Catalog
+"Add Attribute","Tilføj egenskab",module,Magento_Catalog
+"Add New Group","Tilføj ny gruppe",module,Magento_Catalog
+"Add Group","Tilføj gruppe",module,Magento_Catalog
+"For internal use","Til intern brug",module,Magento_Catalog
+"Based On","Baseret på",module,Magento_Catalog
+"Add New Attribute Set","Tilføj nyt set egenskaber",module,Magento_Catalog
+"Attribute Sets","Egenskabs sæt",module,Magento_Catalog
+"Close Window","Luk vindue",module,Magento_Catalog
+"New Product","Nyt produkt",module,Magento_Catalog
+"Save & Edit","Gem & Rediger",module,Magento_Catalog
+"Save & New","Gem & ny",module,Magento_Catalog
+"Save & Duplicate","Gem & dupliker",module,Magento_Catalog
+"Save & Close","Gem & Luk",module,Magento_Catalog
+Attributes,Egenskaber,module,Magento_Catalog
 Change,Skift,module,Magento_Catalog
 "Advanced Inventory","Avanceret lager",module,Magento_Catalog
 "Products Information","Produkt information",module,Magento_Catalog
@@ -387,10 +404,28 @@ Edit,Rediger,module,Magento_Catalog
 "Are you sure?","Er du sikker?",module,Magento_Catalog
 "Update Attributes","Opdater attributter",module,Magento_Catalog
 "Click here or drag and drop to add images.","Klik her eller træk og slip for at tilføje billeder.",module,Magento_Catalog
+"start typing to search category","begynd at skrive for at søge kategori",module,Magento_Catalog
 "New Category","Ny Kategori",module,Magento_Catalog
 "Images (.gif, .jpg, .png)","Billeder (.gif, .jpg, .png)",module,Magento_Catalog
 "Add New Images","Tilføj Nyt Billede",module,Magento_Catalog
+"Inc. Tax","Incl. moms",module,Magento_Catalog
+"Does this have a weight?","Har dette en vægt?",module,Magento_Catalog
+Product,Produkt,module,Magento_Catalog
+"Notify Low Stock RSS","Advisér Lavt Lager RSS",module,Magento_Catalog
+Home,Forside,module,Magento_Catalog
+"Go to Home Page","Gå til startsiden",module,Magento_Catalog
+"Products Comparison List","Produkt sammenlignings liste",module,Magento_Catalog
+N/A,"Ikke tilgængelig",module,Magento_Catalog
+"-- Please Select --",--Vælg--,module,Magento_Catalog
 None,Ingen,module,Magento_Catalog
+"New Products","Nye produkter",module,Magento_Catalog
+"Click for price","Klik for pris",module,Magento_Catalog
+"You deleted the category.","Du har slettet kategorien.",module,Magento_Catalog
+"Something went wrong while trying to delete the category.","Noget gik galt under forsøget på at slette kategorien.",module,Magento_Catalog
+Categories,Kategorier,module,Magento_Catalog
+"Manage Catalog Categories","Administrer katalog kategorier",module,Magento_Catalog
+"Manage Categories","Administrer kategorier",module,Magento_Catalog
+"There was a category move error.","Der opstod en kategori flyt fejl.",module,Magento_Catalog
 "An attribute with this code already exists.","Der findes allerede en attribut med denne kode.",module,Magento_Catalog
 "You duplicated the product.","Du duplikerede produktet.",module,Magento_Catalog
 "This product no longer exists.","Dette produkt findes ikke længere.",module,Magento_Catalog
