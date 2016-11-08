@@ -427,6 +427,25 @@ Comparable,Sammenlignlig,module,Magento_Catalog
 Back,Tilbage,module,Magento_Catalog
 Reset,Nulstil,module,Magento_Catalog
 "You are about to delete all products in this attribute set. Are you sure you want to do that?","Du er ved at slette alle produkter med denne attribut indstilling. Er du sikker på du vil gøre dette?",module,Magento_Catalog
+"New Set Name","Nyt set navn",module,Magento_Catalog
+"Edit Attribute Set '%1'","Rediger egenskabet '%1'",module,Magento_Catalog
+Empty,Tom,module,Magento_Catalog
+"Add Attribute","Tilføj egenskab",module,Magento_Catalog
+"Add New Group","Tilføj ny gruppe",module,Magento_Catalog
+"Add Group","Tilføj gruppe",module,Magento_Catalog
+"Edit Attribute Set Name","Rediger egenskaben Set navn",module,Magento_Catalog
+"For internal use","Til intern brug",module,Magento_Catalog
+"Based On","Baseret på",module,Magento_Catalog
+"Add New Attribute Set","Tilføj nyt set egenskaber",module,Magento_Catalog
+"Add Attribute Set","Tilføj sæt egenskaber",module,Magento_Catalog
+"Attribute Sets","Egenskabs sæt",module,Magento_Catalog
+"Close Window","Luk vindue",module,Magento_Catalog
+"New Product","Nyt produkt",module,Magento_Catalog
+"Save & Edit","Gem & Rediger",module,Magento_Catalog
+"Save & New","Gem & ny",module,Magento_Catalog
+"Save & Duplicate","Gem & dupliker",module,Magento_Catalog
+"Save & Close","Gem & Luk",module,Magento_Catalog
+Attributes,Egenskaber,module,Magento_Catalog
 Change,Skift,module,Magento_Catalog
 "Advanced Inventory","Avanceret lager",module,Magento_Catalog
 "Products Information","Produkt information",module,Magento_Catalog
@@ -469,10 +488,39 @@ Edit,Rediger,module,Magento_Catalog
 "Are you sure?","Er du sikker?",module,Magento_Catalog
 "Change Status","Skift Status",module,Magento_Catalog
 "Update Attributes","Opdater attributter",module,Magento_Catalog
+"start typing to search category","begynd at skrive for at søge kategori",module,Magento_Catalog
 "New Category","Ny Kategori",module,Magento_Catalog
 "Images (.gif, .jpg, .png)","Billeder (.gif, .jpg, .png)",module,Magento_Catalog
 "Add New Images","Tilføj Nyt Billede",module,Magento_Catalog
+"Inc. Tax","Incl. moms",module,Magento_Catalog
+"Does this have a weight?","Har dette en vægt?",module,Magento_Catalog
+Product,Produkt,module,Magento_Catalog
+"Notify Low Stock RSS","Advisér Lavt Lager RSS",module,Magento_Catalog
+"Low Stock Products","Lavt lager produkter",module,Magento_Catalog
+"%1 has reached a quantity of %2.","%1 har nået et antal %2.",module,Magento_Catalog
+Home,Forside,module,Magento_Catalog
+"Go to Home Page","Gå til startsiden",module,Magento_Catalog
+"Subscribe to RSS Feed","Abonnér på RSS Feed",module,Magento_Catalog
+"Products Comparison List","Produkt sammenlignings liste",module,Magento_Catalog
+N/A,"Ikke tilgængelig",module,Magento_Catalog
+"-- Please Select --",--Vælg--,module,Magento_Catalog
 None,Ingen,module,Magento_Catalog
+"New Products from %1","Nye produkter fra %1",module,Magento_Catalog
+"New Products","Nye produkter",module,Magento_Catalog
+"%1 - Special Products","%1 - specielle produkter",module,Magento_Catalog
+"Click for price","Klik for pris",module,Magento_Catalog
+"Special Expires On: %1","Specialtilbud udløber på: %1",module,Magento_Catalog
+"Price: %1","Pris: %1",module,Magento_Catalog
+"Special Price: %1","Special Pris: %1",module,Magento_Catalog
+"Special Products","Special produkter",module,Magento_Catalog
+"Manage Catalog Categories","Administrer katalog kategorier",module,Magento_Catalog
+"Manage Categories","Administrer kategorier",module,Magento_Catalog
+"You deleted the category.","Du har slettet kategorien.",module,Magento_Catalog
+"Something went wrong while trying to delete the category.","Noget gik galt under forsøget på at slette kategorien.",module,Magento_Catalog
+Categories,Kategorier,module,Magento_Catalog
+"Category is not available for requested store.","Kategorien er ikke tilgængelig for den ønskede butik.",module,Magento_Catalog
+"There was a category move error. %1","Der opstod en fejl %1 under kategori flytning",module,Magento_Catalog
+"There was a category move error.","Der opstod en kategori flyt fejl.",module,Magento_Catalog
 "We can't find an attribute to delete.","Vi kan ikke finde en attribut til at slette.",module,Magento_Catalog
 "An attribute set named '%1' already exists.","En attribut med navnet '%1' allerede findes.",module,Magento_Catalog
 "We can't update the attribute.","Vi kan ikke opdatere attributten.",module,Magento_Catalog
@@ -530,6 +578,10 @@ All,Alle,module,Magento_Catalog
 "Could not move category","Kunne ikke flytte kategori",module,Magento_Catalog
 "Could not save category: %1","Kunne ikke gemme kategori: %1",module,Magento_Catalog
 "We can't rebuild the index for an undefined product.","Vi kan ikke genopbygge indekset for en udefineret produkt.",module,Magento_Catalog
+"The attribute model is not defined.","Modellens egenskaber er ikke defineret.",module,Magento_Catalog
+Category,Kategori,module,Magento_Catalog
+"%1 was not found in algorithms","%1 blev ikke fundet i algoritmerne",module,Magento_Catalog
+"The filter must be an object. Please set the correct filter.","Filteret skal være et objekt. Angiv det korrekte filter.",module,Magento_Catalog
 "Invalid option id %1","Ugyldig indstilling id %1",module,Magento_Catalog
 "Can not create attribute set based on non product attribute set.","Kan ikke oprette attribut sæt baseret på en ikke produkt-attribut som angivet.",module,Magento_Catalog
 "Can not create attribute set based on not existing attribute set","Kan ikke oprette attributsæt baseret på et ikke eksisterende attribut sæt",module,Magento_Catalog
@@ -557,6 +609,8 @@ Disabled,"Slået fra",module,Magento_Catalog
 "The file options format is not valid.","Indstillinger filformat er ikke gyldig.",module,Magento_Catalog
 "The file '%1' for '%2' has an invalid extension.","Filen '%1' for '%2' har en ugyldig extension.",module,Magento_Catalog
 "The maximum allowed image size for '%1' is %2x%3 px.","Maksimalt tilladte billedstørrelse for '%1' er %2x%3 px.",module,Magento_Catalog
+Search,Søg,module,Magento_Catalog
+"Catalog, Search","Katalog, Søg",module,Magento_Catalog
 "Shop By",Filtre,module,Magento_Catalog
 "Remove This Item","Fjerne dette produkt",module,Magento_Catalog
 "Clear All","Ryd alle",module,Magento_Catalog
