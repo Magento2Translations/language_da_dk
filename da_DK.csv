@@ -463,6 +463,8 @@ All,Alle,module,Magento_Catalog
 "Static block only","Kun statisk blok",module,Magento_Catalog
 "Static block and products","Statisk blok og produkter",module,Magento_Catalog
 "Please select a static block.","Vælg venligst en statisk blok.",module,Magento_Catalog
+"The attribute model is not defined.","Modellens egenskaber er ikke defineret.",module,Magento_Catalog
+Category,Kategori,module,Magento_Catalog
 "The image does not exist.","Billedet findes ikke.",module,Magento_Catalog
 "Please correct the image file type.","Ret venligst image filtype.",module,Magento_Catalog
 "Use config","Brug config",module,Magento_Catalog
@@ -473,6 +475,8 @@ Disabled,"Slået fra",module,Magento_Catalog
 "Please specify time required option(s).","Angiv venligst dato krævede indstillinger.",module,Magento_Catalog
 "The file options format is not valid.","Indstillinger filformat er ikke gyldig.",module,Magento_Catalog
 "The file '%1' for '%2' has an invalid extension.","Filen '%1' for '%2' har en ugyldig extension.",module,Magento_Catalog
+Search,Søg,module,Magento_Catalog
+"Catalog, Search","Katalog, Søg",module,Magento_Catalog
 "Shop By",Filtre,module,Magento_Catalog
 "Remove This Item","Fjerne dette produkt",module,Magento_Catalog
 "Clear All","Ryd alle",module,Magento_Catalog
