@@ -64,6 +64,9 @@ refund,"betal tilbage",module,Magento_Authorizenet
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Noget gik galt: det betalte beløb ikke matcher ordrebeløb. Venligst ret dette og prøv igen.",module,Magento_Authorizenet
 "Transaction %1 has been approved. Amount %2. Transaction status is ""%3""","Transaktionen %1 er blevet godkendt. Antal %2. Posteringsstatus er ""%3""",module,Magento_Authorizenet
 "Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.","Transaktionen %1 er blevet annulleret/faldet. Posteringsstatussen er ""%2"". Mængde %3.",module,Magento_Authorizenet
+"Credit Card Type",Kreditkorttype,module,Magento_Authorizenet
+"Credit Card Number",Kreditkortnummer,module,Magento_Authorizenet
+"Expiration Date",Udløbsdato,module,Magento_Authorizenet
 "Cache Storage Management","Cache lager styring",module,Magento_Backend
 "Flush Magento Cache","Rens Magento Cache",module,Magento_Backend
 "The cache storage may contain additional data. Are you sure that you want to flush it?","Cache lager kan indeholde supplerende data. Er du sikker på at du vil slette det?",module,Magento_Backend
@@ -335,7 +338,31 @@ Cancel,Annuller,module,Magento_Bundle
 "Store View Title","Butiks visningstitel",module,Magento_Bundle
 "Input Type","Input type",module,Magento_Bundle
 "Radio Buttons",Knapper,module,Magento_Bundle
+Checkbox,Afkrydsningsfelt,module,Magento_Bundle
+"Multiple Select","Marker flere",module,Magento_Bundle
+Required,Påkrævet,module,Magento_Bundle
+Name,Navn,module,Magento_Bundle
+"Default Quantity","Standard mængde",module,Magento_Bundle
+"User Defined",Brugerdefineret,module,Magento_Bundle
+"Price Type",Pristype,module,Magento_Bundle
 None,Ingen,module,Magento_Bundle
+Quantity:,Antal:,module,Magento_Bundle
+"Choose a selection...","Vælg et udvalg...",module,Magento_Bundle
+Position,Placering,module,Magento_Bundle
+"There are no products in this option.","Der er ingen produkter i denne indstilling.",module,Magento_Bundle
+Default,Standard,module,Magento_Bundle
+Ordered,Bestilt,module,Magento_Bundle
+Invoiced,Faktureret,module,Magento_Bundle
+Shipped,Afsendt,module,Magento_Bundle
+Refunded,Refunderet,module,Magento_Bundle
+Canceled,Annulleret,module,Magento_Bundle
+"As low as","Så lavt som",module,Magento_Bundle
+"Regular Price",Normalpris,module,Magento_Bundle
+From,Fra,module,Magento_Bundle
+To,Til,module,Magento_Bundle
+"Go back to product details","Tilbage til produktdetaljer",module,Magento_Bundle
+"Customize and Add to Cart","Tilpas og tilføj til indkøbskurv",module,Magento_Bundle
+"* Required Fields","* Påkrævede felter",module,Magento_Bundle
 Summary,Resumé,module,Magento_Bundle
 Always,Altid,module,Magento_Captcha
 "After number of attempts to login","Efter antal forsøg på at logge ind",module,Magento_Captcha
@@ -678,6 +705,7 @@ Remove,Fjern,theme,frontend/Magento/luma
 "Shop By",Filtre,theme,frontend/Magento/luma
 "Clear All","Ryd alle",theme,frontend/Magento/luma
 "Shopping Options","Shopping muligheder",theme,frontend/Magento/luma
+"Place Order","Afgiv ordre",module,Magento_Authorizenet
 "Credit Card Information",Kreditkortoplysninger,module,Magento_Braintree
 "What is this?","Hvad er dette?",module,Magento_Braintree
 "Save for later use.","Gem til senere brug.",module,Magento_Braintree
@@ -733,6 +761,11 @@ Severity,Alvorlighed,module,Magento_AdminNotification
 "Date Added","Dato tilføjet",module,Magento_AdminNotification
 Message,Besked,module,Magento_AdminNotification
 Actions,Handlinger,module,Magento_AdminNotification
+"Accepted Currency","Accepteret valuta",module,Magento_Authorizenet
+Debug,Fejlsøgning,module,Magento_Authorizenet
+"Email Customer","E-mail til kunde",module,Magento_Authorizenet
+"Credit Card Types",Kreditkorttyper,module,Magento_Authorizenet
+"Credit Card Verification","Kreditkort verifikation",module,Magento_Authorizenet
 "Other Settings","Andre indstillinger",module,Magento_Backend
 "Data Transfer","Data overførsel",module,Magento_Backend
 "Package Extensions","Pakke tilføjelser",module,Magento_Backend
