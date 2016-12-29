@@ -661,10 +661,15 @@ Search,Søg,module,Magento_Catalog
 "Clear All","Ryd alle",module,Magento_Catalog
 "Shopping Cart",Indkøbskurv,module,Magento_Checkout
 "Static Blocks","Statiske blokke",module,Magento_Cms
+"Default Config","Standard Konfiguration",module,Magento_Config
+"Default scope","Standard virkefelt",module,Magento_Config
 Summary,Resumé,module,Magento_ConfigurableProduct
 Image,Billede,module,Magento_ConfigurableProduct
 Name,Navn,module,Magento_ConfigurableProduct
 Confirm,Bekræft,module,Magento_ConfigurableProduct
+"Page not found.","Siden blev ikke fundet.",module,Magento_Contact
+"Invalid domain name: %1","Ugyldigt domænenavn: %1",module,Magento_Cookie
+"Save Currency Rates","Gem valutakurser",module,Magento_CurrencySymbol
 "Sign Out","Log ud",module,Magento_Customer
 "Address Book",Adressebog,module,Magento_Customer
 "Account Information","Konto Information",module,Magento_Customer
@@ -856,6 +861,7 @@ Forms,Formularer,module,Magento_Captcha
 "Case Sensitive","Store og små bogstaver",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Aktiver CAPTCHA på butiks forside",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA for ""Opret bruger"" og ""Glemt kodeord"" formularer er altid aktiveret, hvis valgt.",module,Magento_Captcha
+Scope,Virkefelt,module,Magento_ConfigurableProduct
 "Account Dashboard",Betjeningspanel,module,Magento_Customer
 Emails,E-mails,module,Magento_Email
 "Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in width/height fields below.","Tilladte filtyper: jpg, jpeg, gif, png. For at optimere logo til høj opløsning skærme, uploade et billede, der er 3 x normal størrelse, og angiv derefter 1 x dimensioner i bredde/højde felterne nedenfor.",module,Magento_Email
