@@ -508,6 +508,7 @@ Search,Søg,module,Magento_Catalog
 Image,Billede,module,Magento_ConfigurableProduct
 Name,Navn,module,Magento_ConfigurableProduct
 Confirm,Bekræft,module,Magento_ConfigurableProduct
+"Save Currency Rates","Gem valutakurser",module,Magento_CurrencySymbol
 "Address Book",Adressebog,module,Magento_Customer
 "Account Information","Konto Information",module,Magento_Customer
 None,Ingen,module,Magento_Dhl
