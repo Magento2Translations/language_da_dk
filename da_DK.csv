@@ -643,10 +643,15 @@ Search,Søg,module,Magento_Catalog
 "Clear All","Ryd alle",module,Magento_Catalog
 "Shopping Cart",Indkøbskurv,module,Magento_Checkout
 "Static Blocks","Statiske blokke",module,Magento_Cms
+"Default Config","Standard Konfiguration",module,Magento_Config
+"Default scope","Standard virkefelt",module,Magento_Config
 Summary,Resumé,module,Magento_ConfigurableProduct
 Confirm,Bekræft,module,Magento_ConfigurableProduct
 Image,Billede,module,Magento_ConfigurableProduct
 Name,Navn,module,Magento_ConfigurableProduct
+"Page not found.","Siden blev ikke fundet.",module,Magento_Contact
+"Invalid domain name: %1","Ugyldigt domænenavn: %1",module,Magento_Cookie
+"Save Currency Rates","Gem valutakurser",module,Magento_CurrencySymbol
 "Sign Out","Log ud",module,Magento_Customer
 "Address Book",Adressebog,module,Magento_Customer
 "Account Information","Konto Information",module,Magento_Customer
@@ -686,6 +691,7 @@ Remove,Fjern,module,Magento_SendFriend
 None,Ingen,module,Magento_Sitemap
 All,Alle,module,Magento_Sitemap
 None,Ingen,module,Magento_Tax
+Scope:,Virkefelt:,module,Magento_Theme
 Remove,Fjern,module,Magento_Theme
 Previous,Forrige,module,Magento_Theme
 None,Ingen,module,Magento_Ups
@@ -876,8 +882,10 @@ Forms,Formularer,module,Magento_Captcha
 "Case Sensitive","Store og små bogstaver",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Aktiver CAPTCHA på butiks forside",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA for ""Opret bruger"" og ""Glemt kodeord"" formularer er altid aktiveret, hvis valgt.",module,Magento_Captcha
+Scope,Virkefelt,module,Magento_ConfigurableProduct
 "Account Dashboard",Betjeningspanel,module,Magento_Customer
 Summary,Resumé,module,Magento_ImportExport
+Scope,Virkefelt,module,Magento_Search
 "Account Dashboard",Betjeningspanel,theme,frontend/Magento/luma
 "Account Information",Kontooplysninger,theme,frontend/Magento/luma
 "Address Book",Adressebog,theme,frontend/Magento/luma
