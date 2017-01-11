@@ -300,6 +300,7 @@ Always,Altid,module,Magento_Captcha
 "Reload captcha","Genindlæs captcha",module,Magento_Captcha
 "Please type the letters below","Skriv venligst bogstaverne herunder",module,Magento_Captcha
 "ALL GROUPS","ALLE GRUPPER",module,Magento_CatalogInventory
+"Customer Group",Kundegruppe,module,Magento_CatalogInventory
 Home,Hjem,module,Magento_CatalogSearch
 "Go to Home Page","Gå til startsiden",module,Magento_CatalogSearch
 All,Alle,module,Magento_CatalogSearch
@@ -505,8 +506,11 @@ Search,Søg,module,Magento_Catalog
 "Remove This Item","Fjerne dette produkt",module,Magento_Catalog
 "Clear All","Ryd alle",module,Magento_Catalog
 "Terms and Conditions","Vilkår og betingelser",module,Magento_CheckoutAgreements
+"Add New Condition","Tilføj ny betingelse",module,Magento_CheckoutAgreements
 "Shopping Cart",Indkøbskurv,module,Magento_Checkout
+City,By,module,Magento_Checkout
 "Static Blocks","Statiske blokke",module,Magento_Cms
+"Add New Block","Tilføj ny blok",module,Magento_Cms
 Image,Billede,module,Magento_ConfigurableProduct
 Name,Navn,module,Magento_ConfigurableProduct
 Confirm,Bekræft,module,Magento_ConfigurableProduct
@@ -521,26 +525,45 @@ None,Ingen,module,Magento_Eav
 "Encryption Key",Krypteringsnøgle,module,Magento_EncryptionKey
 None,Ingen,module,Magento_Fedex
 Dynamic,Dynamisk,module,Magento_GoogleAdwords
+Constant,Konstant,module,Magento_GoogleAdwords
 "Grouped Products","Grupperede produkter",module,Magento_GroupedProduct
+"Please specify the quantity of product(s).","Angiv mængden af produkt(er).",module,Magento_GroupedProduct
 Export,Eksport,module,Magento_ImportExport
+"Export Settings","Eksporter indstillinger",module,Magento_ImportExport
 Integrations,Integrationer,module,Magento_Integration
 Remove,Fjern,module,Magento_Integration
+No,Nej,module,Magento_LayeredNavigation
 Previous,Forrige,module,Magento_LayeredNavigation
 "Remove This Item","Fjerne dette produkt",module,Magento_LayeredNavigation
 "Shop By",Filtre,module,Magento_LayeredNavigation
 "Clear All","Ryd alle",module,Magento_LayeredNavigation
+"Ship to Multiple Addresses","Send til flere adresser",module,Magento_Multishipping
+"Delete Selected Problems","Slet de valgte problemer",module,Magento_Newsletter
+Back,Tilbage,module,Magento_Newsletter
+"Send Check to:","Send check til:",module,Magento_OfflinePayments
 Country,Land,module,Magento_OfflineShipping
+"Zip/Postal Code",Postnummer,module,Magento_OfflineShipping
 None,Ingen,module,Magento_OfflineShipping
+Month,Måned,module,Magento_Payment
+Year,År,module,Magento_Payment
 "Start Date","Start dato",module,Magento_Payment
 "Billing Agreements",Faktureringsaftaler,module,Magento_Paypal
+Email,E-mail,module,Magento_Paypal
 Custom,Brugerdefineret,module,Magento_Paypal
+"Your shopping cart has been updated with new prices.","Din indkøbsvogn er blevet opdateret med nye priser.",module,Magento_Persistent
+"Welcome, %1!","Velkommen, %1!",module,Magento_Persistent
+"There are not enough parameters.","Der er ikke nok parametre.",module,Magento_ProductAlert
 Url,URL,module,Magento_ProductVideo
 "New Accounts","Nye konti",module,Magento_Reports
 "Save Review","Gem anmeldelse",module,Magento_Review
+"New Review","Ny anmeldelse",module,Magento_Review
+"Review Details","Gennemgå detaljer",module,Magento_Review
 Previous,Forrige,module,Magento_Review
 Summary,Resumé,module,Magento_Review
 Apply,Anvend,module,Magento_Rule
 Remove,Fjern,module,Magento_Rule
+"Add New Rule","Tilføj ny regel",module,Magento_SalesRule
+Orders,Ordrer,module,Magento_Sales
 "Account Information","Konto Information",module,Magento_Sales
 Remove,Fjern,module,Magento_Sales
 None,Ingen,module,Magento_Sitemap
