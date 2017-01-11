@@ -374,9 +374,12 @@ Always,Altid,module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>Vigtigt</strong>: Forskel på store og små bogstaver ved tastning af Captcha.",module,Magento_Captcha
 "Reload captcha","Genindlæs captcha",module,Magento_Captcha
 "Please type the letters below","Skriv venligst bogstaverne herunder",module,Magento_Captcha
+"There are no product types available for export.","Der er ingen varetyper til eksport.",module,Magento_CatalogImportExport
 "ALL GROUPS","ALLE GRUPPER",module,Magento_CatalogInventory
+"Customer Group",Kundegruppe,module,Magento_CatalogInventory
 "Delete Rule","Slet reglen",module,Magento_CatalogRule
 "Are you sure you want to do this?","Er du sikker på at du vil gøre dette?",module,Magento_CatalogRule
+Reset,Nulstil,module,Magento_CatalogRule
 Home,Hjem,module,Magento_CatalogSearch
 "Go to Home Page","Gå til startsiden",module,Magento_CatalogSearch
 All,Alle,module,Magento_CatalogSearch
@@ -644,8 +647,12 @@ Search,Søg,module,Magento_Catalog
 "Remove This Item","Fjerne dette produkt",module,Magento_Catalog
 "Clear All","Ryd alle",module,Magento_Catalog
 "Terms and Conditions","Vilkår og betingelser",module,Magento_CheckoutAgreements
+"Add New Condition","Tilføj ny betingelse",module,Magento_CheckoutAgreements
 "Shopping Cart",Indkøbskurv,module,Magento_Checkout
+City,By,module,Magento_Checkout
 "Static Blocks","Statiske blokke",module,Magento_Cms
+"Add New Block","Tilføj ny blok",module,Magento_Cms
+Back,Tilbage,module,Magento_Cms
 "Default Config","Standard Konfiguration",module,Magento_Config
 "Default scope","Standard virkefelt",module,Magento_Config
 Summary,Resumé,module,Magento_ConfigurableProduct
@@ -655,6 +662,7 @@ Name,Navn,module,Magento_ConfigurableProduct
 "Page not found.","Siden blev ikke fundet.",module,Magento_Contact
 "Invalid domain name: %1","Ugyldigt domænenavn: %1",module,Magento_Cookie
 "Save Currency Rates","Gem valutakurser",module,Magento_CurrencySymbol
+Options,Valgmuligheder,module,Magento_CurrencySymbol
 "Sign Out","Log ud",module,Magento_Customer
 "Sign In","Log Ind",module,Magento_Customer
 "Address Book",Adressebog,module,Magento_Customer
@@ -662,6 +670,7 @@ Name,Navn,module,Magento_ConfigurableProduct
 None,Ingen,module,Magento_Dhl
 State/Province,Stat/provins,module,Magento_Directory
 "--Please Select--",--Vælg--,module,Magento_Directory
+"File directory '%1' is not writable.","Filmappen '%1' er skrivebeskyttet.",module,Magento_DownloadableImportExport
 None,Ingen,module,Magento_Eav
 "Add New Template","Tilføj ny skabelon",module,Magento_Email
 "We can't delete email template data right now. Please review log and try again.","Vi kan ikke slette e-mail skabelon data lige nu. Læs log, og prøv igen.",module,Magento_Email
@@ -669,12 +678,16 @@ None,Ingen,module,Magento_Eav
 "Encryption Key",Krypteringsnøgle,module,Magento_EncryptionKey
 None,Ingen,module,Magento_Fedex
 Dynamic,Dynamisk,module,Magento_GoogleAdwords
+Constant,Konstant,module,Magento_GoogleAdwords
 "Grouped Products","Grupperede produkter",module,Magento_GroupedProduct
+"Please specify the quantity of product(s).","Angiv mængden af produkt(er).",module,Magento_GroupedProduct
 Export,Eksport,module,Magento_ImportExport
+"Export Settings","Eksporter indstillinger",module,Magento_ImportExport
 Integrations,Integrationer,module,Magento_Integration
 Remove,Fjern,module,Magento_Integration
 Custom,Brugerdefineret,module,Magento_Integration
 All,Alle,module,Magento_Integration
+No,Nej,module,Magento_LayeredNavigation
 "Now Shopping by","Aktive filtre",module,Magento_LayeredNavigation
 Previous,Forrige,module,Magento_LayeredNavigation
 Remove,Fjern,module,Magento_LayeredNavigation
@@ -683,27 +696,52 @@ Remove,Fjern,module,Magento_LayeredNavigation
 "Clear All","Ryd alle",module,Magento_LayeredNavigation
 Partners,Partnere,module,Magento_Marketplace
 Synchronize,Synkronisér,module,Magento_MediaStorage
+Synchronizing...,Synkroniserer...,module,Magento_MediaStorage
+"See price before order confirmation.","Se prisen før ordrebekræftelse.",module,Magento_Msrp
+"Ship to Multiple Addresses","Send til flere adresser",module,Magento_Multishipping
+"Delete Selected Problems","Slet de valgte problemer",module,Magento_Newsletter
+Back,Tilbage,module,Magento_Newsletter
+"Send Check to:","Send check til:",module,Magento_OfflinePayments
 Country,Land,module,Magento_OfflineShipping
+"Zip/Postal Code",Postnummer,module,Magento_OfflineShipping
 None,Ingen,module,Magento_OfflineShipping
+Month,Måned,module,Magento_Payment
+Year,År,module,Magento_Payment
 "The credit card number doesn't match the credit card type.","Kreditkortnummeret matcher ikke kreditkorttypen.",module,Magento_Payment
 "We'll ask for your payment details before you place an order.","Vi vil bede om dine betalingsoplysninger, før du afgiver en ordre.",module,Magento_Payment
 "Billing Agreements",Faktureringsaftaler,module,Magento_Paypal
+Email,E-mail,module,Magento_Paypal
 Custom,Brugerdefineret,module,Magento_Paypal
 "Not you?","Ikke dig?",module,Magento_Persistent
+"Your shopping cart has been updated with new prices.","Din indkøbsvogn er blevet opdateret med nye priser.",module,Magento_Persistent
+"Welcome, %1!","Velkommen, %1!",module,Magento_Persistent
+"There are not enough parameters.","Der er ikke nok parametre.",module,Magento_ProductAlert
 Url,URL,module,Magento_ProductVideo
+Title,Titel,module,Magento_ProductVideo
+Description,Beskrivelse,module,Magento_ProductVideo
 "New Accounts","Nye konti",module,Magento_Reports
 "Save Review","Gem anmeldelse",module,Magento_Review
+"New Review","Ny anmeldelse",module,Magento_Review
+"Review Details","Gennemgå detaljer",module,Magento_Review
 Previous,Forrige,module,Magento_Review
 Summary,Resumé,module,Magento_Review
 "Page not found.","Siden blev ikke fundet.",module,Magento_Rss
 Apply,Anvend,module,Magento_Rule
 Remove,Fjern,module,Magento_Rule
+"Add New Rule","Tilføj ny regel",module,Magento_SalesRule
+"Not enough arguments","Ikke nok argumenter",module,Magento_SalesSequence
+Orders,Ordrer,module,Magento_Sales
 "Account Information","Konto Information",module,Magento_Sales
 Remove,Fjern,module,Magento_Sales
+"Search Term",Søgeord,module,Magento_Search
+Results,Resultater,module,Magento_Search
+"Account Activity",Kontoaktivitet,module,Magento_Security
 None,Ingen,module,Magento_Security
+"Page not found.","Siden blev ikke fundet.",module,Magento_SendFriend
 Remove,Fjern,module,Magento_SendFriend
 None,Ingen,module,Magento_Sitemap
 All,Alle,module,Magento_Sitemap
+"Invalid store parameter.","Ugyldig butik parameter.",module,Magento_Store
 Code,Kode,module,Magento_TaxImportExport
 None,Ingen,module,Magento_Tax
 Back,Tilbage,module,Magento_Theme
@@ -905,6 +943,7 @@ Scope,Virkefelt,module,Magento_ConfigurableProduct
 "Account Dashboard",Betjeningspanel,module,Magento_Customer
 Summary,Resumé,module,Magento_ImportExport
 Scope,Virkefelt,module,Magento_Search
+"Allow Anonymous Guest Access","Tillad anonym gæsteadgang",module,Magento_WebapiSecurity
 "Account Dashboard",Betjeningspanel,theme,frontend/Magento/luma
 "Account Information",Kontooplysninger,theme,frontend/Magento/luma
 "Address Book",Adressebog,theme,frontend/Magento/luma
