@@ -526,6 +526,7 @@ Name,Navn,module,Magento_ConfigurableProduct
 Confirm,Bekræft,module,Magento_ConfigurableProduct
 "* Required Fields","* Påkrævede felter",module,Magento_Contact
 "Save Currency Rates","Gem valutakurser",module,Magento_CurrencySymbol
+Reset,Nulstil,module,Magento_CurrencySymbol
 "Address Book",Adressebog,module,Magento_Customer
 "Customer Login","Kunde login",module,Magento_Customer
 "Account Information","Konto Information",module,Magento_Customer
@@ -537,9 +538,13 @@ Password,Kodeord,module,Magento_Customer
 None,Ingen,module,Magento_Dhl
 State/Province,Stat/provins,module,Magento_Directory
 "--Please Select--",--Vælg--,module,Magento_Directory
+"Upload Files","Upload filer",module,Magento_Downloadable
 None,Ingen,module,Magento_Eav
 "Add New Template","Tilføj ny skabelon",module,Magento_Email
+Back,Tilbage,module,Magento_Email
+Reset,Nulstil,module,Magento_Email
 "Encryption Key",Krypteringsnøgle,module,Magento_EncryptionKey
+"New Encryption Key","Ny Krypteringsnøgle",module,Magento_EncryptionKey
 None,Ingen,module,Magento_Fedex
 Dynamic,Dynamisk,module,Magento_GoogleAdwords
 Constant,Konstant,module,Magento_GoogleAdwords
@@ -559,6 +564,7 @@ Previous,Forrige,module,Magento_LayeredNavigation
 "Clear All","Ryd alle",module,Magento_LayeredNavigation
 "File %1 does not exist","Filen %1 findes ikke",module,Magento_MediaStorage
 "Ship to Multiple Addresses","Send til flere adresser",module,Magento_Multishipping
+"Billing Information - %1","Faktureringsoplysninger - %1",module,Magento_Multishipping
 "Review Order - %1","Gennemse ordre - %1",module,Magento_Multishipping
 Total,"I alt",module,Magento_Multishipping
 "Delete Selected Problems","Slet de valgte problemer",module,Magento_Newsletter
@@ -603,25 +609,33 @@ Invoices,Fakturaer,module,Magento_Sales
 Remove,Fjern,module,Magento_Sales
 "Some emails were not sent.","Nogle emails blev ikke afsendt.",module,Magento_SendFriend
 "contact us","kontakt os",module,Magento_Shipping
+"Edit Sitemap","Rediger Sitemap",module,Magento_Sitemap
 None,Ingen,module,Magento_Sitemap
 All,Alle,module,Magento_Sitemap
 "Zip/Post Code",Postnummer,module,Magento_Tax
 None,Ingen,module,Magento_Tax
 Remove,Fjern,module,Magento_Theme
 Previous,Forrige,module,Magento_Theme
+"UPS Second Day Air","UPS 2. dag luft",module,Magento_Ups
 "UPS Worldwide Express","UPS Worldwide Ekspres",module,Magento_Ups
 None,Ingen,module,Magento_Ups
+Category:,Kategori:,module,Magento_UrlRewrite
 Custom,Brugerdefineret,module,Magento_UrlRewrite
 Back,Tilbage,module,Magento_User
+Reset,Nulstil,module,Magento_User
+"Delete Role","Slet rolle",module,Magento_User
 "Are you sure you want to do this?","Er du sikker på at du vil gøre dette?",module,Magento_User
 "Account Information","Konto Information",module,Magento_User
 Custom,Brugerdefineret,module,Magento_User
 All,Alle,module,Magento_User
 None,Ingen,module,Magento_Usps
 "Custom Variables","Tilpassede variabler",module,Magento_Variable
+"Insert Widget","Indsæt Widget",module,Magento_Widget
+label,etiket,module,Magento_Widget
 Settings,Instillinger,module,Magento_Widget
 All,Alle,module,Magento_Widget
 "Wish List",Ønskeliste,module,Magento_Wishlist
+"My Wish List","Min ønskeseddel",module,Magento_Wishlist
 "Remove This Item","Fjerne dette produkt",module,Magento_Wishlist
 "Shop By",Filtre,theme,frontend/Magento/luma
 "Add Selected Products","Tilføj udvalgte produkter",module,Magento_Bundle
@@ -724,5 +738,8 @@ Forms,Formularer,module,Magento_Captcha
 "Contact Us","Kontakt os",module,Magento_Contact
 "Enable Contact Us","Aktiver kontakt os",module,Magento_Contact
 "Account ID",Konto-ID,module,Magento_Fedex
+Enable,Aktiver,module,Magento_GoogleAnalytics
+"Account Number",Kontonummer,module,Magento_GoogleAnalytics
+"Translation Strategy",Oversættelsesstrategi,module,Magento_Translation
 Translations,Oversættelser,module,Magento_Translation
 Summary,Resumé,theme,frontend/Magento/blank
