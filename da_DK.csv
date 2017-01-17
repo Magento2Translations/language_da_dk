@@ -684,6 +684,7 @@ Name,Navn,module,Magento_ConfigurableProduct
 "<a href=""%1"">Learn more</a>.","<a href=""%1"">Få mere at vide</a>.",module,Magento_Cookie
 "Save Currency Rates","Gem valutakurser",module,Magento_CurrencySymbol
 Options,Valgmuligheder,module,Magento_CurrencySymbol
+Reset,Nulstil,module,Magento_CurrencySymbol
 "Please enter a valid email.","Angiv venligst en gyldig e-mail.",module,Magento_CustomerImportExport
 "Sign Out","Log ud",module,Magento_Customer
 "Sign In","Log Ind",module,Magento_Customer
@@ -703,12 +704,17 @@ None,Ingen,module,Magento_Dhl
 State/Province,Stat/provins,module,Magento_Directory
 "--Please Select--",--Vælg--,module,Magento_Directory
 "File directory '%1' is not writable.","Filmappen '%1' er skrivebeskyttet.",module,Magento_DownloadableImportExport
+Error,Fejl,module,Magento_DownloadableImportExport
+"Upload Files","Upload filer",module,Magento_Downloadable
 "This is used internally. Make sure you don't use spaces or more than %1 symbols.","Dette bruges internt. Kontroller, at du ikke bruger mellemrum eller mere end %1 symboler.",module,Magento_Eav
 None,Ingen,module,Magento_Eav
 "Add New Template","Tilføj ny skabelon",module,Magento_Email
+Back,Tilbage,module,Magento_Email
+Reset,Nulstil,module,Magento_Email
 "We can't delete email template data right now. Please review log and try again.","Vi kan ikke slette e-mail skabelon data lige nu. Læs log, og prøv igen.",module,Magento_Email
 "We can't find an email template to delete.","Vi kan ikke finde en e-mail-skabelon til at slette.",module,Magento_Email
 "Encryption Key",Krypteringsnøgle,module,Magento_EncryptionKey
+"New Encryption Key","Ny Krypteringsnøgle",module,Magento_EncryptionKey
 None,Ingen,module,Magento_Fedex
 Dynamic,Dynamisk,module,Magento_GoogleAdwords
 Constant,Konstant,module,Magento_GoogleAdwords
@@ -736,6 +742,7 @@ Synchronizing...,Synkroniserer...,module,Magento_MediaStorage
 "File %1 does not exist","Filen %1 findes ikke",module,Magento_MediaStorage
 "See price before order confirmation.","Se prisen før ordrebekræftelse.",module,Magento_Msrp
 "Ship to Multiple Addresses","Send til flere adresser",module,Magento_Multishipping
+"Billing Information - %1","Faktureringsoplysninger - %1",module,Magento_Multishipping
 "Review Order - %1","Gennemse ordre - %1",module,Magento_Multishipping
 Total,"I alt",module,Magento_Multishipping
 "Delete Selected Problems","Slet de valgte problemer",module,Magento_Newsletter
@@ -773,6 +780,7 @@ Previous,Forrige,module,Magento_Review
 Summary,Resumé,module,Magento_Review
 "Page not found.","Siden blev ikke fundet.",module,Magento_Rss
 Apply,Anvend,module,Magento_Rule
+"Please specify a website.","Angiv en hjemmeside.",module,Magento_Rule
 Remove,Fjern,module,Magento_Rule
 "Add New Rule","Tilføj ny regel",module,Magento_SalesRule
 Delete,Slet,module,Magento_SalesRule
@@ -795,10 +803,13 @@ None,Ingen,module,Magento_Security
 "Some emails were not sent.","Nogle emails blev ikke afsendt.",module,Magento_SendFriend
 Remove,Fjern,module,Magento_SendFriend
 "contact us","kontakt os",module,Magento_Shipping
+"Edit Sitemap","Rediger Sitemap",module,Magento_Sitemap
 None,Ingen,module,Magento_Sitemap
 All,Alle,module,Magento_Sitemap
 "Invalid store parameter.","Ugyldig butik parameter.",module,Magento_Store
+"Current store is not active.","Nuværende butik er ikke aktiv.",module,Magento_Store
 Code,Kode,module,Magento_TaxImportExport
+Country,Land,module,Magento_TaxImportExport
 "Zip/Post Code",Postnummer,module,Magento_TaxImportExport
 "Zip/Post Code",Postnummer,module,Magento_Tax
 None,Ingen,module,Magento_Tax
@@ -810,21 +821,31 @@ Remove,Fjern,module,Magento_Theme
 Previous,Forrige,module,Magento_Theme
 "Remove %1","Fjern %1",module,Magento_Ui
 "Add New %1","Tilføj Ny %1",module,Magento_Ui
+"UPS Second Day Air","UPS 2. dag luft",module,Magento_Ups
 "UPS Worldwide Express","UPS Worldwide Ekspres",module,Magento_Ups
 None,Ingen,module,Magento_Ups
+Category:,Kategori:,module,Magento_UrlRewrite
 Custom,Brugerdefineret,module,Magento_UrlRewrite
 Back,Tilbage,module,Magento_User
+Reset,Nulstil,module,Magento_User
+"Delete Role","Slet rolle",module,Magento_User
 "Are you sure you want to do this?","Er du sikker på at du vil gøre dette?",module,Magento_User
 "Account Information","Konto Information",module,Magento_User
 Custom,Brugerdefineret,module,Magento_User
 All,Alle,module,Magento_User
 None,Ingen,module,Magento_Usps
 "Custom Variables","Tilpassede variabler",module,Magento_Variable
+"Add New Variable","Tilføj ny variabel",module,Magento_Variable
+"Save and Continue Edit","Gem og fortsæt redigering",module,Magento_Variable
+"Custom Variable ""%1""","Brugerdefineret variabel ""%1""",module,Magento_Variable
 "My Credit Cards","Mine kreditkort",module,Magento_Vault
+"Insert Widget","Indsæt Widget",module,Magento_Widget
+label,etiket,module,Magento_Widget
 Settings,Instillinger,module,Magento_Widget
 None,Ingen,module,Magento_Widget
 All,Alle,module,Magento_Widget
 "Wish List",Ønskeliste,module,Magento_Wishlist
+"My Wish List","Min ønskeseddel",module,Magento_Wishlist
 "Remove This Item","Fjerne dette produkt",module,Magento_Wishlist
 "Now Shopping by","Aktive filtre",theme,frontend/Magento/luma
 Previous,Forrige,theme,frontend/Magento/luma
@@ -1009,9 +1030,12 @@ Scope,Virkefelt,module,Magento_ConfigurableProduct
 "Enable Contact Us","Aktiver kontakt os",module,Magento_Contact
 "Account Dashboard",Betjeningspanel,module,Magento_Customer
 "Account ID",Konto-ID,module,Magento_Fedex
+Enable,Aktiver,module,Magento_GoogleAnalytics
+"Account Number",Kontonummer,module,Magento_GoogleAnalytics
 Summary,Resumé,module,Magento_ImportExport
 General,Generelt,module,Magento_NewRelicReporting
 Scope,Virkefelt,module,Magento_Search
+"Translation Strategy",Oversættelsesstrategi,module,Magento_Translation
 Translations,Oversættelser,module,Magento_Translation
 "Allow Anonymous Guest Access","Tillad anonym gæsteadgang",module,Magento_WebapiSecurity
 "Account Dashboard",Betjeningspanel,theme,frontend/Magento/luma
