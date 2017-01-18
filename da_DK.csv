@@ -41,14 +41,15 @@ authorize,authoriser,module,Magento_Authorizenet
 refund,"betal tilbage",module,Magento_Authorizenet
 "Gateway error: %1","Gateway fejl: %1",module,Magento_Authorizenet
 "Something went wrong in the payment gateway.","Noget gik galt i betalingsgatewayen.",module,Magento_Authorizenet
-"Invalid transaction ID.","Ugyldig transaktions-ID.",module,Magento_Authorizenet
-"Invalid amount for refund.","Ugyldigt beløb til tilbagebetaling.",module,Magento_Authorizenet
+"Invalid transaction ID.","Ugyldig transaktions ID.",module,Magento_Authorizenet
+"Invalid amount for refund.","Ugyldig beløb for restitution.",module,Magento_Authorizenet
 "Payment refunding error.","Tilbagebetalings fejl.",module,Magento_Authorizenet
 "The transaction was declined because the response hash validation failed.","Transaktionen blev afvist, fordi svar Hash-valideringen mislykkedes.",module,Magento_Authorizenet
 "There was a payment authorization error.","Der var en betaling autorisations fejl.",module,Magento_Authorizenet
 "Credit Card Type",Kreditkorttype,module,Magento_Authorizenet
 "Credit Card Number",Kreditkortnummer,module,Magento_Authorizenet
 "Expiration Date",Udløbsdato,module,Magento_Authorizenet
+"Card Verification Number","Kortnummer verifikation",module,Magento_Authorizenet
 "Cache Storage Management","Cache lager styring",module,Magento_Backend
 "Flush Magento Cache","Rens Magento Cache",module,Magento_Backend
 "Flush Cache Storage","Rens Cache Lager",module,Magento_Backend
@@ -648,6 +649,7 @@ Severity,Alvorlighed,module,Magento_AdminNotification
 "Date Added","Dato tilføjet",module,Magento_AdminNotification
 Message,Besked,module,Magento_AdminNotification
 Actions,Handlinger,module,Magento_AdminNotification
+Enabled,Aktiveret,module,Magento_Authorizenet
 "Accepted Currency","Accepteret valuta",module,Magento_Authorizenet
 Debug,Fejlsøgning,module,Magento_Authorizenet
 "Email Customer","E-mail til kunde",module,Magento_Authorizenet
