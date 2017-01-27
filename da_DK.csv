@@ -583,6 +583,20 @@ N/A,"Ikke tilgængelig",module,Magento_Payment
 Email,E-mail,module,Magento_Paypal
 "First Name",Fornavn,module,Magento_Paypal
 "Last Name",Efternavn,module,Magento_Paypal
+Back,Tilbage,module,Magento_Paypal
+"Are you sure you want to do this?","Er du sikker på at du vil gøre dette?",module,Magento_Paypal
+Cancel,Annuller,module,Magento_Paypal
+"General Information","Generelle informationer",module,Magento_Paypal
+"Related Orders","Relaterede ordrer",module,Magento_Paypal
+"Transaction Information",Transaktionsoplysninger,module,Magento_Paypal
+"PayPal Fee Information","PayPal gebyr oplysninger",module,Magento_Paypal
+Help,Hjælp,module,Magento_Paypal
+Configure,Konfigurer,module,Magento_Paypal
+Close,Luk,module,Magento_Paypal
+"Learn More","Læs mere",module,Magento_Paypal
+"View Demo","Se Demo",module,Magento_Paypal
+"See terms","Se vilkårene",module,Magento_Paypal
+"You will be redirected to the PayPal website.","Du vil blive omdirigeret til PayPal webstedet.",module,Magento_Paypal
 Custom,Brugerdefineret,module,Magento_Paypal
 "Your shopping cart has been updated with new prices.","Din indkøbsvogn er blevet opdateret med nye priser.",module,Magento_Persistent
 "Welcome, %1!","Velkommen, %1!",module,Magento_Persistent
@@ -742,6 +756,7 @@ Forms,Formularer,module,Magento_Captcha
 "Account ID",Konto-ID,module,Magento_Fedex
 Enable,Aktiver,module,Magento_GoogleAnalytics
 "Account Number",Kontonummer,module,Magento_GoogleAnalytics
+"Product Video","Produkt Video",module,Magento_ProductVideo
 "Translation Strategy",Oversættelsesstrategi,module,Magento_Translation
 Translations,Oversættelser,module,Magento_Translation
 Summary,Resumé,theme,frontend/Magento/blank
