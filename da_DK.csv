@@ -762,6 +762,21 @@ N/A,"Ikke tilgængelig",module,Magento_Payment
 Email,E-mail,module,Magento_Paypal
 "First Name",Fornavn,module,Magento_Paypal
 "Last Name",Efternavn,module,Magento_Paypal
+Back,Tilbage,module,Magento_Paypal
+"Are you sure you want to do this?","Er du sikker på at du vil gøre dette?",module,Magento_Paypal
+Cancel,Annuller,module,Magento_Paypal
+"General Information","Generelle informationer",module,Magento_Paypal
+"Related Orders","Relaterede ordrer",module,Magento_Paypal
+Purchased,Købt,module,Magento_Paypal
+"Transaction Information",Transaktionsoplysninger,module,Magento_Paypal
+"PayPal Fee Information","PayPal gebyr oplysninger",module,Magento_Paypal
+Help,Hjælp,module,Magento_Paypal
+Configure,Konfigurer,module,Magento_Paypal
+Close,Luk,module,Magento_Paypal
+"Learn More","Læs mere",module,Magento_Paypal
+"View Demo","Se Demo",module,Magento_Paypal
+"See terms","Se vilkårene",module,Magento_Paypal
+"You will be redirected to the PayPal website.","Du vil blive omdirigeret til PayPal webstedet.",module,Magento_Paypal
 Custom,Brugerdefineret,module,Magento_Paypal
 "Not you?","Ikke dig?",module,Magento_Persistent
 "Your shopping cart has been updated with new prices.","Din indkøbsvogn er blevet opdateret med nye priser.",module,Magento_Persistent
@@ -770,6 +785,15 @@ Custom,Brugerdefineret,module,Magento_Paypal
 Url,URL,module,Magento_ProductVideo
 Title,Titel,module,Magento_ProductVideo
 Description,Beskrivelse,module,Magento_ProductVideo
+"YouTube and Vimeo supported.","YouTube og Vimeo support.",module,Magento_ProductVideo
+"Add Video","Tilføj video",module,Magento_ProductVideo
+"Delete video","Slet video",module,Magento_ProductVideo
+"Delete image","Slet billede",module,Magento_ProductVideo
+Hidden,Skjult,module,Magento_ProductVideo
+"Image Size",Billedestørrelse,module,Magento_ProductVideo
+"Image Resolution",Billedopløsning,module,Magento_ProductVideo
+Uploaded:,Uploadet:,module,Magento_ProductVideo
+Duration:,Varighed:,module,Magento_ProductVideo
 "Coupon code is not valid","Kuponkoden er ikke gyldig",module,Magento_Quote
 "New Accounts","Nye konti",module,Magento_Reports
 Filter,Filtrer,module,Magento_Reports
@@ -907,6 +931,12 @@ Footer,Sidefod,theme,frontend/Magento/luma
 "Your %store_name order has shipped","Din %store_name bestilling er blevet afsendt",theme,frontend/Magento/luma
 "Update to your %store_name shipment","Opdaterer til din %store_name forsendelse",theme,frontend/Magento/luma
 "This payment is not available","Denne betaling er ikke tilgængelig",module,Magento_Braintree
+"Video Error",Videofejl,module,Magento_ProductVideo
+"Unknown video type","Ukendt video type",module,Magento_ProductVideo
+"Invalid video url","Ugyldig video url",module,Magento_ProductVideo
+"Youtube API key is invalid","YouTube API-nøgle er ugyldig",module,Magento_ProductVideo
+"Edit Video","Rediger Video",module,Magento_ProductVideo
+"Images and Videos","Billeder og videoer",module,Magento_ProductVideo
 "Show Toolbar","Vis værktøjslinje",module,Magento_AdminNotification
 "Show List","Vis liste",module,Magento_AdminNotification
 "Use HTTPS to Get Feed","Brug HTTPS for at hente et feed",module,Magento_AdminNotification
@@ -1036,6 +1066,8 @@ Enable,Aktiver,module,Magento_GoogleAnalytics
 "Account Number",Kontonummer,module,Magento_GoogleAnalytics
 Summary,Resumé,module,Magento_ImportExport
 General,Generelt,module,Magento_NewRelicReporting
+"Product Video","Produkt Video",module,Magento_ProductVideo
+"YouTube API Key","YouTube API-nøgle",module,Magento_ProductVideo
 Scope,Virkefelt,module,Magento_Search
 "Translation Strategy",Oversættelsesstrategi,module,Magento_Translation
 Translations,Oversættelser,module,Magento_Translation
