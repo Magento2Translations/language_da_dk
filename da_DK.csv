@@ -615,13 +615,56 @@ Remove,Fjern,module,Magento_Rule
 "Add New Rule","Tilføj ny regel",module,Magento_SalesRule
 "Edit Rule '%1'","Rediger Regel '%1'",module,Magento_SalesRule
 Delete,Slet,module,Magento_SalesRule
+"Credit Memos",Kreditnotaer,module,Magento_Sales
 Orders,Ordrer,module,Magento_Sales
 Invoices,Fakturaer,module,Magento_Sales
 "Create New Order","Opret ny ordre",module,Magento_Sales
+"Save Order Address","Gem ordre adresse",module,Magento_Sales
+Billing,Fakturering,module,Magento_Sales
+Cancel,Annuller,module,Magento_Sales
+"Payment Method",Betalingsmetode,module,Magento_Sales
 "Account Information","Konto Information",module,Magento_Sales
+From,Fra,module,Magento_Sales
+To,Til,module,Magento_Sales
+"Items Ordered","Varer bestilt",module,Magento_Sales
+"Item ordered qty","Antal varer bestilt",module,Magento_Sales
+Product,Produkt,module,Magento_Sales
+Price,Pris,module,Magento_Sales
+Select,Vælg,module,Magento_Sales
+Quantity,Antal,module,Magento_Sales
+"Shipping Method",Forsendelsesmetode,module,Magento_Sales
 "Shopping Cart",Indkøbskurv,module,Magento_Sales
 "Clear Shopping Cart","Ryd indkøbskurv",module,Magento_Sales
+"Wish List",Ønskeliste,module,Magento_Sales
+"Order Totals",Ordretotaler,module,Magento_Sales
+"Shipping Incl. Tax (%1)","Forsendelse inkl. moms (%1)",module,Magento_Sales
+"Shipping Excl. Tax (%1)","Forsendelse ekskl. moms (%1)",module,Magento_Sales
+"Refund Shipping (Incl. Tax)","Refundering af forsendelse (inkl. moms)",module,Magento_Sales
+"Refund Shipping (Excl. Tax)","Refundering af forsendelse (ekskl. moms)",module,Magento_Sales
+Refund,Refundering,module,Magento_Sales
+"Order Grand Total",Ordretotal,module,Magento_Sales
+"Grand Total to be Charged",Faktureringstotal,module,Magento_Sales
+Refunded,Refunderet,module,Magento_Sales
+Qty,Antal,module,Magento_Sales
+"Excl. Tax","Ekskl. moms",module,Magento_Sales
+"Incl. Tax","Inkl. moms",module,Magento_Sales
 Remove,Fjern,module,Magento_Sales
+"No items","Ingen varer",module,Magento_Sales
+"Grand Total Excl. Tax","Total ekskl. moms",module,Magento_Sales
+"Grand Total Incl. Tax","Total inkl. moms",module,Magento_Sales
+"Subtotal (Excl. Tax)","Subtotal (Ekskl. moms)",module,Magento_Sales
+"Subtotal (Incl. Tax)","Subtotal (inkl. moms)",module,Magento_Sales
+"Qty to Refund","Antal som refunderes",module,Magento_Sales
+"Tax Amount",Momsbeløb,module,Magento_Sales
+"No Items","Ingen varer",module,Magento_Sales
+"Shipping &amp; Handling","Forsendelse &amp; håndtering",module,Magento_Sales
+"Qty to Invoice","Antal som faktureres",module,Magento_Sales
+"Items Invoiced","Varer faktureret",module,Magento_Sales
+"Total Tax",Momstotal,module,Magento_Sales
+"Original Price","Oprindelig pris",module,Magento_Sales
+"Tax Percent",Momsprocent,module,Magento_Sales
+"Qty Invoiced","Antal faktureret",module,Magento_Sales
+"Qty Shipped","Antal afsendt",module,Magento_Sales
 "Some emails were not sent.","Nogle emails blev ikke afsendt.",module,Magento_SendFriend
 "contact us","kontakt os",module,Magento_Shipping
 "Edit Sitemap","Rediger Sitemap",module,Magento_Sitemap
@@ -757,6 +800,8 @@ Forms,Formularer,module,Magento_Captcha
 Enable,Aktiver,module,Magento_GoogleAnalytics
 "Account Number",Kontonummer,module,Magento_GoogleAnalytics
 "Product Video","Produkt Video",module,Magento_ProductVideo
+"Include Tax to Amount","Inkluderer moms i beløb",module,Magento_Sales
+"Grand Total (Base)","Total (Grundlag)",module,Magento_Sales
 "Translation Strategy",Oversættelsesstrategi,module,Magento_Translation
 Translations,Oversættelser,module,Magento_Translation
 Summary,Resumé,theme,frontend/Magento/blank
