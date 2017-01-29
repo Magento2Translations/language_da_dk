@@ -811,13 +811,61 @@ Remove,Fjern,module,Magento_Rule
 Delete,Slet,module,Magento_SalesRule
 Reset,Nulstil,module,Magento_SalesRule
 "Not enough arguments","Ikke nok argumenter",module,Magento_SalesSequence
+"Credit Memos",Kreditnotaer,module,Magento_Sales
 Orders,Ordrer,module,Magento_Sales
 Invoices,Fakturaer,module,Magento_Sales
 "Create New Order","Opret ny ordre",module,Magento_Sales
+"Save Order Address","Gem ordre adresse",module,Magento_Sales
+Shipping,Forsendelse,module,Magento_Sales
+Billing,Fakturering,module,Magento_Sales
+Cancel,Annuller,module,Magento_Sales
+"Payment Method",Betalingsmetode,module,Magento_Sales
 "Account Information","Konto Information",module,Magento_Sales
+From,Fra,module,Magento_Sales
+To,Til,module,Magento_Sales
+"Items Ordered","Varer bestilt",module,Magento_Sales
+"Item ordered qty","Antal varer bestilt",module,Magento_Sales
+Product,Produkt,module,Magento_Sales
+Price,Pris,module,Magento_Sales
+Select,Vælg,module,Magento_Sales
+Quantity,Antal,module,Magento_Sales
+"Shipping Method",Forsendelsesmetode,module,Magento_Sales
 "Shopping Cart",Indkøbskurv,module,Magento_Sales
 "Clear Shopping Cart","Ryd indkøbskurv",module,Magento_Sales
+"Wish List",Ønskeliste,module,Magento_Sales
+"Please select a store","Vælg en butik",module,Magento_Sales
+"Order Totals",Ordretotaler,module,Magento_Sales
+"Shipping Incl. Tax (%1)","Forsendelse inkl. moms (%1)",module,Magento_Sales
+"Shipping Excl. Tax (%1)","Forsendelse ekskl. moms (%1)",module,Magento_Sales
+"Refund Shipping (Incl. Tax)","Refundering af forsendelse (inkl. moms)",module,Magento_Sales
+"Refund Shipping (Excl. Tax)","Refundering af forsendelse (ekskl. moms)",module,Magento_Sales
+Refund,Refundering,module,Magento_Sales
+"Order Grand Total",Ordretotal,module,Magento_Sales
+"Shipping & Handling","Forsendelse & håndtering",module,Magento_Sales
+"Grand Total",Ordretotal,module,Magento_Sales
+"Grand Total to be Charged",Faktureringstotal,module,Magento_Sales
+Refunded,Refunderet,module,Magento_Sales
+Qty,Antal,module,Magento_Sales
+Tax,Moms,module,Magento_Sales
+"Excl. Tax","Ekskl. moms",module,Magento_Sales
+"Incl. Tax","Inkl. moms",module,Magento_Sales
 Remove,Fjern,module,Magento_Sales
+"Update Items and Quantities","Opdater varer og antal",module,Magento_Sales
+"No items","Ingen varer",module,Magento_Sales
+"Grand Total Excl. Tax","Total ekskl. moms",module,Magento_Sales
+"Grand Total Incl. Tax","Total inkl. moms",module,Magento_Sales
+"Subtotal (Excl. Tax)","Subtotal (Ekskl. moms)",module,Magento_Sales
+"Subtotal (Incl. Tax)","Subtotal (inkl. moms)",module,Magento_Sales
+"Qty to Refund","Antal som refunderes",module,Magento_Sales
+"Tax Amount",Momsbeløb,module,Magento_Sales
+"No Items","Ingen varer",module,Magento_Sales
+"Shipping &amp; Handling","Forsendelse &amp; håndtering",module,Magento_Sales
+"Qty to Invoice","Antal som faktureres",module,Magento_Sales
+"Items Invoiced","Varer faktureret",module,Magento_Sales
+"Total Tax",Momstotal,module,Magento_Sales
+Items,Varer,module,Magento_Sales
+"Qty Invoiced","Antal faktureret",module,Magento_Sales
+"Qty Shipped","Antal afsendt",module,Magento_Sales
 "Search Term",Søgeord,module,Magento_Search
 Results,Resultater,module,Magento_Search
 Uses,Anvendelser,module,Magento_Search
@@ -890,6 +938,8 @@ Remove,Fjern,module,Magento_Checkout
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","For at logge på vores webshop, skal du bruge disse oplysninger i checkout forløbet eller på <a href=""%customer_url"">login siden</a>:",module,Magento_Customer
 Email:,E-mail:,module,Magento_Customer
 Password:,Kodeord:,module,Magento_Customer
+"Billing Info",Kundeinformation,module,Magento_Sales
+"Shipping Info",Forsendelsesinformation,module,Magento_Sales
 "Welcome to %store_name","Velkommen til %store_name",theme,frontend/Magento/luma
 "Welcome to %store_name.","Velkommen til %store_name.",theme,frontend/Magento/luma
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","For at logge på vores webshop, skal du bruge disse oplysninger i checkout forløbet eller på <a href=""%customer_url"">login siden </a>:",theme,frontend/Magento/luma
@@ -1068,6 +1118,11 @@ Summary,Resumé,module,Magento_ImportExport
 General,Generelt,module,Magento_NewRelicReporting
 "Product Video","Produkt Video",module,Magento_ProductVideo
 "YouTube API Key","YouTube API-nøgle",module,Magento_ProductVideo
+"Include Tax to Amount","Inkluderer moms i beløb",module,Magento_Sales
+"Original Price","Oprindelig pris",module,Magento_Sales
+"Tax Percent",Momsprocent,module,Magento_Sales
+"Grand Total (Base)","Total (Grundlag)",module,Magento_Sales
+"Shipping and Handling","Forsendelse og håndtering",module,Magento_Sales
 Scope,Virkefelt,module,Magento_Search
 "Translation Strategy",Oversættelsesstrategi,module,Magento_Translation
 Translations,Oversættelser,module,Magento_Translation
