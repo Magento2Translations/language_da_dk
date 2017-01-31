@@ -68,6 +68,7 @@ refund,"betal tilbage",module,Magento_Authorizenet
 "Credit Card Number",Kreditkortnummer,module,Magento_Authorizenet
 "Expiration Date",Udløbsdato,module,Magento_Authorizenet
 "Card Verification Number","Kortnummer verifikation",module,Magento_Authorizenet
+"Invalid Form Key. Please refresh the page.","Ugyldig form nøgle. Opdater venligst siden.",module,Magento_Backend
 "Cache Storage Management","Cache lager styring",module,Magento_Backend
 "Flush Magento Cache","Rens Magento Cache",module,Magento_Backend
 "The cache storage may contain additional data. Are you sure that you want to flush it?","Cache lager kan indeholde supplerende data. Er du sikker på at du vil slette det?",module,Magento_Backend
@@ -380,7 +381,26 @@ Always,Altid,module,Magento_Captcha
 "File directory '%1' is not readable.","Filmappen '%1' kan ikke læses.",module,Magento_CatalogImportExport
 "ALL GROUPS","ALLE GRUPPER",module,Magento_CatalogInventory
 "Customer Group",Kundegruppe,module,Magento_CatalogInventory
+"Minimum Qty","Minimum antal",module,Magento_CatalogInventory
+"Add Minimum Qty","Tilføj minimum antal",module,Magento_CatalogInventory
 "We can't rebuild the index for an undefined product.","Vi kan ikke genopbygge indekset for et udefineret produkt.",module,Magento_CatalogInventory
+"Could not rebuild index for empty products array","Kunne ikke genopbygge indekset af tomme produkter",module,Magento_CatalogInventory
+"This product is out of stock.","Denne vare er udsolgt.",module,Magento_CatalogInventory
+"Some of the products are out of stock.","Nogle af produkterne er ikke på lager.",module,Magento_CatalogInventory
+"Undefined product type","Udefineret produkttype",module,Magento_CatalogInventory
+"%1 is not a correct comparison method.","%1 er ikke en korrekt sammenligningsmetode.",module,Magento_CatalogInventory
+"No Backorders","Ingen restordrer",module,Magento_CatalogInventory
+"Allow Qty Below 0","Tillad antal under 0",module,Magento_CatalogInventory
+"In Stock","På lager",module,Magento_CatalogInventory
+"Out of Stock",Udsolgt,module,Magento_CatalogInventory
+"Stock Status",Lagerstatus,module,Magento_CatalogInventory
+Quantity,Antal,module,Magento_CatalogInventory
+"Advanced Inventory","Avanceret lager",module,Magento_CatalogInventory
+"%1 is available to buy in increments of %2","%1 er tilgængelig til at købe i intervaller af %2",module,Magento_CatalogInventory
+"Only %1 left","Kun %1 tilbage",module,Magento_CatalogInventory
+"Product availability",Produkttilgængelighed,module,Magento_CatalogInventory
+"Product Name",Produktnavn,module,Magento_CatalogInventory
+Qty,Antal,module,Magento_CatalogInventory
 "Delete Rule","Slet reglen",module,Magento_CatalogRule
 "Are you sure you want to do this?","Er du sikker på at du vil gøre dette?",module,Magento_CatalogRule
 Reset,Nulstil,module,Magento_CatalogRule
@@ -661,11 +681,67 @@ Search,Søg,module,Magento_Catalog
 "Add New Condition","Tilføj ny betingelse",module,Magento_CheckoutAgreements
 "Edit Terms and Conditions","Rediger Vilkår og betingelser",module,Magento_CheckoutAgreements
 "Shopping Cart",Indkøbskurv,module,Magento_Checkout
+"Invalid method: %1","Ugyldig metode: %1",module,Magento_Checkout
 City,By,module,Magento_Checkout
 Country,Land,module,Magento_Checkout
+State/Province,Stat/provins,module,Magento_Checkout
 "Zip/Postal Code",Postnummer,module,Magento_Checkout
+"My Cart (1 item)","Min Indkøbskurv (1 vare)",module,Magento_Checkout
+"My Cart (%1 items)","Min Indkøbskurv (%1 varer)",module,Magento_Checkout
+"My Cart","Min indkøbskurv",module,Magento_Checkout
+"For delivery questions.","For levering spørgsmål.",module,Magento_Checkout
+"Customer is already registered","Kunden er allerede registreret",module,Magento_Checkout
+"Your session has expired","Din session er udløbet",module,Magento_Checkout
+"You added %1 to your shopping cart.","Du har tilføjet %1 til din indkøbskurv.",module,Magento_Checkout
+"Out of stock",Udsolgt,module,Magento_Checkout
+"You used coupon code ""%1"".","Du brugte kuponkode ""%1"".",module,Magento_Checkout
+"The coupon code ""%1"" is not valid.","Kuponkoden ""%1"" er ikke gyldig.",module,Magento_Checkout
+"You canceled the coupon code.","Du annullerede kuponkoden.",module,Magento_Checkout
+"We cannot apply the coupon code.","Kuponkoden er ikke gyldig.",module,Magento_Checkout
+"%1 was updated in your shopping cart.","%1 er tilføjet til din indkøbskurv.",module,Magento_Checkout
+Checkout,"Til kassen",module,Magento_Checkout
+"Page not found.","Siden blev ikke fundet.",module,Magento_Checkout
+"Something went wrong while processing your order. Please try again later.","Noget gik galt under behandling af din ordre. Prøv igen senere.",module,Magento_Checkout
+"The product does not exist.","Produktet findes ikke.",module,Magento_Checkout
+"Quantity was recalculated from %1 to %2","Antal ændret fra %1 til %2",module,Magento_Checkout
+"Display number of items in cart","Vis antallet af varer i indkøbskurven",module,Magento_Checkout
+"Display item quantities","Få vist vare antal",module,Magento_Checkout
+"Shipping address is not set","Leveringsadresse er ikke angivet",module,Magento_Checkout
+"Invalid data","Ugyldige data",module,Magento_Checkout
+"The customer address is not valid.","Kundeadressen er ikke gyldig.",module,Magento_Checkout
+"Error message!",Fejlmeddelelse!,module,Magento_Checkout
+Error!,Fejl!,module,Magento_Checkout
+"Wrong minimum amount.","Forkert minimumsbeløb.",module,Magento_Checkout
+Message,Besked,module,Magento_Checkout
+"Apply Discount Code","Anvend rabatkode",module,Magento_Checkout
+"Enter discount code","Indtast rabatkode",module,Magento_Checkout
+"Apply Discount","Anvend rabat",module,Magento_Checkout
+"Cancel Coupon","Annuller kupon",module,Magento_Checkout
+"Shopping Cart Items","Indhold af indkøbskurv",module,Magento_Checkout
+Item,Vare,module,Magento_Checkout
+Price,Pris,module,Magento_Checkout
+Qty,Antal,module,Magento_Checkout
+"Continue Shopping","Fortsæt med at handle",module,Magento_Checkout
 "Clear Shopping Cart","Ryd indkøbskurv",module,Magento_Checkout
 "Update Shopping Cart","Opdatere indkøbskurv",module,Magento_Checkout
+"Update Cart","Opdater kurv",module,Magento_Checkout
+"See price before order confirmation.","Se prisen før ordrebekræftelse.",module,Magento_Checkout
+"What's this?","Hvad er dette?",module,Magento_Checkout
+"Edit item parameters","Rediger vare parametre",module,Magento_Checkout
+Edit,Rediger,module,Magento_Checkout
+"Remove item","Fjern vare",module,Magento_Checkout
+"You have no items in your shopping cart.","Du har ingen varer i din indkøbskurv.",module,Magento_Checkout
+"Click <a href=""%1"">here</a> to continue shopping.","Klik <a href=""%1""> her</a> for at fortsætte med shopping.",module,Magento_Checkout
+"Estimate Tax","Udregnet moms",module,Magento_Checkout
+"Estimate Shipping and Tax","Udregnet forsendelse og moms",module,Magento_Checkout
+"Excl. Tax","Ekskl. moms",module,Magento_Checkout
+Loading...,Indlæser...,module,Magento_Checkout
+"Order #","Ordre #",module,Magento_Checkout
+"Proceed to Checkout","Gå til kassen",module,Magento_Checkout
+"Product Name",Produktnavn,module,Magento_Checkout
+"Incl. Tax","Inkl. moms",module,Magento_Checkout
+"Your order number is: %1.","Dit ordrenummer er: %1.",module,Magento_Checkout
+"Your order # is: <span>%1</span>.","Din ordre # er: <span>%1</span>.",module,Magento_Checkout
 "Static Blocks","Statiske blokke",module,Magento_Cms
 "Add New Block","Tilføj ny blok",module,Magento_Cms
 Back,Tilbage,module,Magento_Cms
@@ -933,7 +1009,54 @@ Remove,Fjern,theme,frontend/Magento/luma
 "Save for later use.","Gem til senere brug.",module,Magento_Braintree
 "Place Order","Afgiv ordre",module,Magento_Braintree
 "Attention: Captcha is case sensitive.","Vigtigt: Ved indtastning af Captcha, der er forskel på store og små bogstaver.",module,Magento_Captcha
+"Payment Transaction Failed Reminder","Transaktionen mislykkedes påmindelse",module,Magento_Checkout
+"Payment Transaction Failed","Transaktionen mislykkedes",module,Magento_Checkout
+Reason,Årsag,module,Magento_Checkout
+Customer:,Kunde:,module,Magento_Checkout
+Items,Varer,module,Magento_Checkout
+Total:,"I alt:",module,Magento_Checkout
+"Billing Address:",Faktureringsadresse:,module,Magento_Checkout
+"Shipping Address:",Leveringsadresse:,module,Magento_Checkout
+"Shipping Method:",Leveringsmetode:,module,Magento_Checkout
+"Payment Method:",Betalingsmetode:,module,Magento_Checkout
+"Date & Time:","Dato & tid:",module,Magento_Checkout
+"Sign In","Log ind",module,Magento_Checkout
+"Email Address","E-mail adresse",module,Magento_Checkout
+Password,Adgangskode,module,Magento_Checkout
+"Forgot Your Password?","Glemt din adgangskode?",module,Magento_Checkout
+"My billing and shipping address are the same","Min fakturerings- og leveringsadresse er den samme",module,Magento_Checkout
+Update,Opdater,module,Magento_Checkout
+Cancel,Annuller,module,Magento_Checkout
+"Save in address book","Gem i adressekartoteket",module,Magento_Checkout
+"Estimated Total","Anslåede total",module,Magento_Checkout
+"You already have an account with us. Sign in or continue as guest.","Du har allerede en konto hos os. Log ind eller fortsæt som gæst.",module,Magento_Checkout
+Login,"Log ind",module,Magento_Checkout
+Close,Luk,module,Magento_Checkout
+item,vare,module,Magento_Checkout
+items,varer,module,Magento_Checkout
+"Go to Checkout","Gå til kassen",module,Magento_Checkout
+"Recently added item(s)","For nylig tilføjet vare(r)",module,Magento_Checkout
+"View and edit cart","Se og rediger kurv",module,Magento_Checkout
+"See Details","Se detaljer",module,Magento_Checkout
 Remove,Fjern,module,Magento_Checkout
+"Cart Subtotal","Kurv Subtotal",module,Magento_Checkout
+"No Payment Methods","Ingen betalingsmetoder",module,Magento_Checkout
+"Payment Information",Betalingsoplysninger,module,Magento_Checkout
+"No Payment method available.","Ingen tilgængelige betalingsmetoder.",module,Magento_Checkout
+"Place Order","Afgiv ordre",module,Magento_Checkout
+"Forgot an Item?","Glemte du en vare?",module,Magento_Checkout
+"Edit Your Cart","Rediger din indkøbskurv",module,Magento_Checkout
+"Ship To:","Leveres til:",module,Magento_Checkout
+edit,Rediger,module,Magento_Checkout
+"Shipping Address",Leveringsadresse,module,Magento_Checkout
+"New Address","Ny adresse",module,Magento_Checkout
+"Shipping Methods",Leveringsmetoder,module,Magento_Checkout
+"Select Method","Vælg metode",module,Magento_Checkout
+Next,Næste,module,Magento_Checkout
+"Order Summary",Ordreoversigt,module,Magento_Checkout
+"Item in Cart","Vare i indkøbskurv",module,Magento_Checkout
+"Items in Cart","Varer i indkøbskurv",module,Magento_Checkout
+"View Details","Vis detaljer",module,Magento_Checkout
 "Welcome to %store_name.","Velkommen til %store_name.",module,Magento_Customer
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","For at logge på vores webshop, skal du bruge disse oplysninger i checkout forløbet eller på <a href=""%customer_url"">login siden</a>:",module,Magento_Customer
 Email:,E-mail:,module,Magento_Customer
@@ -981,6 +1104,10 @@ Footer,Sidefod,theme,frontend/Magento/luma
 "Your %store_name order has shipped","Din %store_name bestilling er blevet afsendt",theme,frontend/Magento/luma
 "Update to your %store_name shipment","Opdaterer til din %store_name forsendelse",theme,frontend/Magento/luma
 "This payment is not available","Denne betaling er ikke tilgængelig",module,Magento_Braintree
+"Provided Zip/Postal Code seems to be invalid.","Postnummer er ugyldigt.",module,Magento_Checkout
+"Review & Payments","Gennemse & betalinger",module,Magento_Checkout
+Shipping,Levering,module,Magento_Checkout
+"Save Address","Gem adresse",module,Magento_Checkout
 "Video Error",Videofejl,module,Magento_ProductVideo
 "Unknown video type","Ukendt video type",module,Magento_ProductVideo
 "Invalid video url","Ugyldig video url",module,Magento_ProductVideo
@@ -1107,6 +1234,24 @@ Forms,Formularer,module,Magento_Captcha
 "Case Sensitive","Store og små bogstaver",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Aktiver CAPTCHA på butiks forside",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA for ""Opret bruger"" og ""Glemt kodeord"" formularer er altid aktiveret, hvis valgt.",module,Magento_Captcha
+"Inventory Section","Lager afsnit",module,Magento_CatalogInventory
+Inventory,Lager,module,Magento_CatalogInventory
+"Stock Options",Lageroptioner,module,Magento_CatalogInventory
+"Display Cart Summary","Se indkøbskurv",module,Magento_Checkout
+"Payment Failed Emails","Betaling mislykkedes e-mails",module,Magento_Checkout
+"Payment Failed Email Sender","Betaling mislykkedes e-mail afsender",module,Magento_Checkout
+"Payment Failed Email Receiver","Betaling mislykkedes e-mail-modtager",module,Magento_Checkout
+"Payment Failed Template","Betaling mislykkedes skabelon",module,Magento_Checkout
+"Send Payment Failed Email Copy To","Send betaling mislykkedes e-mail kopi til",module,Magento_Checkout
+"Separate by "","".","Adskilt af "","".",module,Magento_Checkout
+"Send Payment Failed Email Copy Method","Send betaling mislykkedes e-mail kopieringsmetode",module,Magento_Checkout
+Summary,Oversigt,module,Magento_Checkout
+"Order Total",Ordretotal,module,Magento_Checkout
+"We'll send your order confirmation here.","Vi fremsender din ordrebekræftelse her.",module,Magento_Checkout
+Payment,Betaling,module,Magento_Checkout
+"Not yet calculated","Endnu ikke beregnet",module,Magento_Checkout
+"We received your order!","Vi har modtaget din bestilling!",module,Magento_Checkout
+"Thank you for your purchase!","Tak for dit køb!",module,Magento_Checkout
 Scope,Virkefelt,module,Magento_ConfigurableProduct
 "Contact Us","Kontakt os",module,Magento_Contact
 "Enable Contact Us","Aktiver kontakt os",module,Magento_Contact
