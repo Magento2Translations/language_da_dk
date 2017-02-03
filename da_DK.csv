@@ -700,23 +700,30 @@ State/Province,Stat/provins,module,Magento_Checkout
 "My Cart (1 item)","Min Indkøbskurv (1 vare)",module,Magento_Checkout
 "My Cart (%1 items)","Min Indkøbskurv (%1 varer)",module,Magento_Checkout
 "My Cart","Min indkøbskurv",module,Magento_Checkout
+"Minimum order amount is %1","Minimum ordre mængde er %1",module,Magento_Checkout
 "Customer is already registered","Kunden er allerede registreret",module,Magento_Checkout
 "Your session has expired","Din session er udløbet",module,Magento_Checkout
 "You added %1 to your shopping cart.","Du har tilføjet %1 til din indkøbskurv.",module,Magento_Checkout
+"We can't add this item to your shopping cart right now.","Vi kan ikke føje denne vare til din indkøbskurv lige nu.",module,Magento_Checkout
 "Out of stock",Udsolgt,module,Magento_Checkout
 "You used coupon code ""%1"".","Du brugte kuponkode ""%1"".",module,Magento_Checkout
 "The coupon code ""%1"" is not valid.","Kuponkoden ""%1"" er ikke gyldig.",module,Magento_Checkout
 "You canceled the coupon code.","Du annullerede kuponkoden.",module,Magento_Checkout
 "We cannot apply the coupon code.","Kuponkoden er ikke gyldig.",module,Magento_Checkout
+"We can't remove the item.","Vi kan ikke fjerne varen.",module,Magento_Checkout
 "%1 was updated in your shopping cart.","%1 er tilføjet til din indkøbskurv.",module,Magento_Checkout
+"We can't update the item right now.","Vi kan ikke opdatere varen lige nu.",module,Magento_Checkout
+"We can't update the shopping cart.","Vi kan ikke opdatere indkøbskurven.",module,Magento_Checkout
 Checkout,"Til kassen",module,Magento_Checkout
 "Page not found.","Siden blev ikke fundet.",module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","Noget gik galt under behandling af din ordre. Prøv igen senere.",module,Magento_Checkout
+"We can't find the product.","Vi kan ikke finde produktet.",module,Magento_Checkout
 "The product does not exist.","Produktet findes ikke.",module,Magento_Checkout
 "Quantity was recalculated from %1 to %2","Antal ændret fra %1 til %2",module,Magento_Checkout
 "Display number of items in cart","Vis antallet af varer i indkøbskurven",module,Magento_Checkout
 "Display item quantities","Få vist vare antal",module,Magento_Checkout
 "Shipping address is not set","Leveringsadresse er ikke angivet",module,Magento_Checkout
+"Unable to save address. Please, check input data.","Kan ikke gemme adressen. Tjek venligst dine data.",module,Magento_Checkout
 "Invalid data","Ugyldige data",module,Magento_Checkout
 "The customer address is not valid.","Kundeadressen er ikke gyldig.",module,Magento_Checkout
 "Error message!",Fejlmeddelelse!,module,Magento_Checkout
@@ -751,6 +758,7 @@ Loading...,Indlæser...,module,Magento_Checkout
 "Incl. Tax","Inkl. moms",module,Magento_Checkout
 "Your order number is: %1.","Dit ordrenummer er: %1.",module,Magento_Checkout
 "Your order # is: <span>%1</span>.","Din ordre # er: <span>%1</span>.",module,Magento_Checkout
+"We'll email you an order confirmation with details and tracking info.","Vi sender dig en ordrebekræftelse med detaljer og tracking information.",module,Magento_Checkout
 "Static Blocks","Statiske blokke",module,Magento_Cms
 "Add New Block","Tilføj ny blok",module,Magento_Cms
 "Delete Block","Slet blok",module,Magento_Cms
@@ -793,8 +801,35 @@ None,Ingen,module,Magento_Eav
 "Add New Template","Tilføj ny skabelon",module,Magento_Email
 Back,Tilbage,module,Magento_Email
 Reset,Nulstil,module,Magento_Email
+"Delete Template","Slet skabelon",module,Magento_Email
+"Convert to Plain Text","Konverter til almindelig tekst",module,Magento_Email
+"Return Html Version","Returner til HTML-version",module,Magento_Email
+"Preview Template","Preview skabelon",module,Magento_Email
+"Save Template","Gem skabelon",module,Magento_Email
+"Edit Email Template","Rediger e-mail skabelon",module,Magento_Email
+"New Email Template","Ny e-mail skabelon",module,Magento_Email
+"Template Name",Skabelonnavn,module,Magento_Email
+"Template Subject","Skabelon emne",module,Magento_Email
+"Insert Variable...","Indsæt variabel...",module,Magento_Email
+"Template Content","Skabelon indhold",module,Magento_Email
+"Template Styles",Skabelonstil,module,Magento_Email
+Preview,Eksempel,module,Magento_Email
+Unknown,Ukendt,module,Magento_Email
+"You deleted the email template.","Du har slettet e-mail-skabelonen.",module,Magento_Email
+"The email template is currently being used.","E-mail-skabelonen bruges i øjeblikket.",module,Magento_Email
 "We can't delete email template data right now. Please review log and try again.","Vi kan ikke slette e-mail skabelon data lige nu. Læs log, og prøv igen.",module,Magento_Email
 "We can't find an email template to delete.","Vi kan ikke finde en e-mail-skabelon til at slette.",module,Magento_Email
+"Edit Template","Rediger skabelon",module,Magento_Email
+"Store Name",Butiksnavn,module,Magento_Email
+"Store Phone Number","Butikkens telefonnummer",module,Magento_Email
+"Store Hours",Åbningstider,module,Magento_Email
+Country,Land,module,Magento_Email
+Region/State,Region/stat,module,Magento_Email
+"Zip/Postal Code",Postnummer,module,Magento_Email
+City,By,module,Magento_Email
+"Street Address 1","Gade/vejnavn 1",module,Magento_Email
+"Street Address 2","Gade/vejnavn 2",module,Magento_Email
+"Store Contact Information","Butikkens kontaktoplysninger",module,Magento_Email
 "Encryption Key",Krypteringsnøgle,module,Magento_EncryptionKey
 "New Encryption Key","Ny Krypteringsnøgle",module,Magento_EncryptionKey
 None,Ingen,module,Magento_Fedex
@@ -891,6 +926,7 @@ Items,Varer,module,Magento_Multishipping
 "Continue to Billing Information","Fortsæt til faktureringsoplysninger",module,Magento_Multishipping
 "Back to Select Addresses","Tilbage til vælg adresser",module,Magento_Multishipping
 "Thank you for your purchase!","Tak for dit køb!",module,Magento_Multishipping
+"Thanks for your order. We'll email you order details and tracking information.","Tak for din bestilling. Vi sender dig en ordrebekræftelse samt tracking information.",module,Magento_Multishipping
 "Continue Shopping","Fortsæt med at shoppe",module,Magento_Multishipping
 "Delete Selected Problems","Slet de valgte problemer",module,Magento_Newsletter
 Back,Tilbage,module,Magento_Newsletter
@@ -1118,9 +1154,13 @@ message,besked,module,Magento_Shipping
 "Shipping Information",Leveringsinformation,module,Magento_Shipping
 "Total Shipping Charges","Samlede leveringsomkostninger",module,Magento_Shipping
 "Incl. Tax","Inkl. moms",module,Magento_Shipping
+"Items to Ship","Antal varer til levering",module,Magento_Shipping
+"Qty to Ship","Antal til levering",module,Magento_Shipping
+Ship,Levering,module,Magento_Shipping
 "Shipment Total","Levering i alt",module,Magento_Shipping
 "Shipment Comments",Leveringskommentarer,module,Magento_Shipping
 "Comment Text",Kommentartekst,module,Magento_Shipping
+"Shipment Options",Leveringsmuligheder,module,Magento_Shipping
 "Create Shipping Label","Opret en pakkelabel",module,Magento_Shipping
 "Append Comments","Tilføj kommentarer",module,Magento_Shipping
 "Email Copy of Shipment","E-mail kopi af leverance",module,Magento_Shipping
@@ -1169,7 +1209,9 @@ Info:,Information:,module,Magento_Shipping
 "Service Type:","Service type:",module,Magento_Shipping
 Weight:,Vægt:,module,Magento_Shipping
 N/A,"Ikke tilgængelig",module,Magento_Shipping
+Location,Lokation,module,Magento_Shipping
 Date,Dato,module,Magento_Shipping
+"Local Time","Lokal tid",module,Magento_Shipping
 Description,Beskrivelse,module,Magento_Shipping
 "There is no tracking available for this shipment.","Der er ingen trackingnummer for denne leverance.",module,Magento_Shipping
 "There is no tracking available.","Der findes ingen tracking.",module,Magento_Shipping
@@ -1248,6 +1290,7 @@ Total:,"I alt:",module,Magento_Checkout
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","For at logge på vores webshop, skal du bruge disse oplysninger i checkout forløbet eller på <a href=""%customer_url"">login siden</a>:",module,Magento_Customer
 Email:,E-mail:,module,Magento_Customer
 Password:,Kodeord:,module,Magento_Customer
+"Thank you, %store_name","Tak, %store_name",module,Magento_Email
 "Billing Info",Kundeinformation,module,Magento_Sales
 "Shipping Info",Forsendelsesinformation,module,Magento_Sales
 "Welcome to %store_name.","Velkommen til %store_name.",theme,frontend/Magento/luma
@@ -1283,6 +1326,7 @@ Password:,Kodeord:,theme,frontend/Magento/luma
 "Add Selected Products","Tilføj udvalgte produkter",module,Magento_Bundle
 Cancel,Annuller,module,Magento_Catalog
 "Create Category","Opret kategori",module,Magento_Catalog
+"We can't complete your order because you don't have a payment method set up.","Vi kan ikke fuldføre bestillingen, fordi du ikke har en betalingsmetode, der er oprettet.",module,Magento_Multishipping
 "Please choose a payment method.","Vælg venligst betalingsmetode.",module,Magento_Multishipping
 "Video Error",Videofejl,module,Magento_ProductVideo
 "Unknown video type","Ukendt video type",module,Magento_ProductVideo
@@ -1415,8 +1459,14 @@ Scope,Virkefelt,module,Magento_ConfigurableProduct
 "Enable Contact Us","Aktiver kontakt os",module,Magento_Contact
 "Account Dashboard",Betjeningspanel,module,Magento_Customer
 Emails,E-mails,module,Magento_Email
+"Logo Image","Logo billede",module,Magento_Email
 "Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in width/height fields below.","Tilladte filtyper: jpg, jpeg, gif, png. For at optimere logo til høj opløsning skærme, uploade et billede, der er 3 x normal størrelse, og angiv derefter 1 x dimensioner i bredde/højde felterne nedenfor.",module,Magento_Email
 "Only necessary if image has been uploaded above. Enter number of pixels, without appending ""px"".","Kun nødvendig, hvis billedet er blevet uploadet ovenfor. Angiv antallet af pixel, uden at tilføje ""px"".",module,Magento_Email
+Added,Tilføjet,module,Magento_Email
+Updated,Opdateret,module,Magento_Email
+Subject,Emne,module,Magento_Email
+"Template Type",Skabelontype,module,Magento_Email
+Action,Handling,module,Magento_Email
 "Account ID",Konto-ID,module,Magento_Fedex
 Enable,Aktiver,module,Magento_GoogleAnalytics
 "Account Number",Kontonummer,module,Magento_GoogleAnalytics
@@ -1443,11 +1493,14 @@ Export,Eksport,module,Magento_OfflineShipping
 "Include Tax to Amount","Inkluderer moms i beløb",module,Magento_Sales
 "Grand Total (Base)","Total (Grundlag)",module,Magento_Sales
 "Shipping and Handling","Forsendelse og håndtering",module,Magento_Sales
+"Shipping Settings",Leveringsindstillinger,module,Magento_Shipping
 Origin,Oprindelse,module,Magento_Shipping
 Country,Land,module,Magento_Shipping
 Region/State,Region/stat,module,Magento_Shipping
 "ZIP/Postal Code",Postnummer,module,Magento_Shipping
+City,By,module,Magento_Shipping
 "Street Address",Gade/vej,module,Magento_Shipping
+"Street Address Line 2","Adresselinje 2",module,Magento_Shipping
 "Shipping Methods",Leveringsmetoder,module,Magento_Shipping
 "Order Total",Ordretotal,module,Magento_Tax
 "Your credit card will be charged for","Dit kreditkort vil blive opkrævet for",module,Magento_Tax
