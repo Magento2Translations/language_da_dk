@@ -535,6 +535,7 @@ State/Province,Stat/provins,module,Magento_Checkout
 "My Cart (1 item)","Min Indkøbskurv (1 vare)",module,Magento_Checkout
 "My Cart (%1 items)","Min Indkøbskurv (%1 varer)",module,Magento_Checkout
 "My Cart","Min indkøbskurv",module,Magento_Checkout
+"Minimum order amount is %1","Minimum ordre mængde er %1",module,Magento_Checkout
 "You added %1 to your shopping cart.","Du har tilføjet %1 til din indkøbskurv.",module,Magento_Checkout
 "The coupon code ""%1"" is not valid.","Kuponkoden ""%1"" er ikke gyldig.",module,Magento_Checkout
 "We cannot apply the coupon code.","Kuponkoden er ikke gyldig.",module,Magento_Checkout
@@ -594,6 +595,31 @@ None,Ingen,module,Magento_Eav
 "Add New Template","Tilføj ny skabelon",module,Magento_Email
 Back,Tilbage,module,Magento_Email
 Reset,Nulstil,module,Magento_Email
+"Delete Template","Slet skabelon",module,Magento_Email
+"Convert to Plain Text","Konverter til almindelig tekst",module,Magento_Email
+"Return Html Version","Returner til HTML-version",module,Magento_Email
+"Preview Template","Preview skabelon",module,Magento_Email
+"Save Template","Gem skabelon",module,Magento_Email
+"Edit Email Template","Rediger e-mail skabelon",module,Magento_Email
+"New Email Template","Ny e-mail skabelon",module,Magento_Email
+"Template Name",Skabelonnavn,module,Magento_Email
+"Template Subject","Skabelon emne",module,Magento_Email
+"Insert Variable...","Indsæt variabel...",module,Magento_Email
+"Template Content","Skabelon indhold",module,Magento_Email
+"Template Styles",Skabelonstil,module,Magento_Email
+Preview,Eksempel,module,Magento_Email
+Unknown,Ukendt,module,Magento_Email
+"The email template is currently being used.","E-mail-skabelonen bruges i øjeblikket.",module,Magento_Email
+"Edit Template","Rediger skabelon",module,Magento_Email
+"Store Name",Butiksnavn,module,Magento_Email
+"Store Phone Number","Butikkens telefonnummer",module,Magento_Email
+Country,Land,module,Magento_Email
+Region/State,Region/stat,module,Magento_Email
+"Zip/Postal Code",Postnummer,module,Magento_Email
+City,By,module,Magento_Email
+"Street Address 1","Gade/vejnavn 1",module,Magento_Email
+"Street Address 2","Gade/vejnavn 2",module,Magento_Email
+"Store Contact Information","Butikkens kontaktoplysninger",module,Magento_Email
 "Encryption Key",Krypteringsnøgle,module,Magento_EncryptionKey
 "New Encryption Key","Ny Krypteringsnøgle",module,Magento_EncryptionKey
 None,Ingen,module,Magento_Fedex
@@ -860,6 +886,9 @@ Percent,Procent,module,Magento_Shipping
 "Shipping Information",Leveringsinformation,module,Magento_Shipping
 "Total Shipping Charges","Samlede leveringsomkostninger",module,Magento_Shipping
 "Incl. Tax","Inkl. moms",module,Magento_Shipping
+"Items to Ship","Antal varer til levering",module,Magento_Shipping
+"Qty to Ship","Antal til levering",module,Magento_Shipping
+Ship,Levering,module,Magento_Shipping
 "Shipment Comments",Leveringskommentarer,module,Magento_Shipping
 "Create Shipping Label","Opret en pakkelabel",module,Magento_Shipping
 "Append Comments","Tilføj kommentarer",module,Magento_Shipping
@@ -905,7 +934,9 @@ Info:,Information:,module,Magento_Shipping
 "Service Type:","Service type:",module,Magento_Shipping
 Weight:,Vægt:,module,Magento_Shipping
 N/A,"Ikke tilgængelig",module,Magento_Shipping
+Location,Lokation,module,Magento_Shipping
 Date,Dato,module,Magento_Shipping
+"Local Time","Lokal tid",module,Magento_Shipping
 Description,Beskrivelse,module,Magento_Shipping
 "There is no tracking available for this shipment.","Der er ingen trackingnummer for denne leverance.",module,Magento_Shipping
 "There is no tracking available.","Der findes ingen tracking.",module,Magento_Shipping
@@ -1065,6 +1096,11 @@ Inventory,Lager,module,Magento_CatalogInventory
 "Thank you for your purchase!","Tak for dit køb!",module,Magento_Checkout
 "Contact Us","Kontakt os",module,Magento_Contact
 "Enable Contact Us","Aktiver kontakt os",module,Magento_Contact
+Added,Tilføjet,module,Magento_Email
+Updated,Opdateret,module,Magento_Email
+Subject,Emne,module,Magento_Email
+"Template Type",Skabelontype,module,Magento_Email
+Action,Handling,module,Magento_Email
 "Account ID",Konto-ID,module,Magento_Fedex
 Enable,Aktiver,module,Magento_GoogleAnalytics
 "Account Number",Kontonummer,module,Magento_GoogleAnalytics
@@ -1086,11 +1122,14 @@ Export,Eksport,module,Magento_OfflineShipping
 "Product Video","Produkt Video",module,Magento_ProductVideo
 "Include Tax to Amount","Inkluderer moms i beløb",module,Magento_Sales
 "Grand Total (Base)","Total (Grundlag)",module,Magento_Sales
+"Shipping Settings",Leveringsindstillinger,module,Magento_Shipping
 Origin,Oprindelse,module,Magento_Shipping
 Country,Land,module,Magento_Shipping
 Region/State,Region/stat,module,Magento_Shipping
 "ZIP/Postal Code",Postnummer,module,Magento_Shipping
+City,By,module,Magento_Shipping
 "Street Address",Gade/vej,module,Magento_Shipping
+"Street Address Line 2","Adresselinje 2",module,Magento_Shipping
 "Shipping Methods",Leveringsmetoder,module,Magento_Shipping
 "Translation Strategy",Oversættelsesstrategi,module,Magento_Translation
 Translations,Oversættelser,module,Magento_Translation
