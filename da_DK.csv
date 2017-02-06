@@ -293,7 +293,14 @@ To,Til,module,Magento_Bundle
 "Go back to product details","Tilbage til produktdetaljer",module,Magento_Bundle
 "Customize and Add to Cart","Tilpas og tilføj til indkøbskurv",module,Magento_Bundle
 "* Required Fields","* Påkrævede felter",module,Magento_Bundle
+"Out of stock",Udsolgt,module,Magento_Bundle
 Summary,Resumé,module,Magento_Bundle
+Availability:,Tilgængelighed:,module,Magento_Bundle
+"Customize %1","Tilpas %1",module,Magento_Bundle
+"No options of this product are available.","Der findes ingen indstillinger for dette produkt.",module,Magento_Bundle
+From:,Fra:,module,Magento_Bundle
+To:,Til:,module,Magento_Bundle
+Message:,Besked:,module,Magento_Bundle
 Always,Altid,module,Magento_Captcha
 "After number of attempts to login","Efter antal forsøg på at logge ind",module,Magento_Captcha
 "Incorrect CAPTCHA","Forkert CAPTCHA",module,Magento_Captcha
@@ -525,7 +532,28 @@ Search,Søg,module,Magento_Catalog
 "Clear All","Ryd alle",module,Magento_Catalog
 "Terms and Conditions","Vilkår og betingelser",module,Magento_CheckoutAgreements
 "Add New Condition","Tilføj ny betingelse",module,Magento_CheckoutAgreements
+"Save Condition","Gem tilstand",module,Magento_CheckoutAgreements
+"Delete Condition","Slet tilstand",module,Magento_CheckoutAgreements
 "Edit Terms and Conditions","Rediger Vilkår og betingelser",module,Magento_CheckoutAgreements
+"New Terms and Conditions","Nye betingelser og vilkår",module,Magento_CheckoutAgreements
+"Terms and Conditions Information","Information om vilkår og betingelser",module,Magento_CheckoutAgreements
+"Condition Name",Betingelsesnavn,module,Magento_CheckoutAgreements
+Enabled,Aktiveret,module,Magento_CheckoutAgreements
+Disabled,"Slået fra",module,Magento_CheckoutAgreements
+"Show Content as","Vis indhold som",module,Magento_CheckoutAgreements
+Text,Tekst,module,Magento_CheckoutAgreements
+Content,Indhold,module,Magento_CheckoutAgreements
+"Content Height (css)","Indhold højde (css)",module,Magento_CheckoutAgreements
+"Content Height","Indhold højde",module,Magento_CheckoutAgreements
+Condition,Tilstand,module,Magento_CheckoutAgreements
+Sales,Salg,module,Magento_CheckoutAgreements
+"Checkout Conditions","Checkout betingelser",module,Magento_CheckoutAgreements
+"Checkout Terms and Conditions","Checkout handelsbetingelser",module,Magento_CheckoutAgreements
+"This condition no longer exists.","Denne betingelse eksisterer ikke længere.",module,Magento_CheckoutAgreements
+"Something went wrong  while deleting this condition.","Noget gik galt under sletning af denne betingelse.",module,Magento_CheckoutAgreements
+"Edit Condition","Rediger betingelse",module,Magento_CheckoutAgreements
+"New Condition","Ny betingelse",module,Magento_CheckoutAgreements
+"Something went wrong while saving this condition.","Noget gik galt mens vi gemte denne betingelse.",module,Magento_CheckoutAgreements
 "Shopping Cart",Indkøbskurv,module,Magento_Checkout
 "Invalid method: %1","Ugyldig metode: %1",module,Magento_Checkout
 City,By,module,Magento_Checkout
@@ -537,16 +565,23 @@ State/Province,Stat/provins,module,Magento_Checkout
 "My Cart","Min indkøbskurv",module,Magento_Checkout
 "Minimum order amount is %1","Minimum ordre mængde er %1",module,Magento_Checkout
 "You added %1 to your shopping cart.","Du har tilføjet %1 til din indkøbskurv.",module,Magento_Checkout
+"We can't find the quote item.","Vi kan ikke finde produktet.",module,Magento_Checkout
+"We cannot configure the product.","Vi kan ikke konfigurere produktet.",module,Magento_Checkout
 "The coupon code ""%1"" is not valid.","Kuponkoden ""%1"" er ikke gyldig.",module,Magento_Checkout
 "We cannot apply the coupon code.","Kuponkoden er ikke gyldig.",module,Magento_Checkout
 "%1 was updated in your shopping cart.","%1 er tilføjet til din indkøbskurv.",module,Magento_Checkout
 Checkout,"Til kassen",module,Magento_Checkout
+"Please agree to all the terms and conditions before placing the order.","Acceptér venligst alle vilkår og betingelser før ordreafgivelsen.",module,Magento_Checkout
 "The product does not exist.","Produktet findes ikke.",module,Magento_Checkout
+"We don't have some of the products you want.","Vi har ikke nogle af de produkter, du ønsker.",module,Magento_Checkout
+"We don't have as many of some products as you want.","Vi har ikke som mange af nogle produkter, som du ønsker.",module,Magento_Checkout
 "Quantity was recalculated from %1 to %2","Antal ændret fra %1 til %2",module,Magento_Checkout
+"This quote item does not exist.","Det ønskede produkt findes ikke.",module,Magento_Checkout
 "Display number of items in cart","Vis antallet af varer i indkøbskurven",module,Magento_Checkout
 "Display item quantities","Få vist vare antal",module,Magento_Checkout
 "Invalid data","Ugyldige data",module,Magento_Checkout
 "The customer address is not valid.","Kundeadressen er ikke gyldig.",module,Magento_Checkout
+"Invalid shipping method","Ugyldig leveringsmetode",module,Magento_Checkout
 "Cancel Coupon","Annuller kupon",module,Magento_Checkout
 "Shopping Cart Items","Indhold af indkøbskurv",module,Magento_Checkout
 Item,Vare,module,Magento_Checkout
@@ -579,7 +614,10 @@ Confirm,Bekræft,module,Magento_ConfigurableProduct
 "* Required Fields","* Påkrævede felter",module,Magento_Contact
 "Save Currency Rates","Gem valutakurser",module,Magento_CurrencySymbol
 Reset,Nulstil,module,Magento_CurrencySymbol
+"You subscribe to our newsletter.","Du abonnerer nu på vores nyhedsbrev.",module,Magento_Customer
 "Address Book",Adressebog,module,Magento_Customer
+Newsletter,Nyhedsbrev,module,Magento_Customer
+"Subscribed to Newsletter","Tilmeldt nyhedsbrev",module,Magento_Customer
 "Customer Login","Kunde login",module,Magento_Customer
 "Account Information","Konto Information",module,Magento_Customer
 "My Account","Min Konto",module,Magento_Customer
@@ -714,13 +752,17 @@ Region/State,Region/stat,module,Magento_OfflineShipping
 "Weight (and above)","Vægt (og derover)",module,Magento_OfflineShipping
 "Order Subtotal (and above)","Ordre subtotal (og derover)",module,Magento_OfflineShipping
 "# of Items (and above)","# af varer (og derover)",module,Magento_OfflineShipping
+"Please correct Table Rate code type: %1.","Venligst ret valg af fragtmand: %1.",module,Magento_OfflineShipping
+"Please correct Table Rate code for type %1: %2.","Venligst ret valg af fragtmand for %1: %2.",module,Magento_OfflineShipping
 None,Ingen,module,Magento_OfflineShipping
 "Per Order","Per ordre",module,Magento_OfflineShipping
 "Per Item","Per vare",module,Magento_OfflineShipping
+"Something went wrong while importing table rates.","Noget gik galt under import af fragtmuligheder.",module,Magento_OfflineShipping
 "Please correct Country ""%1"" in the Row #%2.","Ret venligst land ""%1"" i rækken #%2.",module,Magento_OfflineShipping
 "Please correct Region/State ""%1"" in the Row #%2.","Ret venligst Region/stat ""%1"" i rækken #%2.",module,Magento_OfflineShipping
 "Please correct %1 ""%2"" in the Row #%3.","Ret venligst %1 ""%2"" i rækken #%3.",module,Magento_OfflineShipping
 "Please correct Shipping Price ""%1"" in the Row #%2.","Ret venligst fragtpris ""%1"" i rækken #%2.",module,Magento_OfflineShipping
+"Duplicate Row #%1 (Country ""%2"", Region/State ""%3"", Zip ""%4"" and Value ""%5"")","Dupliker række #%1 (land ""%2"", Region/stat ""%3"", Zip ""%4"" og værdien ""%5"")",module,Magento_OfflineShipping
 "Free Shipping","Fri fragt",module,Magento_OfflineShipping
 No,Nej,module,Magento_OfflineShipping
 "For matching items only","Kun for tilsvarende varer",module,Magento_OfflineShipping
@@ -748,13 +790,40 @@ Close,Luk,module,Magento_Paypal
 "View Demo","Se Demo",module,Magento_Paypal
 "See terms","Se vilkårene",module,Magento_Paypal
 "You will be redirected to the PayPal website.","Du vil blive omdirigeret til PayPal webstedet.",module,Magento_Paypal
+"Incl. Tax","Inkl. moms",module,Magento_Paypal
+"Billing Information",Faktureringsoplysninger,module,Magento_Paypal
+"Shipping Information",Leveringsinformation,module,Magento_Paypal
 Custom,Brugerdefineret,module,Magento_Paypal
+"Payment Method:",Betalingsmetode:,module,Magento_Paypal
+"Order #","Ordre #",module,Magento_Paypal
+Date,Dato,module,Magento_Paypal
+"Ship To","Leveres til",module,Magento_Paypal
+"Order Status",Ordrestatus,module,Magento_Paypal
+"View Order","Vis ordre",module,Magento_Paypal
+"Payment Method",Betalingsmetode,module,Magento_Paypal
+View,Vis,module,Magento_Paypal
+"-- Please Select --",--Vælg--,module,Magento_Paypal
+Create...,Opret...,module,Magento_Paypal
+"Shipping Method",Leveringsmetode,module,Magento_Paypal
+"Please select a shipping method...","Vælg en leveringsmetode...",module,Magento_Paypal
+"Shipping Address",Leveringsadresse,module,Magento_Paypal
+Edit,Rediger,module,Magento_Paypal
+"Items in Your Shopping Cart","Varer i din indkøbskurv",module,Magento_Paypal
+"Edit Shopping Cart","Rediger indkøbskurv",module,Magento_Paypal
+"Place Order","Afgiv ordre",module,Magento_Paypal
+"Submitting order information...","Indsender ordreoplysninger...",module,Magento_Paypal
+Price,Pris,module,Magento_Paypal
 "Your shopping cart has been updated with new prices.","Din indkøbsvogn er blevet opdateret med nye priser.",module,Magento_Persistent
 "Welcome, %1!","Velkommen, %1!",module,Magento_Persistent
 "There are not enough parameters.","Der er ikke nok parametre.",module,Magento_ProductAlert
 Url,URL,module,Magento_ProductVideo
+"Shipping & Handling (%1)","Levering & håndtering (%1)",module,Magento_Quote
+"Shipping & Handling","Levering & håndtering",module,Magento_Quote
+Shipping,Levering,module,Magento_Quote
+Tax,Moms,module,Magento_Quote
 "New Accounts","Nye konti",module,Magento_Reports
 Filter,Filtrer,module,Magento_Reports
+Carrier/Method,Distributør/type,module,Magento_Reports
 "Save Review","Gem anmeldelse",module,Magento_Review
 "New Review","Ny anmeldelse",module,Magento_Review
 "Review Details","Gennemgå detaljer",module,Magento_Review
@@ -766,6 +835,7 @@ Remove,Fjern,module,Magento_Rule
 "Add New Rule","Tilføj ny regel",module,Magento_SalesRule
 "Edit Rule '%1'","Rediger Regel '%1'",module,Magento_SalesRule
 Delete,Slet,module,Magento_SalesRule
+"Shipping Method",Leveringsmetode,module,Magento_SalesRule
 "Credit Memos",Kreditnotaer,module,Magento_Sales
 Orders,Ordrer,module,Magento_Sales
 Invoices,Fakturaer,module,Magento_Sales
@@ -796,6 +866,9 @@ Refund,Refundering,module,Magento_Sales
 "Order Grand Total",Ordretotal,module,Magento_Sales
 "Grand Total to be Charged",Faktureringstotal,module,Magento_Sales
 Refunded,Refunderet,module,Magento_Sales
+"Payment Method:",Betalingsmetode:,module,Magento_Sales
+"Shipping Method:",Leveringsmetode:,module,Magento_Sales
+Title,Titel,module,Magento_Sales
 Qty,Antal,module,Magento_Sales
 "Excl. Tax","Ekskl. moms",module,Magento_Sales
 "Incl. Tax","Inkl. moms",module,Magento_Sales
@@ -817,6 +890,7 @@ Remove,Fjern,module,Magento_Sales
 "Qty Invoiced","Antal faktureret",module,Magento_Sales
 "Qty Shipped","Antal afsendt",module,Magento_Sales
 "Some emails were not sent.","Nogle emails blev ikke afsendt.",module,Magento_SendFriend
+"* Required Fields","* Påkrævede felter",module,Magento_SendFriend
 "New Shipment for Order #%1","Ny leverance for ordre #%1",module,Magento_Shipping
 "Submit Shipment","Indsend leverance",module,Magento_Shipping
 "Products should be added to package(s)","Produkter skal føjes til pakke(r)",module,Magento_Shipping
@@ -951,7 +1025,21 @@ All,Alle,module,Magento_Sitemap
 "Subtotal (Incl.Tax)","Subtotal (inkl. moms)",module,Magento_Tax
 "Shipping & Handling (Excl.Tax)","Levering & håndtering (ekskl.moms)",module,Magento_Tax
 "Shipping & Handling (Incl.Tax)","Levering & håndtering (inkl.moms)",module,Magento_Tax
+"Shipping Address",Leveringsadresse,module,Magento_Tax
+"Billing Address",Faktureringsadresse,module,Magento_Tax
+"Grand Total (Excl. Tax)","Total (ekskl. moms)",module,Magento_Tax
+"Grand Total (Incl. Tax)","Total (inkl. moms)",module,Magento_Tax
+"Shipping (Excl. Tax)","Levering (ekskl. moms)",module,Magento_Tax
+"Shipping (Incl. Tax)","Levering (inkl. moms)",module,Magento_Tax
+"Subtotal (Excl. Tax)","Subtotal (Ekskl. moms)",module,Magento_Tax
+"Subtotal (Incl. Tax)","Subtotal (inkl. moms)",module,Magento_Tax
+"Unit Price",Enhedspris,module,Magento_Tax
+"Before Discount","Før rabat",module,Magento_Tax
+"After Discount","Efter rabat",module,Magento_Tax
+"Excluding Tax","Uden moms",module,Magento_Tax
+"Including Tax","Inklusiv moms",module,Magento_Tax
 None,Ingen,module,Magento_Tax
+"Including and Excluding Tax","Inklusiv og eksklusiv moms",module,Magento_Tax
 "Incl. Tax","Inkl. moms",module,Magento_Tax
 "Excl. Tax","Ekskl. moms",module,Magento_Tax
 "Grand Total Excl. Tax","Total ekskl. moms",module,Magento_Tax
@@ -1081,6 +1169,12 @@ Forms,Formularer,module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA for ""Opret bruger"" og ""Glemt kodeord"" formularer er altid aktiveret, hvis valgt.",module,Magento_Captcha
 Inventory,Lager,module,Magento_CatalogInventory
 "Stock Options",Lageroptioner,module,Magento_CatalogInventory
+"Enable Terms and Conditions","Aktiver handelsbetingelser",module,Magento_CheckoutAgreements
+"Checkout Options","Checkout valg",module,Magento_Checkout
+"Enable Onepage Checkout","Aktiver one-page checkout",module,Magento_Checkout
+"Allow Guest Checkout","Tillad Checkout-gæst",module,Magento_Checkout
+"After Adding a Product Redirect to Shopping Cart","Efter tilføjelse af et produkt omdiriger til indkøbskurv",module,Magento_Checkout
+"My Cart Link","Min Indkøbskurv link",module,Magento_Checkout
 "Display Cart Summary","Se indkøbskurv",module,Magento_Checkout
 "Payment Failed Emails","Betaling mislykkedes e-mails",module,Magento_Checkout
 "Payment Failed Email Sender","Betaling mislykkedes e-mail afsender",module,Magento_Checkout
@@ -1107,6 +1201,11 @@ Enable,Aktiver,module,Magento_GoogleAnalytics
 Options,Valgmuligheder,module,Magento_Multishipping
 "Review Order","Gennemse ordre",module,Magento_Multishipping
 "Select Shipping Method","Vælg leveringsmetode",module,Magento_Multishipping
+Enabled,Aktiveret,module,Magento_OfflinePayments
+"New Order Status","Nye ordrestatus",module,Magento_OfflinePayments
+Title,Titel,module,Magento_OfflinePayments
+"Bank Transfer Payment","Betaling via bankoverførsel",module,Magento_OfflinePayments
+Instructions,Instruktioner,module,Magento_OfflinePayments
 Enabled,Aktiveret,module,Magento_OfflineShipping
 "Method Name",Metodenavn,module,Magento_OfflineShipping
 Price,Pris,module,Magento_OfflineShipping
@@ -1117,11 +1216,19 @@ Title,Titel,module,Magento_OfflineShipping
 "Ship to Applicable Countries","Send til gældende lande",module,Magento_OfflineShipping
 "Ship to Specific Countries","Send til bestemte lande",module,Magento_OfflineShipping
 "Show Method if Not Applicable","Vis metode, hvis ikke gældende",module,Magento_OfflineShipping
+"Table Rates",Fragtmand,module,Magento_OfflineShipping
+Condition,Tilstand,module,Magento_OfflineShipping
+"Include Virtual Products in Price Calculation","Omfat virtuelle produkter i prisberegningen",module,Magento_OfflineShipping
 Export,Eksport,module,Magento_OfflineShipping
+"Minimum Order Amount","Minimum ordre mængde",module,Magento_OfflineShipping
 "Payment Methods",Betalingsmetode,module,Magento_Payment
 "Product Video","Produkt Video",module,Magento_ProductVideo
 "Include Tax to Amount","Inkluderer moms i beløb",module,Magento_Sales
 "Grand Total (Base)","Total (Grundlag)",module,Magento_Sales
+"Email to a Friend","E-mail til en ven",module,Magento_SendFriend
+"Email Templates","Email skabeloner",module,Magento_SendFriend
+Enabled,Aktiveret,module,Magento_SendFriend
+"Select Email Template","Vælg E-mail-skabelon",module,Magento_SendFriend
 "Shipping Settings",Leveringsindstillinger,module,Magento_Shipping
 Origin,Oprindelse,module,Magento_Shipping
 Country,Land,module,Magento_Shipping
@@ -1131,6 +1238,7 @@ City,By,module,Magento_Shipping
 "Street Address",Gade/vej,module,Magento_Shipping
 "Street Address Line 2","Adresselinje 2",module,Magento_Shipping
 "Shipping Methods",Leveringsmetoder,module,Magento_Shipping
+State/Region,Stat/Region,module,Magento_Tax
 "Translation Strategy",Oversættelsesstrategi,module,Magento_Translation
 Translations,Oversættelser,module,Magento_Translation
 Summary,Resumé,theme,frontend/Magento/blank
