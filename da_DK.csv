@@ -825,6 +825,7 @@ Name,Navn,module,Magento_ConfigurableProduct
 "Write Us","Kontakt Os",module,Magento_Contact
 "Invalid domain name: %1","Ugyldigt domænenavn: %1",module,Magento_Cookie
 "<a href=""%1"">Learn more</a>.","<a href=""%1"">Få mere at vide</a>.",module,Magento_Cookie
+"Allow Cookies","Tillad cookies",module,Magento_Cookie
 "Save Currency Rates","Gem valutakurser",module,Magento_CurrencySymbol
 Options,Valgmuligheder,module,Magento_CurrencySymbol
 Reset,Nulstil,module,Magento_CurrencySymbol
