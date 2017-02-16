@@ -829,6 +829,8 @@ Confirm,Bekræft,module,Magento_ConfigurableProduct
 "* Required Fields","* Påkrævede felter",module,Magento_Contact
 "Write Us","Kontakt Os",module,Magento_Contact
 "Invalid domain name: %1","Ugyldigt domænenavn: %1",module,Magento_Cookie
+"We use cookies to make your experience better.","Vi opsamler cookies til at gøre oplevelsen bedre.",module,Magento_Cookie
+"To comply with the new e-Privacy directive, we need to ask for your consent to set the cookies.","Når du benytter vores website, giver du samtykke til anvendelsen af cookies.",module,Magento_Cookie
 "<a href=""%1"">Learn more</a>.","<a href=""%1"">Få mere at vide</a>.",module,Magento_Cookie
 "Allow Cookies","Tillad cookies",module,Magento_Cookie
 "Save Currency Rates","Gem valutakurser",module,Magento_CurrencySymbol
