@@ -344,6 +344,7 @@ Cancel,Annuller,module,Magento_Bundle
 Checkbox,Afkrydsningsfelt,module,Magento_Bundle
 "Multiple Select","Marker flere",module,Magento_Bundle
 Required,Påkrævet,module,Magento_Bundle
+"Is Default","Er standard",module,Magento_Bundle
 Name,Navn,module,Magento_Bundle
 "Default Quantity","Standard mængde",module,Magento_Bundle
 "User Defined",Brugerdefineret,module,Magento_Bundle
@@ -363,15 +364,20 @@ Canceled,Annulleret,module,Magento_Bundle
 "Regular Price",Normalpris,module,Magento_Bundle
 From,Fra,module,Magento_Bundle
 To,Til,module,Magento_Bundle
+"Buy %1 with %2 discount each","Køb %1 med %2 rabat hver",module,Magento_Bundle
 "Go back to product details","Tilbage til produktdetaljer",module,Magento_Bundle
 "Customize and Add to Cart","Tilpas og tilføj til indkøbskurv",module,Magento_Bundle
 "* Required Fields","* Påkrævede felter",module,Magento_Bundle
+"Your Customization","Din tilpasning",module,Magento_Bundle
+Availability,Tilgængelighed,module,Magento_Bundle
+"In stock","På lager",module,Magento_Bundle
 "Out of stock",Udsolgt,module,Magento_Bundle
 Summary,Resumé,module,Magento_Bundle
 Availability:,Tilgængelighed:,module,Magento_Bundle
 Quantity,Antal,module,Magento_Bundle
 "Customize %1","Tilpas %1",module,Magento_Bundle
 "No options of this product are available.","Der findes ingen indstillinger for dette produkt.",module,Magento_Bundle
+"Gift Message",Gavebesked,module,Magento_Bundle
 From:,Fra:,module,Magento_Bundle
 To:,Til:,module,Magento_Bundle
 Message:,Besked:,module,Magento_Bundle
@@ -597,6 +603,12 @@ Categories,Kategorier,module,Magento_Catalog
 "Category is not available for requested store.","Kategorien er ikke tilgængelig for den ønskede butik.",module,Magento_Catalog
 "There was a category move error. %1","Der opstod en fejl %1 under kategori flytning",module,Magento_Catalog
 "There was a category move error.","Der opstod en kategori flyt fejl.",module,Magento_Catalog
+"You moved the category","Du har flyttet kategorien",module,Magento_Catalog
+"Attribute ""%1"" is required.","Attributten ""%1"" er påkrævet.",module,Magento_Catalog
+"You saved the category.","Du har gemt kategorien.",module,Magento_Catalog
+"Something went wrong while saving the category.","Noget gik galt med at gemme kategorien.",module,Magento_Catalog
+"Please select products for attributes update.","Vælg produkter til opdatering af attributter.",module,Magento_Catalog
+"Please make sure to define SKU values for all processed products.","Sørg for at definere SKU værdier for alle forarbejdede produkter.",module,Magento_Catalog
 "We can't find an attribute to delete.","Vi kan ikke finde en attribut til at slette.",module,Magento_Catalog
 "An attribute set named '%1' already exists.","En attribut med navnet '%1' allerede findes.",module,Magento_Catalog
 "We can't update the attribute.","Vi kan ikke opdatere attributten.",module,Magento_Catalog
@@ -653,6 +665,10 @@ All,Alle,module,Magento_Catalog
 "Operation do not allow to move a parent category to any of children category","Operationen ikke tillader for at flytte en overordnet kategori til en child kategori",module,Magento_Catalog
 "Could not move category","Kunne ikke flytte kategori",module,Magento_Catalog
 "Could not save category: %1","Kunne ikke gemme kategori: %1",module,Magento_Catalog
+Percent,Procent,module,Magento_Catalog
+"-- Please select --","-- Vælg venligst --",module,Magento_Catalog
+"12h AM/PM","12t AM/PM",module,Magento_Catalog
+24h,24t,module,Magento_Catalog
 "We can't rebuild the index for an undefined product.","Vi kan ikke genopbygge indekset for en udefineret produkt.",module,Magento_Catalog
 "The attribute model is not defined.","Modellens egenskaber er ikke defineret.",module,Magento_Catalog
 Category,Kategori,module,Magento_Catalog
@@ -760,6 +776,7 @@ Checkout,"Til kassen",module,Magento_Checkout
 "We don't have some of the products you want.","Vi har ikke nogle af de produkter, du ønsker.",module,Magento_Checkout
 "We don't have as many of some products as you want.","Vi har ikke som mange af nogle produkter, som du ønsker.",module,Magento_Checkout
 "Quantity was recalculated from %1 to %2","Antal ændret fra %1 til %2",module,Magento_Checkout
+"We adjusted product quantities to fit the required increments.","Vi har justeret produktantallet for at overholde de valgte forøgelser.",module,Magento_Checkout
 "This quote item does not exist.","Det ønskede produkt findes ikke.",module,Magento_Checkout
 "Display number of items in cart","Vis antallet af varer i indkøbskurven",module,Magento_Checkout
 "Display item quantities","Få vist vare antal",module,Magento_Checkout
@@ -1517,6 +1534,8 @@ Footer,Sidefod,theme,frontend/Magento/luma
 "Your %store_name order has shipped","Din %store_name bestilling er blevet afsendt",theme,frontend/Magento/luma
 "Update to your %store_name shipment","Opdaterer til din %store_name forsendelse",theme,frontend/Magento/luma
 "This payment is not available","Denne betaling er ikke tilgængelig",module,Magento_Braintree
+"Add Products to New Option","Føj produkter til ny indstilling",module,Magento_Bundle
+"Add Products to Option ""%1""","Føj produkter til indstilling ""%1""",module,Magento_Bundle
 Close,Luk,module,Magento_CheckoutAgreements
 "Provided Zip/Postal Code seems to be invalid.","Postnummer er ugyldigt.",module,Magento_Checkout
 "Review & Payments","Gennemse & betalinger",module,Magento_Checkout
