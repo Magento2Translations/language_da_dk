@@ -290,14 +290,19 @@ Canceled,Annulleret,module,Magento_Bundle
 "As low as","Så lavt som",module,Magento_Bundle
 From,Fra,module,Magento_Bundle
 To,Til,module,Magento_Bundle
+"Buy %1 with %2 discount each","Køb %1 med %2 rabat hver",module,Magento_Bundle
 "Go back to product details","Tilbage til produktdetaljer",module,Magento_Bundle
 "Customize and Add to Cart","Tilpas og tilføj til indkøbskurv",module,Magento_Bundle
 "* Required Fields","* Påkrævede felter",module,Magento_Bundle
+"Your Customization","Din tilpasning",module,Magento_Bundle
+Availability,Tilgængelighed,module,Magento_Bundle
+"In stock","På lager",module,Magento_Bundle
 "Out of stock",Udsolgt,module,Magento_Bundle
 Summary,Resumé,module,Magento_Bundle
 Availability:,Tilgængelighed:,module,Magento_Bundle
 "Customize %1","Tilpas %1",module,Magento_Bundle
 "No options of this product are available.","Der findes ingen indstillinger for dette produkt.",module,Magento_Bundle
+"Gift Message",Gavebesked,module,Magento_Bundle
 From:,Fra:,module,Magento_Bundle
 To:,Til:,module,Magento_Bundle
 Message:,Besked:,module,Magento_Bundle
@@ -476,6 +481,10 @@ Categories,Kategorier,module,Magento_Catalog
 "Manage Catalog Categories","Administrer katalog kategorier",module,Magento_Catalog
 "Manage Categories","Administrer kategorier",module,Magento_Catalog
 "There was a category move error.","Der opstod en kategori flyt fejl.",module,Magento_Catalog
+"Attribute ""%1"" is required.","Attributten ""%1"" er påkrævet.",module,Magento_Catalog
+"You saved the category.","Du har gemt kategorien.",module,Magento_Catalog
+"Please select products for attributes update.","Vælg produkter til opdatering af attributter.",module,Magento_Catalog
+"Please make sure to define SKU values for all processed products.","Sørg for at definere SKU værdier for alle forarbejdede produkter.",module,Magento_Catalog
 "An attribute with this code already exists.","Der findes allerede en attribut med denne kode.",module,Magento_Catalog
 "You duplicated the product.","Du duplikerede produktet.",module,Magento_Catalog
 "This product no longer exists.","Dette produkt findes ikke længere.",module,Magento_Catalog
@@ -513,6 +522,10 @@ All,Alle,module,Magento_Catalog
 "Static block only","Kun statisk blok",module,Magento_Catalog
 "Static block and products","Statisk blok og produkter",module,Magento_Catalog
 "Please select a static block.","Vælg venligst en statisk blok.",module,Magento_Catalog
+Percent,Procent,module,Magento_Catalog
+"-- Please select --","-- Vælg venligst --",module,Magento_Catalog
+"12h AM/PM","12t AM/PM",module,Magento_Catalog
+24h,24t,module,Magento_Catalog
 "The attribute model is not defined.","Modellens egenskaber er ikke defineret.",module,Magento_Catalog
 Category,Kategori,module,Magento_Catalog
 "The image does not exist.","Billedet findes ikke.",module,Magento_Catalog
@@ -1069,6 +1082,8 @@ All,Alle,module,Magento_Widget
 "Remove This Item","Fjerne dette produkt",module,Magento_Wishlist
 "Shop By",Filtre,theme,frontend/Magento/luma
 Total:,"I alt:",module,Magento_Checkout
+"Add Products to New Option","Føj produkter til ny indstilling",module,Magento_Bundle
+"Add Products to Option ""%1""","Føj produkter til indstilling ""%1""",module,Magento_Bundle
 "Add Selected Products","Tilføj udvalgte produkter",module,Magento_Bundle
 Cancel,Annuller,module,Magento_Catalog
 "Create Category","Opret kategori",module,Magento_Catalog
