@@ -786,7 +786,7 @@ Price,Pris,module,Magento_Checkout
 Qty,Antal,module,Magento_Checkout
 "Continue Shopping","Fortsæt med at handle",module,Magento_Checkout
 "Clear Shopping Cart","Ryd indkøbskurv",module,Magento_Checkout
-"Update Shopping Cart","Opdatere indkøbskurv",module,Magento_Checkout
+"Update Shopping Cart","Opdater indkøbskurv",module,Magento_Checkout
 "Update Cart","Opdater kurv",module,Magento_Checkout
 "See price before order confirmation.","Se prisen før ordrebekræftelse.",module,Magento_Checkout
 "What's this?","Hvad er dette?",module,Magento_Checkout
@@ -836,9 +836,15 @@ Reset,Nulstil,module,Magento_CurrencySymbol
 "Address Book",Adressebog,module,Magento_Customer
 Newsletter,Nyhedsbrev,module,Magento_Customer
 "Subscribed to Newsletter","Tilmeldt nyhedsbrev",module,Magento_Customer
+"Validate VAT Number","Valider CVR-nummer",module,Magento_Customer
 "Customer Login","Kunde login",module,Magento_Customer
 "Account Information","Konto Information",module,Magento_Customer
 "My Account","Min Konto",module,Magento_Customer
+"Error during VAT Number verification.","Fejl under verifikation af CVR-nummer.",module,Magento_Customer
+"VAT Number is valid.","CVR-nummeret er gyldigt.",module,Magento_Customer
+"Please enter a valid VAT number.","Angiv et gyldigt CVR-nummer.",module,Magento_Customer
+Company,Firma,module,Magento_Customer
+"VAT Number",CVR-nummer,module,Magento_Customer
 "Registered Customers","Eksisterende kunder",module,Magento_Customer
 "If you have an account, sign in with your email address.","Hvis du har allerede har en konto så kan du logge ind med din email adresse.",module,Magento_Customer
 Password,Kodeord,module,Magento_Customer
@@ -1151,6 +1157,7 @@ Qty,Antal,module,Magento_Sales
 Tax,Moms,module,Magento_Sales
 "Excl. Tax","Ekskl. moms",module,Magento_Sales
 "Incl. Tax","Inkl. moms",module,Magento_Sales
+Company,Firma,module,Magento_Sales
 Remove,Fjern,module,Magento_Sales
 "Update Items and Quantities","Opdater varer og antal",module,Magento_Sales
 "No items","Ingen varer",module,Magento_Sales
@@ -1328,7 +1335,9 @@ Country,Land,module,Magento_TaxImportExport
 "Subtotal (Excl.Tax)","Subtotal (ekskl. moms)",module,Magento_Tax
 "Subtotal (Incl.Tax)","Subtotal (inkl. moms)",module,Magento_Tax
 "Shipping & Handling (Excl.Tax)","Levering & håndtering (ekskl.moms)",module,Magento_Tax
-"Shipping & Handling (Incl.Tax)","Levering & håndtering (inkl.moms)",module,Magento_Tax
+"Shipping & Handling (Incl.Tax)","Levering & håndtering (inkl. moms)",module,Magento_Tax
+"Grand Total (Excl.Tax)","Total (ekskl. moms)",module,Magento_Tax
+"Grand Total (Incl.Tax)","Total (inkl. moms)",module,Magento_Tax
 "Shipping Address",Leveringsadresse,module,Magento_Tax
 "Billing Address",Faktureringsadresse,module,Magento_Tax
 "Grand Total (Excl. Tax)","Total (ekskl. moms)",module,Magento_Tax
@@ -1378,6 +1387,9 @@ None,Ingen,module,Magento_Usps
 "Add New Variable","Tilføj ny variabel",module,Magento_Variable
 "Save and Continue Edit","Gem og fortsæt redigering",module,Magento_Variable
 "Custom Variable ""%1""","Brugerdefineret variabel ""%1""",module,Magento_Variable
+"Excl. Tax","Ekskl. moms",module,Magento_Weee
+"Incl. Tax","Inkl. moms",module,Magento_Weee
+"Total Incl. Tax","Total Incl. moms",module,Magento_Weee
 "Insert Widget","Indsæt Widget",module,Magento_Widget
 label,etiket,module,Magento_Widget
 Settings,Instillinger,module,Magento_Widget
@@ -1515,6 +1527,7 @@ Close,Luk,module,Magento_CheckoutAgreements
 "Review & Payments","Gennemse & betalinger",module,Magento_Checkout
 Shipping,Levering,module,Magento_Checkout
 "Save Address","Gem adresse",module,Magento_Checkout
+"Incl. Tax","Inkl. moms",module,Magento_ConfigurableProduct
 "We can't complete your order because you don't have a payment method set up.","Vi kan ikke fuldføre bestillingen, fordi du ikke har en betalingsmetode, der er oprettet.",module,Magento_Multishipping
 "Please choose a payment method.","Vælg venligst betalingsmetode.",module,Magento_Multishipping
 "Video Error",Videofejl,module,Magento_ProductVideo
@@ -1523,6 +1536,7 @@ Shipping,Levering,module,Magento_Checkout
 "Youtube API key is invalid","YouTube API-nøgle er ugyldig",module,Magento_ProductVideo
 "Edit Video","Rediger Video",module,Magento_ProductVideo
 "Images and Videos","Billeder og videoer",module,Magento_ProductVideo
+"This is a required field.","Dette er et obligatorisk felt.",module,Magento_Ui
 "Show Toolbar","Vis værktøjslinje",module,Magento_AdminNotification
 "Show List","Vis liste",module,Magento_AdminNotification
 "Use HTTPS to Get Feed","Brug HTTPS for at hente et feed",module,Magento_AdminNotification
@@ -1581,6 +1595,7 @@ Debug,Fejlsøgning,module,Magento_Backend
 "Default Country","Standard Land",module,Magento_Backend
 "European Union Countries","EU Lande",module,Magento_Backend
 "Top destinations","Top destinationer",module,Magento_Backend
+"VAT Number",CVR-nummer,module,Magento_Backend
 "Search Engine Optimization","Søgemaskine Optimering",module,Magento_Backend
 "Use Web Server Rewrites","Bruger Web Server Omskrivninger",module,Magento_Backend
 "Specify URL or {{base_url}} placeholder.","Specificer URL eller {{base_url}} placering.",module,Magento_Backend
@@ -1736,6 +1751,8 @@ City,By,module,Magento_Shipping
 State/Region,Stat/Region,module,Magento_Tax
 "(Excl. Tax)","(Ekskl. moms)",module,Magento_Tax
 "(Incl. Tax)","(Inkl. moms)",module,Magento_Tax
+"Order Total Excl. Tax","Ordre Total ekskl. moms",module,Magento_Tax
+"Order Total Incl. Tax","Ordre total inkl. moms",module,Magento_Tax
 "Order Total",Ordretotal,module,Magento_Tax
 "Your credit card will be charged for","Dit kreditkort vil blive opkrævet for",module,Magento_Tax
 "Translation Strategy",Oversættelsesstrategi,module,Magento_Translation
