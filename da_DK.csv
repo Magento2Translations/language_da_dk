@@ -602,7 +602,7 @@ Price,Pris,module,Magento_Checkout
 Qty,Antal,module,Magento_Checkout
 "Continue Shopping","Fortsæt med at handle",module,Magento_Checkout
 "Clear Shopping Cart","Ryd indkøbskurv",module,Magento_Checkout
-"Update Shopping Cart","Opdatere indkøbskurv",module,Magento_Checkout
+"Update Shopping Cart","Opdater indkøbskurv",module,Magento_Checkout
 "Update Cart","Opdater kurv",module,Magento_Checkout
 "See price before order confirmation.","Se prisen før ordrebekræftelse.",module,Magento_Checkout
 "What's this?","Hvad er dette?",module,Magento_Checkout
@@ -631,9 +631,12 @@ Reset,Nulstil,module,Magento_CurrencySymbol
 "Address Book",Adressebog,module,Magento_Customer
 Newsletter,Nyhedsbrev,module,Magento_Customer
 "Subscribed to Newsletter","Tilmeldt nyhedsbrev",module,Magento_Customer
+"Validate VAT Number","Valider CVR-nummer",module,Magento_Customer
 "Customer Login","Kunde login",module,Magento_Customer
 "Account Information","Konto Information",module,Magento_Customer
 "My Account","Min Konto",module,Magento_Customer
+Company,Firma,module,Magento_Customer
+"VAT Number",CVR-nummer,module,Magento_Customer
 "Registered Customers","Eksisterende kunder",module,Magento_Customer
 Password,Kodeord,module,Magento_Customer
 "Forgot Your Password?","Glemt kodeord?",module,Magento_Customer
@@ -885,6 +888,7 @@ Title,Titel,module,Magento_Sales
 Qty,Antal,module,Magento_Sales
 "Excl. Tax","Ekskl. moms",module,Magento_Sales
 "Incl. Tax","Inkl. moms",module,Magento_Sales
+Company,Firma,module,Magento_Sales
 Remove,Fjern,module,Magento_Sales
 "No items","Ingen varer",module,Magento_Sales
 "Grand Total Excl. Tax","Total ekskl. moms",module,Magento_Sales
@@ -1037,7 +1041,9 @@ All,Alle,module,Magento_Sitemap
 "Subtotal (Excl.Tax)","Subtotal (ekskl. moms)",module,Magento_Tax
 "Subtotal (Incl.Tax)","Subtotal (inkl. moms)",module,Magento_Tax
 "Shipping & Handling (Excl.Tax)","Levering & håndtering (ekskl.moms)",module,Magento_Tax
-"Shipping & Handling (Incl.Tax)","Levering & håndtering (inkl.moms)",module,Magento_Tax
+"Shipping & Handling (Incl.Tax)","Levering & håndtering (inkl. moms)",module,Magento_Tax
+"Grand Total (Excl.Tax)","Total (ekskl. moms)",module,Magento_Tax
+"Grand Total (Incl.Tax)","Total (inkl. moms)",module,Magento_Tax
 "Shipping Address",Leveringsadresse,module,Magento_Tax
 "Billing Address",Faktureringsadresse,module,Magento_Tax
 "Grand Total (Excl. Tax)","Total (ekskl. moms)",module,Magento_Tax
@@ -1087,6 +1093,7 @@ Total:,"I alt:",module,Magento_Checkout
 "Add Selected Products","Tilføj udvalgte produkter",module,Magento_Bundle
 Cancel,Annuller,module,Magento_Catalog
 "Create Category","Opret kategori",module,Magento_Catalog
+"Incl. Tax","Inkl. moms",module,Magento_ConfigurableProduct
 "Use HTTPS to Get Feed","Brug HTTPS for at hente et feed",module,Magento_AdminNotification
 "Update Frequency","Opdatere frekvens",module,Magento_AdminNotification
 "Last Update","Sidst opdateret",module,Magento_AdminNotification
@@ -1141,6 +1148,7 @@ Debug,Fejlsøgning,module,Magento_Backend
 "Default Country","Standard Land",module,Magento_Backend
 "European Union Countries","EU Lande",module,Magento_Backend
 "Top destinations","Top destinationer",module,Magento_Backend
+"VAT Number",CVR-nummer,module,Magento_Backend
 "Search Engine Optimization","Søgemaskine Optimering",module,Magento_Backend
 "Use Web Server Rewrites","Bruger Web Server Omskrivninger",module,Magento_Backend
 "Specify URL or {{base_url}} placeholder.","Specificer URL eller {{base_url}} placering.",module,Magento_Backend
