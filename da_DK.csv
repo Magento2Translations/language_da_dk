@@ -621,6 +621,7 @@ Loading...,Indlæser...,module,Magento_Checkout
 "Static Blocks","Statiske blokke",module,Magento_Cms
 "Add New Block","Tilføj ny blok",module,Magento_Cms
 "Delete Block","Slet blok",module,Magento_Cms
+Price,Pris,module,Magento_ConfigurableProduct
 Image,Billede,module,Magento_ConfigurableProduct
 Name,Navn,module,Magento_ConfigurableProduct
 Confirm,Bekræft,module,Magento_ConfigurableProduct
@@ -629,6 +630,7 @@ Confirm,Bekræft,module,Magento_ConfigurableProduct
 Reset,Nulstil,module,Magento_CurrencySymbol
 "You subscribe to our newsletter.","Du abonnerer nu på vores nyhedsbrev.",module,Magento_Customer
 "Address Book",Adressebog,module,Magento_Customer
+Price,Pris,module,Magento_Customer
 Newsletter,Nyhedsbrev,module,Magento_Customer
 "Subscribed to Newsletter","Tilmeldt nyhedsbrev",module,Magento_Customer
 "Validate VAT Number","Valider CVR-nummer",module,Magento_Customer
@@ -645,6 +647,7 @@ None,Ingen,module,Magento_Dhl
 State/Province,Stat/provins,module,Magento_Directory
 "--Please Select--",--Vælg--,module,Magento_Directory
 "Upload Files","Upload filer",module,Magento_Downloadable
+Price,Pris,module,Magento_Downloadable
 None,Ingen,module,Magento_Eav
 "Add New Template","Tilføj ny skabelon",module,Magento_Email
 Back,Tilbage,module,Magento_Email
@@ -681,6 +684,7 @@ Dynamic,Dynamisk,module,Magento_GoogleAdwords
 Constant,Konstant,module,Magento_GoogleAdwords
 "Grouped Products","Grupperede produkter",module,Magento_GroupedProduct
 "Please specify the quantity of product(s).","Angiv mængden af produkt(er).",module,Magento_GroupedProduct
+Price,Pris,module,Magento_GroupedProduct
 Export,Eksport,module,Magento_ImportExport
 "Export Settings","Eksporter indstillinger",module,Magento_ImportExport
 From,Fra,module,Magento_ImportExport
@@ -832,19 +836,24 @@ Price,Pris,module,Magento_Paypal
 "Your shopping cart has been updated with new prices.","Din indkøbsvogn er blevet opdateret med nye priser.",module,Magento_Persistent
 "Welcome, %1!","Velkommen, %1!",module,Magento_Persistent
 "There are not enough parameters.","Der er ikke nok parametre.",module,Magento_ProductAlert
+Price:,Pris:,module,Magento_ProductAlert
 Url,URL,module,Magento_ProductVideo
 "Shipping & Handling (%1)","Levering & håndtering (%1)",module,Magento_Quote
 "Shipping & Handling","Levering & håndtering",module,Magento_Quote
 Shipping,Levering,module,Magento_Quote
+"Please specify a shipping method.","Angiv en leveringsmetode.",module,Magento_Quote
 Tax,Moms,module,Magento_Quote
 "New Accounts","Nye konti",module,Magento_Reports
 Filter,Filtrer,module,Magento_Reports
+Price,Pris,module,Magento_Reports
 Carrier/Method,Distributør/type,module,Magento_Reports
+"Items in Cart","Varer i indkøbskurv",module,Magento_Reports
 "Save Review","Gem anmeldelse",module,Magento_Review
 "New Review","Ny anmeldelse",module,Magento_Review
 "Review Details","Gennemgå detaljer",module,Magento_Review
 Product,Produkt,module,Magento_Review
 Previous,Forrige,module,Magento_Review
+Price,Pris,module,Magento_Review
 Summary,Resumé,module,Magento_Review
 Apply,Anvend,module,Magento_Rule
 Remove,Fjern,module,Magento_Rule
@@ -882,6 +891,7 @@ Refund,Refundering,module,Magento_Sales
 "Order Grand Total",Ordretotal,module,Magento_Sales
 "Grand Total to be Charged",Faktureringstotal,module,Magento_Sales
 Refunded,Refunderet,module,Magento_Sales
+"Ship to:","Leveres til:",module,Magento_Sales
 "Payment Method:",Betalingsmetode:,module,Magento_Sales
 "Shipping Method:",Leveringsmetode:,module,Magento_Sales
 Title,Titel,module,Magento_Sales
@@ -904,6 +914,7 @@ Remove,Fjern,module,Magento_Sales
 "Total Tax",Momstotal,module,Magento_Sales
 "Original Price","Oprindelig pris",module,Magento_Sales
 "Tax Percent",Momsprocent,module,Magento_Sales
+"Ship To","Leveres til",module,Magento_Sales
 "Qty Invoiced","Antal faktureret",module,Magento_Sales
 "Qty Shipped","Antal afsendt",module,Magento_Sales
 "Some emails were not sent.","Nogle emails blev ikke afsendt.",module,Magento_SendFriend
@@ -1148,6 +1159,7 @@ Debug,Fejlsøgning,module,Magento_Backend
 "Default Country","Standard Land",module,Magento_Backend
 "European Union Countries","EU Lande",module,Magento_Backend
 "Top destinations","Top destinationer",module,Magento_Backend
+"Store Phone Number","Butikkens telefonnummer",module,Magento_Backend
 "VAT Number",CVR-nummer,module,Magento_Backend
 "Search Engine Optimization","Søgemaskine Optimering",module,Magento_Backend
 "Use Web Server Rewrites","Bruger Web Server Omskrivninger",module,Magento_Backend
