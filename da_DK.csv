@@ -273,6 +273,8 @@ Authorize,Autoriser,module,Magento_Braintree
 "Please, enter valid Card Verification Number","Angiv gyldigt kort kontrolnummeret",module,Magento_Braintree
 ending,slutter,module,Magento_Braintree
 expires,udløber,module,Magento_Braintree
+Actions,Handlinger,module,Magento_Braintree
+Delete,Slet,module,Magento_Braintree
 "Percent Discount","Procent rabat",module,Magento_Bundle
 "-- Select --",--Vælg--,module,Magento_Bundle
 Dynamic,Dynamisk,module,Magento_Bundle
@@ -584,7 +586,6 @@ Categories,Kategorier,module,Magento_Catalog
 "Category is not available for requested store.","Kategorien er ikke tilgængelig for den ønskede butik.",module,Magento_Catalog
 "There was a category move error. %1","Der opstod en fejl %1 under kategori flytning",module,Magento_Catalog
 "There was a category move error.","Der opstod en kategori flyt fejl.",module,Magento_Catalog
-"You moved the category","Du har flyttet kategorien",module,Magento_Catalog
 "Attribute ""%1"" is required.","Attributten ""%1"" er påkrævet.",module,Magento_Catalog
 "You saved the category.","Du har gemt kategorien.",module,Magento_Catalog
 "Something went wrong while saving the category.","Noget gik galt med at gemme kategorien.",module,Magento_Catalog
@@ -672,7 +673,6 @@ Disabled,"Slået fra",module,Magento_Catalog
 "The image does not exist.","Billedet findes ikke.",module,Magento_Catalog
 "Please correct the image file type.","Ret venligst image filtype.",module,Magento_Catalog
 "We couldn't move this file: %1.","Vi kunne ikke flytte denne fil: %1.",module,Magento_Catalog
-"We can't find the image file.","Vi kan ikke finde billedfilen.",module,Magento_Catalog
 "Select type options required values rows.","Vælg type indstillinger krævet af værdi rækker.",module,Magento_Catalog
 "ProductSku should be specified","ProductSku skal angives",module,Magento_Catalog
 "Could not remove custom option","Kunne ikke fjerne brugerdefinerede indstilling",module,Magento_Catalog
@@ -752,6 +752,7 @@ Checkout,"Til kassen",module,Magento_Checkout
 "Page not found.","Siden blev ikke fundet.",module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","Acceptér venligst alle vilkår og betingelser før ordreafgivelsen.",module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","Noget gik galt under behandling af din ordre. Prøv igen senere.",module,Magento_Checkout
+"Payment Method",Betalingsmetode,module,Magento_Checkout
 "We can't find the product.","Vi kan ikke finde produktet.",module,Magento_Checkout
 "The product does not exist.","Produktet findes ikke.",module,Magento_Checkout
 "We don't have some of the products you want.","Vi har ikke nogle af de produkter, du ønsker.",module,Magento_Checkout
@@ -773,7 +774,6 @@ Checkout,"Til kassen",module,Magento_Checkout
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Du skal bekræfte din konto. Tjek venligst din e-mail for bekræftelse link eller <a href=""%1""> Klik her</a> for et nyt link.",module,Magento_Checkout
 "Error message!",Fejlmeddelelse!,module,Magento_Checkout
 Error!,Fejl!,module,Magento_Checkout
-"Wrong minimum amount.","Forkert minimumsbeløb.",module,Magento_Checkout
 Message,Besked,module,Magento_Checkout
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print""> Udskriv kvittering</a>",module,Magento_Checkout
 "Apply Discount Code","Anvend rabatkode",module,Magento_Checkout
@@ -818,9 +818,11 @@ Summary,Resumé,module,Magento_ConfigurableProduct
 Confirm,Bekræft,module,Magento_ConfigurableProduct
 Image,Billede,module,Magento_ConfigurableProduct
 Name,Navn,module,Magento_ConfigurableProduct
+Price,Pris,module,Magento_ConfigurableProduct
 "Page not found.","Siden blev ikke fundet.",module,Magento_Contact
 "* Required Fields","* Påkrævede felter",module,Magento_Contact
 "Write Us","Kontakt Os",module,Magento_Contact
+"Phone Number",Telefonnummer,module,Magento_Contact
 "Invalid domain name: %1","Ugyldigt domænenavn: %1",module,Magento_Cookie
 "We use cookies to make your experience better.","Vi opsamler cookies til at gøre oplevelsen bedre.",module,Magento_Cookie
 "To comply with the new e-Privacy directive, we need to ask for your consent to set the cookies.","Når du benytter vores website, giver du samtykke til anvendelsen af cookies.",module,Magento_Cookie
@@ -834,6 +836,7 @@ Reset,Nulstil,module,Magento_CurrencySymbol
 "Sign In","Log Ind",module,Magento_Customer
 "You subscribe to our newsletter.","Du abonnerer nu på vores nyhedsbrev.",module,Magento_Customer
 "Address Book",Adressebog,module,Magento_Customer
+Price,Pris,module,Magento_Customer
 Newsletter,Nyhedsbrev,module,Magento_Customer
 "Subscribed to Newsletter","Tilmeldt nyhedsbrev",module,Magento_Customer
 "Validate VAT Number","Valider CVR-nummer",module,Magento_Customer
@@ -844,6 +847,7 @@ Newsletter,Nyhedsbrev,module,Magento_Customer
 "VAT Number is valid.","CVR-nummeret er gyldigt.",module,Magento_Customer
 "Please enter a valid VAT number.","Angiv et gyldigt CVR-nummer.",module,Magento_Customer
 Company,Firma,module,Magento_Customer
+"Phone Number",Telefonnummer,module,Magento_Customer
 "VAT Number",CVR-nummer,module,Magento_Customer
 "Registered Customers","Eksisterende kunder",module,Magento_Customer
 "If you have an account, sign in with your email address.","Hvis du har allerede har en konto så kan du logge ind med din email adresse.",module,Magento_Customer
@@ -859,6 +863,7 @@ State/Province,Stat/provins,module,Magento_Directory
 "File directory '%1' is not writable.","Filmappen '%1' er skrivebeskyttet.",module,Magento_DownloadableImportExport
 Error,Fejl,module,Magento_DownloadableImportExport
 "Upload Files","Upload filer",module,Magento_Downloadable
+Price,Pris,module,Magento_Downloadable
 "This is used internally. Make sure you don't use spaces or more than %1 symbols.","Dette bruges internt. Kontroller, at du ikke bruger mellemrum eller mere end %1 symboler.",module,Magento_Eav
 None,Ingen,module,Magento_Eav
 "Add New Template","Tilføj ny skabelon",module,Magento_Email
@@ -900,6 +905,7 @@ Dynamic,Dynamisk,module,Magento_GoogleAdwords
 Constant,Konstant,module,Magento_GoogleAdwords
 "Grouped Products","Grupperede produkter",module,Magento_GroupedProduct
 "Please specify the quantity of product(s).","Angiv mængden af produkt(er).",module,Magento_GroupedProduct
+Price,Pris,module,Magento_GroupedProduct
 Export,Eksport,module,Magento_ImportExport
 "Export Settings","Eksporter indstillinger",module,Magento_ImportExport
 From,Fra,module,Magento_ImportExport
@@ -921,6 +927,7 @@ Synchronize,Synkronisér,module,Magento_MediaStorage
 Synchronizing...,Synkroniserer...,module,Magento_MediaStorage
 "File %1 does not exist","Filen %1 findes ikke",module,Magento_MediaStorage
 "See price before order confirmation.","Se prisen før ordrebekræftelse.",module,Magento_Msrp
+Price,Pris,module,Magento_Msrp
 "Change Billing Address","Ændre faktureringsadresse",module,Magento_Multishipping
 "Ship to Multiple Addresses","Send til flere adresser",module,Magento_Multishipping
 "Billing Information - %1","Faktureringsoplysninger - %1",module,Magento_Multishipping
@@ -1079,6 +1086,7 @@ Price,Pris,module,Magento_Paypal
 "Your shopping cart has been updated with new prices.","Din indkøbsvogn er blevet opdateret med nye priser.",module,Magento_Persistent
 "Welcome, %1!","Velkommen, %1!",module,Magento_Persistent
 "There are not enough parameters.","Der er ikke nok parametre.",module,Magento_ProductAlert
+Price:,Pris:,module,Magento_ProductAlert
 Url,URL,module,Magento_ProductVideo
 Title,Titel,module,Magento_ProductVideo
 Description,Beskrivelse,module,Magento_ProductVideo
@@ -1095,17 +1103,21 @@ Duration:,Varighed:,module,Magento_ProductVideo
 "Shipping & Handling (%1)","Levering & håndtering (%1)",module,Magento_Quote
 "Shipping & Handling","Levering & håndtering",module,Magento_Quote
 Shipping,Levering,module,Magento_Quote
+"Please specify a shipping method.","Angiv en leveringsmetode.",module,Magento_Quote
 Tax,Moms,module,Magento_Quote
 "Cart contains virtual product(s) only. Shipping address is not applicable.","Indkøbskurven indeholder kun virtuelle produkt(er). Leveringsadresse er ikke gældende.",module,Magento_Quote
 "Shipping address not set.","Leveringsadresse ikke angivet.",module,Magento_Quote
 "New Accounts","Nye konti",module,Magento_Reports
 Filter,Filtrer,module,Magento_Reports
+Price,Pris,module,Magento_Reports
 Carrier/Method,Distributør/type,module,Magento_Reports
+"Items in Cart","Varer i indkøbskurv",module,Magento_Reports
 "Save Review","Gem anmeldelse",module,Magento_Review
 "New Review","Ny anmeldelse",module,Magento_Review
 "Review Details","Gennemgå detaljer",module,Magento_Review
 Product,Produkt,module,Magento_Review
 Previous,Forrige,module,Magento_Review
+Price,Pris,module,Magento_Review
 Summary,Resumé,module,Magento_Review
 "Page not found.","Siden blev ikke fundet.",module,Magento_Rss
 Apply,Anvend,module,Magento_Rule
@@ -1150,6 +1162,7 @@ Refund,Refundering,module,Magento_Sales
 "Grand Total",Ordretotal,module,Magento_Sales
 "Grand Total to be Charged",Faktureringstotal,module,Magento_Sales
 Refunded,Refunderet,module,Magento_Sales
+"Ship to:","Leveres til:",module,Magento_Sales
 "Payment Method:",Betalingsmetode:,module,Magento_Sales
 "Shipping Method:",Leveringsmetode:,module,Magento_Sales
 Title,Titel,module,Magento_Sales
@@ -1158,6 +1171,7 @@ Tax,Moms,module,Magento_Sales
 "Excl. Tax","Ekskl. moms",module,Magento_Sales
 "Incl. Tax","Inkl. moms",module,Magento_Sales
 Company,Firma,module,Magento_Sales
+"Phone Number",Telefonnummer,module,Magento_Sales
 Remove,Fjern,module,Magento_Sales
 "Update Items and Quantities","Opdater varer og antal",module,Magento_Sales
 "No items","Ingen varer",module,Magento_Sales
@@ -1173,6 +1187,7 @@ Remove,Fjern,module,Magento_Sales
 "Items Invoiced","Varer faktureret",module,Magento_Sales
 "Total Tax",Momstotal,module,Magento_Sales
 Items,Varer,module,Magento_Sales
+"Ship To","Leveres til",module,Magento_Sales
 "Qty Invoiced","Antal faktureret",module,Magento_Sales
 "Qty Shipped","Antal afsendt",module,Magento_Sales
 "Search Term",Søgeord,module,Magento_Search
@@ -1435,12 +1450,8 @@ Cancel,Annuller,module,Magento_Checkout
 "You can create an account after checkout.","Du kan oprette en konto efter ordreafgivelse.",module,Magento_Checkout
 "You already have an account with us. Sign in or continue as guest.","Du har allerede en konto hos os. Log ind eller fortsæt som gæst.",module,Magento_Checkout
 Login,"Log ind",module,Magento_Checkout
-Close,Luk,module,Magento_Checkout
 item,vare,module,Magento_Checkout
 items,varer,module,Magento_Checkout
-"Go to Checkout","Gå til kassen",module,Magento_Checkout
-"Recently added item(s)","For nylig tilføjet vare(r)",module,Magento_Checkout
-"View and edit cart","Se og rediger kurv",module,Magento_Checkout
 "See Details","Se detaljer",module,Magento_Checkout
 Remove,Fjern,module,Magento_Checkout
 "Cart Subtotal","Kurv Subtotal",module,Magento_Checkout
@@ -1462,9 +1473,8 @@ edit,Rediger,module,Magento_Checkout
 Next,Næste,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Desværre, ingen produkter er tilgængelige for denne ordre på nuværende tidspunkt",module,Magento_Checkout
 "Order Summary",Ordreoversigt,module,Magento_Checkout
-"Item in Cart","Vare i indkøbskurv",module,Magento_Checkout
-"Items in Cart","Varer i indkøbskurv",module,Magento_Checkout
 "View Details","Vis detaljer",module,Magento_Checkout
+"Phone Number: %telephone","Telefon nummer: %telephone",module,Magento_Contact
 "Welcome to %store_name.","Velkommen til %store_name.",module,Magento_Customer
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","For at logge på vores webshop, skal du bruge disse oplysninger i checkout forløbet eller på <a href=""%customer_url"">login siden</a>:",module,Magento_Customer
 Email:,E-mail:,module,Magento_Customer
@@ -1536,6 +1546,7 @@ Shipping,Levering,module,Magento_Checkout
 "Youtube API key is invalid","YouTube API-nøgle er ugyldig",module,Magento_ProductVideo
 "Edit Video","Rediger Video",module,Magento_ProductVideo
 "Images and Videos","Billeder og videoer",module,Magento_ProductVideo
+"Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.","Indtast venligst et gyldigt telefonnummer. For eksempel (123) 456-7890 eller 123-456-7890.",module,Magento_Ui
 "This is a required field.","Dette er et obligatorisk felt.",module,Magento_Ui
 "Show Toolbar","Vis værktøjslinje",module,Magento_AdminNotification
 "Show List","Vis liste",module,Magento_AdminNotification
@@ -1595,6 +1606,7 @@ Debug,Fejlsøgning,module,Magento_Backend
 "Default Country","Standard Land",module,Magento_Backend
 "European Union Countries","EU Lande",module,Magento_Backend
 "Top destinations","Top destinationer",module,Magento_Backend
+"Store Phone Number","Butikkens telefonnummer",module,Magento_Backend
 "VAT Number",CVR-nummer,module,Magento_Backend
 "Search Engine Optimization","Søgemaskine Optimering",module,Magento_Backend
 "Use Web Server Rewrites","Bruger Web Server Omskrivninger",module,Magento_Backend
