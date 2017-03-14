@@ -176,6 +176,7 @@ Time,Tid,module,Magento_Backend
 Hour,Time,module,Magento_Backend
 Minute,Minut,module,Magento_Backend
 "JavaScript may be disabled in your browser.","JavaScript kan være slået fra i din browser.",module,Magento_Backend
+"System Backup","System backup",module,Magento_Backup
 "Database and Media Backup","Database og Medie Backup",module,Magento_Backup
 "The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","Arkivet kan udpakkes med <a href=""%1"">%2</a> på Windows systemer.",module,Magento_Backup
 "You need more permissions to activate maintenance mode right now.","Du har brug for flere tilladelser for at aktivere vedligeholdelse lige nu.",module,Magento_Backup
@@ -205,6 +206,12 @@ successful,succes,module,Magento_Backup
 "This action cannot be undone.","Dette kan ikke ikke ændres igen.",module,Magento_Backup
 "User Password","Bruger Password",module,Magento_Backup
 "Please put your store into maintenance mode during rollback processing.","Sæt din butik i vedligeholdelsestilstand under rollback processen.",module,Magento_Backup
+"Use FTP Connection","Brug FTP-forbindelse",module,Magento_Backup
+"FTP credentials","FTP oplysninger",module,Magento_Backup
+"FTP Host","FTP vært",module,Magento_Backup
+"FTP Password","FTP adgangskode",module,Magento_Backup
+"Magento root directory","Magento rodmappen",module,Magento_Backup
+"Create Backup","Opret backup",module,Magento_Backup
 Country,Land,module,Magento_Braintree
 "Allowed Credit Card Types","Tilladte kreditkort typer",module,Magento_Braintree
 "Add Rule","Tilføj regel",module,Magento_Braintree
@@ -313,6 +320,7 @@ Always,Altid,module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>Vigtigt</strong>: Forskel på store og små bogstaver ved tastning af Captcha.",module,Magento_Captcha
 "Reload captcha","Genindlæs captcha",module,Magento_Captcha
 "Please type the letters below","Skriv venligst bogstaverne herunder",module,Magento_Captcha
+"Custom options have different types.","Brugerdefinerede indstillinger har forskellige typer.",module,Magento_CatalogImportExport
 "ALL GROUPS","ALLE GRUPPER",module,Magento_CatalogInventory
 "Customer Group",Kundegruppe,module,Magento_CatalogInventory
 "Minimum Qty","Minimum antal",module,Magento_CatalogInventory
@@ -322,8 +330,13 @@ Always,Altid,module,Magento_Captcha
 "%1 is not a correct comparison method.","%1 er ikke en korrekt sammenligningsmetode.",module,Magento_CatalogInventory
 "No Backorders","Ingen restordrer",module,Magento_CatalogInventory
 "Allow Qty Below 0","Tillad antal under 0",module,Magento_CatalogInventory
+"Allow Qty Below 0 and Notify Customer","Tillad antal under 0 og underret kunden",module,Magento_CatalogInventory
 "In Stock","På lager",module,Magento_CatalogInventory
 "Out of Stock",Udsolgt,module,Magento_CatalogInventory
+"Not all of your products are available in the requested quantity.","Ikke alle dine produkter er tilgængelige i den ønskede mængde.",module,Magento_CatalogInventory
+"The fewest you may purchase is %1.","Du skal minimum købe %1.",module,Magento_CatalogInventory
+"Please correct the quantity for some products.","Ret venligst antallet for nogle produkter.",module,Magento_CatalogInventory
+"The most you may purchase is %1.","Du kan maximum købe %1.",module,Magento_CatalogInventory
 "Only %1 left","Kun %1 tilbage",module,Magento_CatalogInventory
 "Product Name",Produktnavn,module,Magento_CatalogInventory
 Qty,Antal,module,Magento_CatalogInventory
@@ -331,9 +344,26 @@ Qty,Antal,module,Magento_CatalogInventory
 "Save and Continue Edit","Gem og fortsæt redigering",module,Magento_CatalogRule
 Home,Hjem,module,Magento_CatalogSearch
 "Go to Home Page","Gå til startsiden",module,Magento_CatalogSearch
+"Catalog Advanced Search","Katalog avanceret søgning",module,Magento_CatalogSearch
 All,Alle,module,Magento_CatalogSearch
 Yes,Ja,module,Magento_CatalogSearch
 No,Nej,module,Magento_CatalogSearch
+Results,Resultater,module,Magento_CatalogSearch
+Grid,Gitter,module,Magento_CatalogSearch
+List,Liste,module,Magento_CatalogSearch
+Relevance,Relevans,module,Magento_CatalogSearch
+"Search results for: '%1'","Søgeresultater for: '%1'",module,Magento_CatalogSearch
+"Minimum Search query length is %1","Søgeforespørgsel minimumslængde er %1",module,Magento_CatalogSearch
+"Please specify at least one search term.","Angiv mindst en søgeterm.",module,Magento_CatalogSearch
+"%1 and greater","%1 og større",module,Magento_CatalogSearch
+"up to %1","op til %1",module,Magento_CatalogSearch
+"Search Settings",Søgeindstillinger,module,Magento_CatalogSearch
+Search,Søg,module,Magento_CatalogSearch
+"Advanced Search","Avanceret søgning",module,Magento_CatalogSearch
+"<strong>%1 item</strong> were found using the following search criteria","<strong>%1 vare</strong> blev fundet ved hjælp af følgende søgekriterier",module,Magento_CatalogSearch
+"<strong>%1 items</strong> were found using the following search criteria","<strong>%1 varer</strong> blev fundet ved hjælp af følgende søgekriterier",module,Magento_CatalogSearch
+name,navn,module,Magento_CatalogSearch
+"Don't see what you're looking for?","Kan du ikke finde det, du leder efter?",module,Magento_CatalogSearch
 Root,Rod,module,Magento_Catalog
 "Save Category","Gem kategori",module,Magento_Catalog
 "Delete Category","Slet kategori",module,Magento_Catalog
@@ -347,6 +377,7 @@ Name,Navn,module,Magento_Catalog
 Price,Pris,module,Magento_Catalog
 Position,Placering,module,Magento_Catalog
 "Category Data",Kategoridata,module,Magento_Catalog
+"Category Products","Kategori produkter",module,Magento_Catalog
 "Add Subcategory","Tilføj underkategori",module,Magento_Catalog
 "Add Root Category","Tilføje rod kategori",module,Magento_Catalog
 Day,Dag,module,Magento_Catalog
@@ -459,6 +490,8 @@ Edit,Rediger,module,Magento_Catalog
 "Are you sure?","Er du sikker?",module,Magento_Catalog
 "Update Attributes","Opdater attributter",module,Magento_Catalog
 "Click here or drag and drop to add images.","Klik her eller træk og slip for at tilføje billeder.",module,Magento_Catalog
+"Delete image","Slet billede",module,Magento_Catalog
+Hidden,Skjult,module,Magento_Catalog
 "start typing to search category","begynd at skrive for at søge kategori",module,Magento_Catalog
 "New Category","Ny Kategori",module,Magento_Catalog
 "Images (.gif, .jpg, .png)","Billeder (.gif, .jpg, .png)",module,Magento_Catalog
@@ -485,6 +518,14 @@ Categories,Kategorier,module,Magento_Catalog
 "You saved the category.","Du har gemt kategorien.",module,Magento_Catalog
 "Please select products for attributes update.","Vælg produkter til opdatering af attributter.",module,Magento_Catalog
 "Please make sure to define SKU values for all processed products.","Sørg for at definere SKU værdier for alle forarbejdede produkter.",module,Magento_Catalog
+"A total of %1 record(s) were updated.","Ialt %1 post(er) blev opdateret.",module,Magento_Catalog
+"Something went wrong while updating the product(s) attributes.","Noget gik galt under opdatering af produkt(ernes) attributter.",module,Magento_Catalog
+Catalog,Katalog,module,Magento_Catalog
+"Manage Product Attributes","Administrere produktattributterne",module,Magento_Catalog
+"This attribute no longer exists.","Denne attribut eksisterer ikke længere.",module,Magento_Catalog
+"This attribute cannot be edited.","Denne attribut kan ikke redigeres.",module,Magento_Catalog
+"Edit Product Attribute","Redigere produkt attribut",module,Magento_Catalog
+"You saved the product attribute.","Du gemte produkt attributten.",module,Magento_Catalog
 "An attribute with this code already exists.","Der findes allerede en attribut med denne kode.",module,Magento_Catalog
 "You duplicated the product.","Du duplikerede produktet.",module,Magento_Catalog
 "This product no longer exists.","Dette produkt findes ikke længere.",module,Magento_Catalog
@@ -522,14 +563,42 @@ All,Alle,module,Magento_Catalog
 "Static block only","Kun statisk blok",module,Magento_Catalog
 "Static block and products","Statisk blok og produkter",module,Magento_Catalog
 "Please select a static block.","Vælg venligst en statisk blok.",module,Magento_Catalog
+"-- Please Select a Category --","-Vælg en kategori--",module,Magento_Catalog
+"Grid Only","Kun gitter",module,Magento_Catalog
+"List Only","Kun liste",module,Magento_Catalog
+"Grid (default) / List","Gitter (standard) / liste",module,Magento_Catalog
+"List (default) / Grid","Liste (standard) / gitter",module,Magento_Catalog
+"Automatic (equalize price ranges)","Automatisk (udligning af prisklasser)",module,Magento_Catalog
+"Automatic (equalize product counts)","Automatisk (udligning af produkt tællere)",module,Magento_Catalog
+Manual,Manuelt,module,Magento_Catalog
+Fixed,Fast,module,Magento_Catalog
 Percent,Procent,module,Magento_Catalog
 "-- Please select --","-- Vælg venligst --",module,Magento_Catalog
+"Product Thumbnail Itself","Produkt miniaturebillede",module,Magento_Catalog
+"Parent Product Thumbnail","Overordnede produkt miniaturebillede",module,Magento_Catalog
 "12h AM/PM","12t AM/PM",module,Magento_Catalog
 24h,24t,module,Magento_Catalog
+Stretch,Stræk,module,Magento_Catalog
+Tile,Flise,module,Magento_Catalog
+Top/Left,Top/Venstre,module,Magento_Catalog
+Top/Right,Top/højre,module,Magento_Catalog
+Bottom/Left,Bund/venstre,module,Magento_Catalog
+Bottom/Right,Bund/Højre,module,Magento_Catalog
+"Bad value was supplied.","Forkert værdi.",module,Magento_Catalog
+"Unsupported product type ""%1"".","Ikke-understøttede produkt type ""%1"".",module,Magento_Catalog
+"Please correct the category.","Ret venligst kategorien.",module,Magento_Catalog
 "The attribute model is not defined.","Modellens egenskaber er ikke defineret.",module,Magento_Catalog
 Category,Kategori,module,Magento_Catalog
+"Clear Price","Slet prisen",module,Magento_Catalog
+"%1 and above","%1 og derover",module,Magento_Catalog
+"The filters must be an array.","Filtrene skal være et array.",module,Magento_Catalog
 "The image does not exist.","Billedet findes ikke.",module,Magento_Catalog
 "Please correct the image file type.","Ret venligst image filtype.",module,Magento_Catalog
+"Group price must be a number greater than 0.","Gruppe pris skal være et tal større end 0.",module,Magento_Catalog
+"Please enter a number 0 or greater in this field.","Indtast venligst et tal 0 eller større i dette felt.",module,Magento_Catalog
+"The value of attribute ""%1"" must be set","Værdien af attributten ""%1"" skal angives",module,Magento_Catalog
+"SKU length should be %1 characters maximum.","SKU længde bør være maksimalt %1 tegn.",module,Magento_Catalog
+"Please enter a valid number in this field.","Angiv et gyldigt tal i dette felt.",module,Magento_Catalog
 "Use config","Brug config",module,Magento_Catalog
 Enabled,Aktiveret,module,Magento_Catalog
 Disabled,"Slået fra",module,Magento_Catalog
@@ -538,11 +607,105 @@ Disabled,"Slået fra",module,Magento_Catalog
 "Please specify time required option(s).","Angiv venligst dato krævede indstillinger.",module,Magento_Catalog
 "The file options format is not valid.","Indstillinger filformat er ikke gyldig.",module,Magento_Catalog
 "The file '%1' for '%2' has an invalid extension.","Filen '%1' for '%2' har en ugyldig extension.",module,Magento_Catalog
+"The file '%1' you uploaded is larger than the %2 megabytes allowed by our server.","Filen '%1' du har uploadet er større end de %2 megabytes tilladt af vores server.",module,Magento_Catalog
+"The file you uploaded is larger than %1 Megabytes allowed by server","Den fil du har uploadet er større end %1 Megabytes tilladt af serveren",module,Magento_Catalog
+"The file is empty. Please choose another one","Filen er tom. Vælg venligst en anden",module,Magento_Catalog
+"Some of the selected item options are not currently available.","Nogle af de markerede indstillinger er ikke tilgængelige i øjeblikket.",module,Magento_Catalog
+"The text is too long.","Teksten er for lang.",module,Magento_Catalog
+"The file upload failed.","Fil upload mislykkedes.",module,Magento_Catalog
+"The product has required options.","Produktet har obligatoriske muligheder.",module,Magento_Catalog
+"Something went wrong while processing the request.","Noget gik galt under behandlingen af anmodningen.",module,Magento_Catalog
+"Not Visible Individually","Ikke synligt individuelt",module,Magento_Catalog
 Search,Søg,module,Magento_Catalog
 "Catalog, Search","Katalog, Søg",module,Magento_Catalog
+"Multiple Select","Marker flere",module,Magento_Catalog
+"Collapse All","Skjule alle",module,Magento_Catalog
+"Expand All","Vis alle",module,Magento_Catalog
+"Use Default Value","Brug standardværdi",module,Magento_Catalog
+"Manage Titles (Size, Color, etc.)","Administrere titler (størrelse, farve, osv.)",module,Magento_Catalog
+"Is Default","Er standard",module,Magento_Catalog
+"Add Option","Tilføj valgmulighed",module,Magento_Catalog
+"Sort Option",Sorteringsindstillingen,module,Magento_Catalog
+Groups,Grupper,module,Magento_Catalog
+"Unassigned Attributes","Ikke-tildelte attributter",module,Magento_Catalog
+"A name is required.","Der kræves et navn.",module,Magento_Catalog
+"Please enter a new group name.","Angiv et nyt gruppenavn.",module,Magento_Catalog
+"Custom Options","Brugerdefinerede indstillinger",module,Magento_Catalog
+"This is a required option.","Dette er en påkrævet valgmulighed.",module,Magento_Catalog
+"Maximum image width","Maksimum billedbredde",module,Magento_Catalog
+"Maximum image height","Maksimale billedhøjde",module,Magento_Catalog
+"Product online","Produkt online",module,Magento_Catalog
+"Product offline","Produkt offline",module,Magento_Catalog
+"Product online status","Produkt online status",module,Magento_Catalog
+"Manage Stock","Administrer lager",module,Magento_Catalog
+Qty,Antal,module,Magento_Catalog
+"Out-of-Stock Threshold","Ikke på lager grænsværdi",module,Magento_Catalog
+"Minimum Qty Allowed in Shopping Cart","Minimum antal tilladt i indkøbskurv",module,Magento_Catalog
+"Maximum Qty Allowed in Shopping Cart","Maksimal antal tilladt i indkøbskurv",module,Magento_Catalog
+"Qty Uses Decimals","Antal bruger decimaler",module,Magento_Catalog
+Backorders,Restordrer,module,Magento_Catalog
+"Notify for Quantity Below","Advisér for antal under",module,Magento_Catalog
+"Enable Qty Increments","Aktivere antal intervaller",module,Magento_Catalog
+"Qty Increments","Antal intervaller",module,Magento_Catalog
+"Stock Availability",Lagerbeholdningen,module,Magento_Catalog
+"In Stock","På lager",module,Magento_Catalog
+"Out of Stock",Udsolgt,module,Magento_Catalog
+"Delete Custom Option","Slette brugerdefinerede indstilling",module,Magento_Catalog
+"Sort Custom Options","Brugerdefinerede sorteringsindstillinger",module,Magento_Catalog
+"Input Type","Input type",module,Magento_Catalog
+Required,Påkrævet,module,Magento_Catalog
+"Price Type",Pristype,module,Magento_Catalog
+"Maximum Image Size","Maksimal billedstørrelse",module,Magento_Catalog
+"Please leave blank if it is not an image.","Lad være tomt hvis det ikke er et billede.",module,Magento_Catalog
+Title,Titel,module,Magento_Catalog
+"Sort Custom Option","Brugerdefinerede sorteringsindstilling",module,Magento_Catalog
+"Max Characters","Max tegn",module,Magento_Catalog
+"Customer Group",Kundegruppe,module,Magento_Catalog
+"Item Price",Varepris,module,Magento_Catalog
+Action,Handling,module,Magento_Catalog
+"and above","og over",module,Magento_Catalog
+"(Copy data from: %1)","(Kopiering af data fra: %1)",module,Magento_Catalog
+"Alt Text",Alt-tekst,module,Magento_Catalog
+Role,Rolle,module,Magento_Catalog
+"Hide from Product Page","Skjul på produktsiden",module,Magento_Catalog
+"Product Alerts","Produktet alarmer",module,Magento_Catalog
+"Basic Settings","Grundlæggende indstillinger",module,Magento_Catalog
+"Advanced Settings","Avancerede Indstillinger",module,Magento_Catalog
+"Mass Actions","Masse handlinger",module,Magento_Catalog
+"Select All","Vælg alle",module,Magento_Catalog
+"Unselect All","Fravælg alle",module,Magento_Catalog
+"Select Visible","Vælg synlig",module,Magento_Catalog
+"Unselect Visible","Fravælg synlig",module,Magento_Catalog
 "Shop By",Filtre,module,Magento_Catalog
+"Shopping Options",Købsmuligheder,module,Magento_Catalog
+"Compare Products","Sammenlign produkter",module,Magento_Catalog
+"Print This Page","Udskrive denne side",module,Magento_Catalog
+"Remove Product","Fjerne produktet",module,Magento_Catalog
+"Add to Cart","Læg i kurv",module,Magento_Catalog
+"In stock","På lager",module,Magento_Catalog
+"Out of stock",Udsolgt,module,Magento_Catalog
+"You have no items to compare.","Du har ingen varer at sammenligne.",module,Magento_Catalog
 "Remove This Item","Fjerne dette produkt",module,Magento_Catalog
+Compare,Sammenlign,module,Magento_Catalog
 "Clear All","Ryd alle",module,Magento_Catalog
+Prev,Forrige,module,Magento_Catalog
+Next,Næste,module,Magento_Catalog
+"Add to Compare","Tilføj for at sammenligne",module,Magento_Catalog
+"Learn More","Læs mere",module,Magento_Catalog
+"More Choices:","Flere valgmuligheder:",module,Magento_Catalog
+"Check items to add to the cart or","Vælg varer som skal lægges i indkøbskurven eller",module,Magento_Catalog
+"select all","vælg alle",module,Magento_Catalog
+"Items %1-%2 of %3","Varer %1-%2 af %3",module,Magento_Catalog
+"%1 Item","%1 vare",module,Magento_Catalog
+Show,Vis,module,Magento_Catalog
+"per page","pr. side",module,Magento_Catalog
+"Sort By","Sorter efter",module,Magento_Catalog
+"Set Ascending Direction","Stigende orden",module,Magento_Catalog
+"Set Descending Direction","Faldende orden",module,Magento_Catalog
+"View as","Vis som",module,Magento_Catalog
+Loading...,Indlæser...,module,Magento_Catalog
+"* Required Fields","* Påkrævede felter",module,Magento_Catalog
+Availability,Tilgængelighed,module,Magento_Catalog
 "Terms and Conditions","Vilkår og betingelser",module,Magento_CheckoutAgreements
 "Add New Condition","Tilføj ny betingelse",module,Magento_CheckoutAgreements
 "Save Condition","Gem tilstand",module,Magento_CheckoutAgreements
@@ -620,29 +783,227 @@ Loading...,Indlæser...,module,Magento_Checkout
 "Incl. Tax","Inkl. moms",module,Magento_Checkout
 "Static Blocks","Statiske blokke",module,Magento_Cms
 "Add New Block","Tilføj ny blok",module,Magento_Cms
+"Save Block","Gem blok",module,Magento_Cms
 "Delete Block","Slet blok",module,Magento_Cms
+"Save and Continue Edit","Gem og fortsæt redigering",module,Magento_Cms
+"New Block","Ny blok",module,Magento_Cms
+"Store View",Butiksvisning,module,Magento_Cms
+Enabled,"Slå til",module,Magento_Cms
+Disabled,"Slået fra",module,Magento_Cms
+Title,Titel,module,Magento_Cms
+"Manage Pages","Administrere sider",module,Magento_Cms
+"Add New Page","Tilføj ny side",module,Magento_Cms
+"Save Page","Gem siden",module,Magento_Cms
+"Delete Page","Slet side",module,Magento_Cms
+"New Page","Ny side",module,Magento_Cms
+"Page Title",Sidetitel,module,Magento_Cms
+"URL Key","URL nøgle",module,Magento_Cms
+Created,Oprettet,module,Magento_Cms
+Modified,Ændret,module,Magento_Cms
+Action,Handling,module,Magento_Cms
+Preview,Forhåndsvis,module,Magento_Cms
+"Create Folder...","Opret mappe...",module,Magento_Cms
+"Delete Folder","Slet mappe",module,Magento_Cms
+"Delete File","Slet fil",module,Magento_Cms
+"Insert File","Indsæt fil",module,Magento_Cms
+"New Folder Name:","Nyt mappenavn:",module,Magento_Cms
+"Are you sure you want to delete this folder?","Er du sikker på du vil slette denne mappe?",module,Magento_Cms
+"Are you sure you want to delete this file?","Er du sikker på du vil slette denne fil?",module,Magento_Cms
+"Images (%1)","Billeder (%1)",module,Magento_Cms
+Home,Hjem,module,Magento_Cms
+"Go to Home Page","Gå til startsiden",module,Magento_Cms
+"This block no longer exists.","Denne blok eksisterer ikke længere.",module,Magento_Cms
+"Edit Block","Redigere blok",module,Magento_Cms
+Blocks,Blokke,module,Magento_Cms
+"The page has been deleted.","Siden er blevet slettet.",module,Magento_Cms
+"This page no longer exists.","Denne side findes ikke længere.",module,Magento_Cms
+"Edit Page","Rediger side",module,Magento_Cms
+Pages,Sider,module,Magento_Cms
+"Choose an Option...","Vælg en valgmulighed...",module,Magento_ConfigurableProduct
+Select,Vælg,module,Magento_ConfigurableProduct
 Price,Pris,module,Magento_ConfigurableProduct
+Quantity,Antal,module,Magento_ConfigurableProduct
+"Add Products Manually","Tilføj produkter manuelt",module,Magento_ConfigurableProduct
 Image,Billede,module,Magento_ConfigurableProduct
 Name,Navn,module,Magento_ConfigurableProduct
+Weight,Vægt,module,Magento_ConfigurableProduct
+"Upload Image","Upload billede",module,Magento_ConfigurableProduct
+"No Image","Intet billede",module,Magento_ConfigurableProduct
 Confirm,Bekræft,module,Magento_ConfigurableProduct
+Cancel,Annuller,module,Magento_ConfigurableProduct
 "* Required Fields","* Påkrævede felter",module,Magento_Contact
+Name,Navn,module,Magento_Contact
+Email,E-mail,module,Magento_Contact
+Submit,Send,module,Magento_Contact
+Daily,Daglig,module,Magento_Cron
+Weekly,Ugentlig,module,Magento_Cron
+Monthly,Månedlig,module,Magento_Cron
 "Save Currency Rates","Gem valutakurser",module,Magento_CurrencySymbol
 Reset,Nulstil,module,Magento_CurrencySymbol
 "You subscribe to our newsletter.","Du abonnerer nu på vores nyhedsbrev.",module,Magento_Customer
+"You have not set a default shipping address.","Du har ikke angivet en standard forsendelsesadresse.",module,Magento_Customer
+"You have not set a default billing address.","Du har ikke angivet en standard faktureringsadresse.",module,Magento_Customer
 "Address Book",Adressebog,module,Magento_Customer
+"Edit Address","Rediger adresse",module,Magento_Customer
+"Add New Address","Tilføj ny adresse",module,Magento_Customer
+"Create Order","Opret ordre",module,Magento_Customer
+"Save Customer","Gem kunde",module,Magento_Customer
+"Delete Customer","Slet kunde",module,Magento_Customer
+"Reset Password","Nulstil adgangskode",module,Magento_Customer
+"New Customer","Ny kunde",module,Magento_Customer
+"Save and Continue Edit","Gem og fortsæt redigering",module,Magento_Customer
+Back,Tilbage,module,Magento_Customer
+"Please select","Vælg venligst",module,Magento_Customer
+Product,Produkt,module,Magento_Customer
+Quantity,Antal,module,Magento_Customer
 Price,Pris,module,Magento_Customer
+Action,Handling,module,Magento_Customer
+Configure,Konfigurer,module,Magento_Customer
+Delete,Slet,module,Magento_Customer
+"Shopping Cart from %1","Indkøbskurv fra %1",module,Magento_Customer
 Newsletter,Nyhedsbrev,module,Magento_Customer
+"Newsletter Information","Nyhedsbrev oplysninger",module,Magento_Customer
 "Subscribed to Newsletter","Tilmeldt nyhedsbrev",module,Magento_Customer
+"No Newsletter Found","Ingen nyhedsbrev fundet",module,Magento_Customer
+"Start date",Startdato,module,Magento_Customer
+"End Date",Slutdato,module,Magento_Customer
+"Receive Date","Modtaget dato",module,Magento_Customer
+Subject,Emne,module,Magento_Customer
+Sent,Sendt,module,Magento_Customer
+Cancel,Annuller,module,Magento_Customer
+"Not Sent","Ikke sendt",module,Magento_Customer
+Sending,Sender,module,Magento_Customer
+Paused,"På pause",module,Magento_Customer
+View,Vis,module,Magento_Customer
+Unknown,Ukendt,module,Magento_Customer
+Order,Ordre,module,Magento_Customer
+"Order Total",Ordretotal,module,Magento_Customer
+Qty,Antal,module,Magento_Customer
+Confirmed,Bekræftet,module,Magento_Customer
+"Confirmation Required","Bekræftelse påkrævet",module,Magento_Customer
+Never,Aldrig,module,Magento_Customer
+No,Nej,module,Magento_Customer
+Yes,Ja,module,Magento_Customer
+"Delete File","Slet fil",module,Magento_Customer
+"Delete Image","Slet billede",module,Magento_Customer
+"Customer Groups",Kundegrupper,module,Magento_Customer
+"Add New Customer Group","Tilføje nye kundegruppe",module,Magento_Customer
+"Save Customer Group","Gem kundegruppe",module,Magento_Customer
+"Delete Customer Group","Slet kundegruppe",module,Magento_Customer
+"New Customer Group","Ny kundegruppe",module,Magento_Customer
+"Edit Customer Group ""%1""","Rediger kundegruppe ""%1""",module,Magento_Customer
+"Group Information",Gruppeoplysninger,module,Magento_Customer
+"Group Name",Gruppenavn,module,Magento_Customer
+"Tax Class",Momsklasse,module,Magento_Customer
+"Would you like to change the Customer Group for this order?","Vil du gerne ændre kundegruppen for denne ordre?",module,Magento_Customer
 "Validate VAT Number","Valider CVR-nummer",module,Magento_Customer
 "Customer Login","Kunde login",module,Magento_Customer
+"Create New Customer Account","Oprette ny kunde konto",module,Magento_Customer
+"Date of Birth",Fødselsdag,module,Magento_Customer
+"This confirmation key is invalid or has expired.","Denne bekræftelse nøgle er ugyldig eller er udløbet.",module,Magento_Customer
+"There was an error confirming the account","Der opstod en fejl under bekræftelsen af kontoen",module,Magento_Customer
+"Thank you for registering with %1.","Tak for din registrering med %1.",module,Magento_Customer
+"This email does not require confirmation.","Denne e-mail kræver ikke bekræftelse.",module,Magento_Customer
+"Wrong email.","Forkert e-mail.",module,Magento_Customer
+"Your password reset link has expired.","Dit link til nulstilling af adgangskode er udløbet.",module,Magento_Customer
+"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Der er allerede en konto med denne e-mail-adresse. Hvis du er sikker på, at er det din e-mail-adresse, <a href=""%1"">klik her</a> for at få din adgangskode og få adgang til din konto.",module,Magento_Customer
 "Account Information","Konto Information",module,Magento_Customer
+"Please correct the email address.","Ret venligst e-mail-adressen.",module,Magento_Customer
+"Please enter your email.","Angiv din e-mail.",module,Magento_Customer
+"If there is an account associated with %1 you will receive an email with a link to reset your password.","Hvis der er en konto, der er knyttet til %1 vil du modtage en e-mail med et link for at nulstille din adgangskode.",module,Magento_Customer
 "My Account","Min Konto",module,Magento_Customer
+"Invalid login or password.","Ugyldig login eller adgangskode.",module,Magento_Customer
+"New Password and Confirm New Password values didn't match.","Ny adgangskode og bekræft ny adgangskode værdier stemmer ikke overens.",module,Magento_Customer
+"No customer ID defined.","Intet kunde-ID defineret.",module,Magento_Customer
+"The customer group no longer exists.","Kundegruppen eksisterer ikke længere.",module,Magento_Customer
+Customers,Kunder,module,Magento_Customer
+"New Group","Ny gruppe",module,Magento_Customer
+"New Customer Groups","Nye kundegrupper",module,Magento_Customer
+"Edit Group","Ret gruppe",module,Magento_Customer
+"Edit Customer Groups","Rediger kundegruppe",module,Magento_Customer
+"Please select customer(s).","Vælg venligst kunde(r).",module,Magento_Customer
+"You deleted the customer.","Du har slettet kunden.",module,Magento_Customer
+"Manage Customers","Administrere kunder",module,Magento_Customer
+"A total of %1 record(s) were updated.","Ialt %1 post(er) blev opdateret.",module,Magento_Customer
+"A total of %1 record(s) were deleted.","Ialt %1 post(er) blev slettet.",module,Magento_Customer
+"You saved the customer.","Du gemte kunden.",module,Magento_Customer
+"This account is not confirmed.","Denne konto er ikke bekræftet.",module,Magento_Customer
+"Billing Address",Faktureringsadresse,module,Magento_Customer
+"Shipping Address",Leveringsadresse,module,Magento_Customer
+"-- Please Select --",--Vælg--,module,Magento_Customer
+"""%1"" contains non-alphabetic characters.","""%1"" indeholder ikke-alfabetiske tegn.",module,Magento_Customer
+"""%1"" is not a valid email address.","""%1"" er ikke en gyldig e-mail-adresse.",module,Magento_Customer
+"""%1"" is not a valid hostname.","""%1"" er ikke et gyldigt værtsnavn.",module,Magento_Customer
+"""%1"" is not a valid URL.","""%1"" er ikke en gyldig URL-adresse.",module,Magento_Customer
+"""%1"" is not a valid date.","""%1"" er ikke en gyldig dato.",module,Magento_Customer
+"""%1"" does not fit the entered date format.","""%1"" passer ikke det angivne datoformat.",module,Magento_Customer
+"Please enter a valid date between %1 and %2 at %3.","Indtast en gyldig dato mellem %1 og %2 på %3.",module,Magento_Customer
+"Please enter a valid date equal to or greater than %1 at %2.","Indtast en gyldig dato lig med eller større end %1 på %2.",module,Magento_Customer
+"Please enter a valid date less than or equal to %1 at %2.","Indtast en gyldig dato, mindre end eller lig %1 på %2.",module,Magento_Customer
+"""%1"" is not a valid file extension.","""%1"" er ikke en gyldig filendelse.",module,Magento_Customer
+"""%1"" is not a valid file.","""%1"" er ikke en gyldig fil.",module,Magento_Customer
+"""%1"" exceeds the allowed file size.","""%1"" overstiger den tilladte filstørrelse.",module,Magento_Customer
+"""%1"" is not a valid image format.","""%1"" er ikke et gyldigt billedformat.",module,Magento_Customer
+"""%1"" width exceeds allowed value of %2 px.","""%1"" bredde overstiger tilladte værdi af %2 px.",module,Magento_Customer
+"""%1"" height exceeds allowed value of %2 px.","""%1"" højde overstiger tilladte værdi af %2 px.",module,Magento_Customer
+"""%1"" length must be equal or greater than %2 characters.","""%1"" længde skal være lig med eller større end %2 tegn.",module,Magento_Customer
+"""%1"" length must be equal or less than %2 characters.","""%1"" længde skal være lig eller mindre end %2 tegn.",module,Magento_Customer
+label,etiket,module,Magento_Customer
+"Customer Group",Kundegruppe,module,Magento_Customer
+"Customer Group already exists.","Kundegruppe findes allerede.",module,Magento_Customer
+"PHP SOAP extension is required.","PHP SOAP udvidelse er påkrævet.",module,Magento_Customer
+Edit,Rediger,module,Magento_Customer
+Customer,Kunde,module,Magento_Customer
+"Account Created on (%1):","Konto oprettet på (%1):",module,Magento_Customer
+"Account Created in:","Konto oprettet i:",module,Magento_Customer
+"Customer Group:",Kundegruppe:,module,Magento_Customer
+"Default Billing Address","Standard faktureringsadresse",module,Magento_Customer
+"Sales Statistics",Salgsstatistik,module,Magento_Customer
+Change,Skift,module,Magento_Customer
+"Manage Addresses","Administrere adresser",module,Magento_Customer
+"Default Shipping Address","Standard leveringsadresse",module,Magento_Customer
+"Contact Information",Kontaktinformation,module,Magento_Customer
+"Change Password","Skift kodeord",module,Magento_Customer
+Newsletters,Nyhedsbreve,module,Magento_Customer
+"Default Addresses","Standard adresser",module,Magento_Customer
+"Change Billing Address","Skift faktureringsadresse",module,Magento_Customer
+"You have no default billing address in your address book.","Du har ingen standard faktureringsadresse i din adressebog.",module,Magento_Customer
+"Change Shipping Address","Skift forsendelsesadresse",module,Magento_Customer
+"You have no default shipping address in your address book.","Du har ingen standard forsendelsesadresse i din adressebog.",module,Magento_Customer
+"Additional Address Entries","Yderligere adresser",module,Magento_Customer
+"Delete Address","Slet Adresse",module,Magento_Customer
+"* Required Fields","* Påkrævede felter",module,Magento_Customer
 Company,Firma,module,Magento_Customer
+Address,Adresse,module,Magento_Customer
+"Street Address",Gade/vejnavn,module,Magento_Customer
+"Street Address %1","Gade/vejnavn %1",module,Magento_Customer
 "VAT Number",CVR-nummer,module,Magento_Customer
+City,By,module,Magento_Customer
+State/Province,Stat/provins,module,Magento_Customer
+"Zip/Postal Code",Postnummer,module,Magento_Customer
+Country,Land,module,Magento_Customer
+"Use as my default billing address","Brug som min standard faktureringsadresse",module,Magento_Customer
+"Use as my default shipping address","Brug som min standard forsendelsesadresse",module,Magento_Customer
+"Save Address","Gem adresse",module,Magento_Customer
+"Go back","Gå tilbage",module,Magento_Customer
+Email,E-mail,module,Magento_Customer
+"Send confirmation link","Send bekræftelseslink",module,Magento_Customer
+"Current Password","Nuværende adgangskode",module,Magento_Customer
+"New Password","Ny adgangskode",module,Magento_Customer
+"Confirm New Password","Bekræft ny adgangskode",module,Magento_Customer
+Save,Gem,module,Magento_Customer
 "Registered Customers","Eksisterende kunder",module,Magento_Customer
 Password,Kodeord,module,Magento_Customer
 "Forgot Your Password?","Glemt kodeord?",module,Magento_Customer
+"Subscription option",Abonnementsmulighed,module,Magento_Customer
+"General Subscription","Generel abonnement",module,Magento_Customer
+"Sign Up for Newsletter","Tilmeld dig nyhedsbrev",module,Magento_Customer
+"Address Information",Adresseoplysninger,module,Magento_Customer
 "Confirm Password","Bekræft kodeord",module,Magento_Customer
+"New Customers","Nye kunder",module,Magento_Customer
+Gender,Køn,module,Magento_Customer
+Name,Navn,module,Magento_Customer
+"Tax/VAT number","Moms nummer",module,Magento_Customer
 None,Ingen,module,Magento_Dhl
 State/Province,Stat/provins,module,Magento_Directory
 "--Please Select--",--Vælg--,module,Magento_Directory
@@ -1103,6 +1464,8 @@ Total:,"I alt:",module,Magento_Checkout
 "Add Products to Option ""%1""","Føj produkter til indstilling ""%1""",module,Magento_Bundle
 "Add Selected Products","Tilføj udvalgte produkter",module,Magento_Bundle
 Cancel,Annuller,module,Magento_Catalog
+"New Option","Ny mulighed",module,Magento_Catalog
+"Select Product","Vælg produkt",module,Magento_Catalog
 "Create Category","Opret kategori",module,Magento_Catalog
 "Incl. Tax","Inkl. moms",module,Magento_ConfigurableProduct
 "Use HTTPS to Get Feed","Brug HTTPS for at hente et feed",module,Magento_AdminNotification
@@ -1188,6 +1551,19 @@ Debug,Fejlsøgning,module,Magento_Backend
 "Cache Type","Cache type",module,Magento_Backend
 Description,Beskrivelse,module,Magento_Backend
 "Community Edition","Community udgave",module,Magento_Backend
+"Scheduled Backup Settings","Planlagte Backup-indstillinger",module,Magento_Backup
+"Enable Scheduled Backup","Aktivere planlagt backup",module,Magento_Backup
+"Backup Type","Backup type",module,Magento_Backup
+"Start Time",Starttidspunkt,module,Magento_Backup
+Frequency,Hyppighed,module,Magento_Backup
+"Maintenance Mode",Vedligeholdelsestilstand,module,Magento_Backup
+Delete,Slet,module,Magento_Backup
+"Are you sure you want to delete the selected backup(s)?","Er du sikker på du vil slette de markerede backup(s)?",module,Magento_Backup
+Time,Tidspunkt,module,Magento_Backup
+Name,Navn,module,Magento_Backup
+Size(bytes),"Størrelse (bytes)",module,Magento_Backup
+Download, Download,module,Magento_Backup
+Action,Handling,module,Magento_Backup
 "Allow Duplicate Cards","Tillad dubletter af kort",module,Magento_Braintree
 "Use Cache","Brug Cache",module,Magento_Braintree
 "Enable CAPTCHA in Admin","Aktiver CAPTCHA i Admin",module,Magento_Captcha
@@ -1204,13 +1580,58 @@ Forms,Formularer,module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA for ""Opret bruger"" og ""Glemt kodeord"" formularer er altid aktiveret, hvis valgt.",module,Magento_Captcha
 Inventory,Lager,module,Magento_CatalogInventory
 "Stock Options",Lageroptioner,module,Magento_CatalogInventory
+"Decrease Stock When Order is Placed","Nedskriv lager når ordren er afgivet",module,Magento_CatalogInventory
+"Set Items' Status to be In Stock When Order is Cancelled","Sæt produkternes status til at være på lager når ordren er annulleret",module,Magento_CatalogInventory
+"Display Out of Stock Products","Vis produkter der ikke er på lager",module,Magento_CatalogInventory
+"Products will still be shown by direct product URLs.","Produkter vil stadig blive vist ved direkte tilgang af produkt webadresser.",module,Magento_CatalogInventory
+"Only X left Threshold","Kun X tilbage grænsværdi",module,Magento_CatalogInventory
+"Product Stock Options","Produkt lagermuligheder",module,Magento_CatalogInventory
+"Manage Stock","Administrer lager",module,Magento_CatalogInventory
+Backorders,Restordrer,module,Magento_CatalogInventory
+"Maximum Qty Allowed in Shopping Cart","Maksimalt antal tilladt i indkøbskurv",module,Magento_CatalogInventory
+"Minimum Qty Allowed in Shopping Cart","Minimum antal tilladt i indkøbskurv",module,Magento_CatalogInventory
+"Notify for Quantity Below","Advisér for mængde under",module,Magento_CatalogInventory
+"Automatically Return Credit Memo Item to Stock","Automatisk lægge kreditnota på lager",module,Magento_CatalogInventory
+"Enable Qty Increments","Aktivere antal intervaller",module,Magento_CatalogInventory
+"Qty Increments","Antal intervaller",module,Magento_CatalogInventory
+"Popular Search Terms","Populære søgetermer",module,Magento_CatalogSearch
+"Catalog Search",Katalogsøgning,module,Magento_CatalogSearch
+"Minimal Query Length","Minimum længde på forespørgselse",module,Magento_CatalogSearch
+"Maximum Query Length","Maximum længde på forespørgselse",module,Magento_CatalogSearch
+"Search Engine Optimization","Søgemaskine optimering",module,Magento_Catalog
+"Page Title Separator","Side titel separator",module,Magento_Catalog
+"Catalog Price Scope","Katalog pris anvendelsesområde",module,Magento_Catalog
+"Category Top Navigation","Kategori top navigation",module,Magento_Catalog
+"Maximal Depth","Maksimal dybde",module,Magento_Catalog
+"Date & Time Custom Options","Dato & tid brugerdefinerede indstillinger",module,Magento_Catalog
+"Use JavaScript Calendar","Brug JavaScript kalender",module,Magento_Catalog
+"Time Format",Klokkeslætsformat,module,Magento_Catalog
+"Product Categories",Produktkategorier,module,Magento_Catalog
+"Product Price",Produktpris,module,Magento_Catalog
+"Display Type",Visningstype,module,Magento_Catalog
+"All products - recently added products, New products - products marked as new","Alle produkter - for nylig tilføjet produkter, nye produkter - produkter mærket som nyheder",module,Magento_Catalog
+"All products","Alle produkter",module,Magento_Catalog
+"New products","Nye produkter",module,Magento_Catalog
+"Number of Products per Page","Antal varer pr. side",module,Magento_Catalog
+"Number of Products to Display","Antallet af produkter som vises",module,Magento_Catalog
+Template,Skabelon,module,Magento_Catalog
+"Link to a Specified Product","Link til et angivet produkt",module,Magento_Catalog
+Set,Indstil,module,Magento_Catalog
+"Change status","Ændre status",module,Magento_Catalog
+none,ingen,module,Magento_Catalog
+Overview,Oversigt,module,Magento_Catalog
+Details,Detaljer,module,Magento_Catalog
 "Enable Terms and Conditions","Aktiver handelsbetingelser",module,Magento_CheckoutAgreements
 "Checkout Options","Checkout valg",module,Magento_Checkout
 "Enable Onepage Checkout","Aktiver one-page checkout",module,Magento_Checkout
 "Allow Guest Checkout","Tillad Checkout-gæst",module,Magento_Checkout
+"Require Customer To Be Logged In To Checkout","Kræv at kunden skal være logget ind for at kunne gennemføre ordren",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","Efter tilføjelse af et produkt omdiriger til indkøbskurv",module,Magento_Checkout
 "My Cart Link","Min Indkøbskurv link",module,Magento_Checkout
 "Display Cart Summary","Se indkøbskurv",module,Magento_Checkout
+"Shopping Cart Sidebar","Indkøbskurv sidebar",module,Magento_Checkout
+"Display Shopping Cart Sidebar","Vis indkøbskurv sidebar",module,Magento_Checkout
+"Maximum Display Recently Added Item(s)","Maksimale visningen for nylig tilføjet produk(er)",module,Magento_Checkout
 "Payment Failed Emails","Betaling mislykkedes e-mails",module,Magento_Checkout
 "Payment Failed Email Sender","Betaling mislykkedes e-mail afsender",module,Magento_Checkout
 "Payment Failed Email Receiver","Betaling mislykkedes e-mail-modtager",module,Magento_Checkout
@@ -1223,8 +1644,34 @@ Inventory,Lager,module,Magento_CatalogInventory
 "Cart Subtotal","Kurv Subtotal",module,Magento_Checkout
 "Not yet calculated","Endnu ikke beregnet",module,Magento_Checkout
 "Thank you for your purchase!","Tak for dit køb!",module,Magento_Checkout
+"Configurable Product Image","Konfigurerbar produkt billede",module,Magento_ConfigurableProduct
+Contacts,Kontakter,module,Magento_Contact
 "Contact Us","Kontakt os",module,Magento_Contact
 "Enable Contact Us","Aktiver kontakt os",module,Magento_Contact
+"Email Options","E-mail indstillinger",module,Magento_Contact
+"Send Emails To","Send e-mails til",module,Magento_Contact
+"Email Sender","E-mail afsender",module,Magento_Contact
+"Email Template","Email skabelon",module,Magento_Contact
+"Welcome Email","Velkomst e-mail",module,Magento_Customer
+"Please enter a number 1 or greater in this field.","Indtast nummer 1 eller større i dette felt.",module,Magento_Customer
+Group,Gruppe,module,Magento_Customer
+"Subscribe to Newsletter","Tilmeldt nyhedsbrev",module,Magento_Customer
+"Unsubscribe from Newsletter","Afmelde nyhedsbrevet",module,Magento_Customer
+Phone,Telefon,module,Magento_Customer
+ZIP,Postnr.,module,Magento_Customer
+"Customer Since","Kunde siden",module,Magento_Customer
+"Confirmed email","Bekræftet e-mail",module,Magento_Customer
+"Account Created in","Konto oprettet i",module,Magento_Customer
+"Tax VAT Number",Moms-nummer,module,Magento_Customer
+"First Name",Fornavn,module,Magento_Customer
+"Last Name",Efternavn,module,Magento_Customer
+"Last Activity","Sidste aktivitet",module,Magento_Customer
+"Customer Information",Kundeoplysninger,module,Magento_Customer
+"Send Welcome Email From","Send velkomst e-mail fra",module,Magento_Customer
+Addresses,Adresser,module,Magento_Customer
+"Edit Account Information","Redigere kontooplysninger",module,Magento_Customer
+"Password forgotten","Glemt adgangskode",module,Magento_Customer
+"My Dashboard","Mit betjeningspanel",module,Magento_Customer
 Added,Tilføjet,module,Magento_Email
 Updated,Opdateret,module,Magento_Email
 Subject,Emne,module,Magento_Email
