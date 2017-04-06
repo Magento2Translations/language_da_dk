@@ -1595,8 +1595,56 @@ Items,Varer,module,Magento_Multishipping
 "Thanks for your order. We'll email you order details and tracking information.","Tak for din bestilling. Vi sender dig en ordrebekræftelse på mail.",module,Magento_Multishipping
 "Continue Shopping","Fortsæt med at shoppe",module,Magento_Multishipping
 "Delete Selected Problems","Slet de valgte problemer",module,Magento_Newsletter
+"Unsubscribe Selected","Afmeld Valgte",module,Magento_Newsletter
 Back,Tilbage,module,Magento_Newsletter
 Reset,Nulstil,module,Magento_Newsletter
+"Preview Template","Forhåndsvis Template",module,Magento_Newsletter
+"Save Newsletter","Gem nyhedsbrev",module,Magento_Newsletter
+"Save and Resume","Gem og fortsæt",module,Magento_Newsletter
+"View Newsletter","Se nyhedsbrev",module,Magento_Newsletter
+"Edit Newsletter","Rediger nyhedsbrev",module,Magento_Newsletter
+"Queue Information",Køoplysninger,module,Magento_Newsletter
+"Queue Date Start","Kø dato start",module,Magento_Newsletter
+"Subscribers From","Abonnenter fra",module,Magento_Newsletter
+Subject,Emne,module,Magento_Newsletter
+"Sender Name",Afsendernavn,module,Magento_Newsletter
+"Sender Email","Afsender Email",module,Magento_Newsletter
+Message,Besked,module,Magento_Newsletter
+"Newsletter Styles","Nyhedsbrev stilarter",module,Magento_Newsletter
+"Do you really want to cancel the queue?","Er du sikker på at du vil annullere køen?",module,Magento_Newsletter
+Cancel,Annuller,module,Magento_Newsletter
+Resume,Genoptag,module,Magento_Newsletter
+Preview,Forhåndsvis,module,Magento_Newsletter
+"Add New Template","Tilføj nyt template",module,Magento_Newsletter
+"Newsletter Templates",Nyhedsbrevsskabeloner,module,Magento_Newsletter
+"Convert to Plain Text","Konverter til almindelig tekst",module,Magento_Newsletter
+"Return HTML Version","Returner HTML-Version",module,Magento_Newsletter
+"Delete Template","Slet template",module,Magento_Newsletter
+"Save As","Gem som",module,Magento_Newsletter
+"Save Template","Gem template",module,Magento_Newsletter
+"Edit Newsletter Template","Rediger nyhedsbrev template",module,Magento_Newsletter
+"New Newsletter Template","Nyt nyhedsbrev template",module,Magento_Newsletter
+"Template Information","Template information",module,Magento_Newsletter
+"Template Name","Template navn",module,Magento_Newsletter
+"Template Subject","Template emne",module,Magento_Newsletter
+"Template Content","Skabelon indhold",module,Magento_Newsletter
+"Template Styles",Skabelonstil,module,Magento_Newsletter
+"No Templates Found","Ingen skabeloner fundet",module,Magento_Newsletter
+Template,Skabelon,module,Magento_Newsletter
+Added,Tilføjet,module,Magento_Newsletter
+Updated,Opdateret,module,Magento_Newsletter
+Sender,Afsender,module,Magento_Newsletter
+"Template Type","Skabelons type",module,Magento_Newsletter
+Action,Handling,module,Magento_Newsletter
+"Queue Newsletter","Sæt nyhedsbrev i kø",module,Magento_Newsletter
+"We unsubscribed the people you identified.","Vi Afmeldte de personer du identificeret.",module,Magento_Newsletter
+"The problems you identified have been deleted.","De problemer du identificerede er blevet slettet.",module,Magento_Newsletter
+"Newsletter Problems Report","Nyhedsbrevs Problemer Rapport",module,Magento_Newsletter
+"Newsletter Problem Reports","Nyhedsbrevs Problemer Rapport",module,Magento_Newsletter
+"Newsletter Queue","Nyhedsbrev kø",module,Magento_Newsletter
+"Edit Queue","Rediger kø",module,Magento_Newsletter
+"Please correct the newsletter template and try again.","Ret venligst nyhedsbrevet skabelon, og prøv igen.",module,Magento_Newsletter
+Subscribe,Abonner,module,Magento_Newsletter
 "Send Check to:","Send check til:",module,Magento_OfflinePayments
 Country,Land,module,Magento_OfflineShipping
 Region/State,Region/stat,module,Magento_OfflineShipping
@@ -2112,6 +2160,13 @@ Password:,Kodeord:,module,Magento_Customer
 "See order and shipping status","Se ordre og leveringsstatus",module,Magento_Customer
 "Track order history",Ordreoversigten,module,Magento_Customer
 "Thank you, %store_name","Tak, %store_name",module,Magento_Email
+"Newsletter subscription confirmation","Nyhedsbrev abonnement bekræftelse",module,Magento_Newsletter
+"Thank you for subscribing to our newsletter.","Tak for din tilmelding til vores nyhedsbrev.",module,Magento_Newsletter
+"To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:","For at begynde at modtage nyhedsbrev, skal du først bekræfte dit abonnement ved at klikke på følgende link:",module,Magento_Newsletter
+"Newsletter subscription success","Nyhedsbrev abonnement succes",module,Magento_Newsletter
+"You have been successfully subscribed to our newsletter.","Du er blevet succesfuldt tilmeldt vores nyhedsbrev.",module,Magento_Newsletter
+"Newsletter unsubscription success","Nyhedsbrev opsigelse af abonnement succes",module,Magento_Newsletter
+"You have been unsubscribed from the newsletter.","Du er blevet Afmeldt fra nyhedsbrevet.",module,Magento_Newsletter
 "Place Order","Afgiv ordre",module,Magento_OfflinePayments
 "Place Order","Afgiv ordre",module,Magento_Payment
 "Forgot an Item?","Glemte du en vare?",module,Magento_Payment
@@ -2491,6 +2546,20 @@ Options,Valgmuligheder,module,Magento_Multishipping
 "Select Shipping Method","Vælg leveringsmetode",module,Magento_Multishipping
 "We received your order!","Vi har modtaget din bestilling!",module,Magento_Multishipping
 General,Generelt,module,Magento_NewRelicReporting
+"Newsletter Template",Nyhedsbrevsskabelon,module,Magento_Newsletter
+"Newsletter Section","Nyhedsbrev sektion",module,Magento_Newsletter
+"Subscription Options",Abonnementsmuligheder,module,Magento_Newsletter
+"Allow Guest Subscription","Tillad gæst abonnement",module,Magento_Newsletter
+"Need to Confirm","Skal bekræftes",module,Magento_Newsletter
+Delete,Slet,module,Magento_Newsletter
+Email,E-mail,module,Magento_Newsletter
+Guest,Gæst,module,Magento_Newsletter
+Customer,Kunde,module,Magento_Newsletter
+Subscribed,Tilmeldt,module,Magento_Newsletter
+Unsubscribed,Afmeldt,module,Magento_Newsletter
+"Web Site",Hjemmeside,module,Magento_Newsletter
+Store,Butik,module,Magento_Newsletter
+"Store View",Butiksvisning,module,Magento_Newsletter
 Enabled,Aktiveret,module,Magento_OfflinePayments
 "New Order Status","Nye ordrestatus",module,Magento_OfflinePayments
 Title,Titel,module,Magento_OfflinePayments
