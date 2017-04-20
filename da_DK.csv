@@ -2355,6 +2355,7 @@ Cancel,Annuller,module,Magento_Checkout
 Login,"Log ind",module,Magento_Checkout
 item,vare,module,Magento_Checkout
 items,varer,module,Magento_Checkout
+"Go to Checkout","Gå til kassen",module,Magento_Checkout
 "See Details","Se detaljer",module,Magento_Checkout
 "Options Details","Detaljer for optioner",module,Magento_Checkout
 Remove,Fjern,module,Magento_Checkout
