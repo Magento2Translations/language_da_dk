@@ -2356,6 +2356,7 @@ Login,"Log ind",module,Magento_Checkout
 item,vare,module,Magento_Checkout
 items,varer,module,Magento_Checkout
 "Go to Checkout","Gå til kassen",module,Magento_Checkout
+"View and edit cart","Se og rediger kurv",module,Magento_Checkout
 "See Details","Se detaljer",module,Magento_Checkout
 "Options Details","Detaljer for optioner",module,Magento_Checkout
 Remove,Fjern,module,Magento_Checkout
@@ -2500,9 +2501,9 @@ Footer,Sidefod,theme,frontend/Magento/luma
 "Placed on <span class=""no-link"">%created_at</span>","Placeret på <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
 "Update to your %store_name order","Opdaterer til din %store_name bestilling",theme,frontend/Magento/luma
 "Your %store_name order has shipped","Din %store_name bestilling er blevet afsendt",theme,frontend/Magento/luma
-"Your shipping confirmation is below. Thank you again for your business.","Din forsendelse bekræftelse er nedenfor. Endnu en gang tak for din ordre.",theme,frontend/Magento/luma
+"Your shipping confirmation is below. Thank you again for your business.","Din forsendelsesbekræftelse er nedenfor. Endnu en gang tak for din ordre.",theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","Din forsendelse #%shipment_id for ordre #%order_id",theme,frontend/Magento/luma
-"Update to your %store_name shipment","Opdaterer til din %store_name forsendelse",theme,frontend/Magento/luma
+"Update to your %store_name shipment","Opdater til din %store_name forsendelse",theme,frontend/Magento/luma
 "This payment is not available","Denne betaling er ikke tilgængelig",module,Magento_Braintree
 YY,ÅÅ,module,Magento_Braintree
 "Please try again with another form of payment.","Prøv igen med en anden betalingsform.",module,Magento_Braintree
