@@ -2334,7 +2334,7 @@ Password:,Kodeord:,theme,frontend/Magento/luma
 "Once your package ships we will send you a tracking number.","Når din pakke skibe vil vi sende dig et trackingnummer.",theme,frontend/Magento/luma
 "Your Order <span class=""no-link"">#%increment_id</span>","Din ordre <span class=""no-link""> #%increment_id</span>",theme,frontend/Magento/luma
 "Placed on <span class=""no-link"">%created_at</span>","Placeret på <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
-"Your shipping confirmation is below. Thank you again for your business.","Din forsendelse bekræftelse er nedenfor. Endnu en gang tak for din ordre.",theme,frontend/Magento/luma
+"Your shipping confirmation is below. Thank you again for your business.","Din forsendelsesbekræftelse er nedenfor. Endnu en gang tak for din ordre.",theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","Din forsendelse #%shipment_id for ordre #%order_id",theme,frontend/Magento/luma
 "Add Products to New Option","Føj produkter til ny indstilling",module,Magento_Bundle
 "Add Products to Option ""%1""","Føj produkter til indstilling ""%1""",module,Magento_Bundle
