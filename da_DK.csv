@@ -2380,6 +2380,7 @@ Next,Næste,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Desværre, ingen produkter er tilgængelige for denne ordre på nuværende tidspunkt",module,Magento_Checkout
 "Order Summary",Ordreoversigt,module,Magento_Checkout
 "Item in Cart","Vare i indkøbskurv",module,Magento_Checkout
+"Items in Cart","Varer i indkøbskurv",module,Magento_Checkout
 "View Details","Vis detaljer",module,Magento_Checkout
 "Contact Form",Kontaktformular,module,Magento_Contact
 "Name: %name","Navn: %name",module,Magento_Contact
