@@ -103,6 +103,39 @@ Clear,Slet,module,Magento_Backend
 "Search Index",Søgeindeks,module,Magento_Backend
 Rebuild,Genopbyg,module,Magento_Backend
 "Rebuild Catalog Index","Genopbyg katalogindeks",module,Magento_Backend
+"Cache Control","Cache kontrol",module,Magento_Backend
+Disable,Deaktiver,module,Magento_Backend
+Enable,Aktiverer,module,Magento_Backend
+Back,Tilbage,module,Magento_Backend
+Delete,Slet,module,Magento_Backend
+"Are you sure?","Er du sikker?",module,Magento_Backend
+Save,Gem,module,Magento_Backend
+"General Settings","Generelle indstillinger",module,Magento_Backend
+Store,Butik,module,Magento_Backend
+"Custom Design","Brugerdefineret Design",module,Magento_Backend
+"Date From","Dato fra",module,Magento_Backend
+"Date To","Dato til",module,Magento_Backend
+General,Generelt,module,Magento_Backend
+Cancel,Annuller,module,Magento_Backend
+"Delete %1 '%2'","Slet %1 '%2'",module,Magento_Backend
+"Delete %1","Slet %1",module,Magento_Backend
+"Block Information","Blok oplysninger",module,Magento_Backend
+"Backup Options","Backup indstillinger",module,Magento_Backend
+"Create DB Backup","Opret DB sikkerhedskopi",module,Magento_Backend
+Yes,Ja,module,Magento_Backend
+No,Nej,module,Magento_Backend
+"Delete Store","Slet butik",module,Magento_Backend
+"Delete Web Site","Slette websted",module,Magento_Backend
+"Save Web Site","Gem websted",module,Magento_Backend
+"Save Store","Gem butik",module,Magento_Backend
+"Save Store View","Gem butiks visning",module,Magento_Backend
+"Delete Store View","Slet Butiksvisning",module,Magento_Backend
+"Edit Web Site","Redigere Webside",module,Magento_Backend
+"New Web Site","Nyt websted",module,Magento_Backend
+"Edit Store","Rediger butik",module,Magento_Backend
+"New Store","Ny butik",module,Magento_Backend
+"Edit Store View","Rediger butiks visning",module,Magento_Backend
+"New Store View","Ny butiks visning",module,Magento_Backend
 "Store Information","Butiks information",module,Magento_Backend
 Name,Navn,module,Magento_Backend
 "Root Category","Rod Kategori",module,Magento_Backend
@@ -182,6 +215,15 @@ Time,Tid,module,Magento_Backend
 Hour,Time,module,Magento_Backend
 Minute,Minut,module,Magento_Backend
 "JavaScript may be disabled in your browser.","JavaScript kan være slået fra i din browser.",module,Magento_Backend
+Catalog,Katalog,module,Magento_Backend
+"No records found.","Ingen poster fundet.",module,Magento_Backend
+Images,Billeder,module,Magento_Backend
+"Big Image","Stort billede",module,Magento_Backend
+"per page","pr. side",module,Magento_Backend
+"of %1","af %1",module,Magento_Backend
+"Next page","Næste side",module,Magento_Backend
+Actions,Handlinger,module,Magento_Backend
+Loading...,Indlæser...,module,Magento_Backend
 "System Backup","System backup",module,Magento_Backup
 "Database and Media Backup","Database og Medie Backup",module,Magento_Backup
 "The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","Arkivet kan udpakkes med <a href=""%1"">%2</a> på Windows systemer.",module,Magento_Backup
@@ -1137,7 +1179,15 @@ Availability,Tilgængelighed,module,Magento_GroupedProduct
 Export,Eksport,module,Magento_ImportExport
 "Export Settings","Eksporter indstillinger",module,Magento_ImportExport
 From,Fra,module,Magento_ImportExport
+"Indexer Management",Indekseringen,module,Magento_Indexer
+"Update by Schedule","Opdatering efter tidsplan",module,Magento_Indexer
+"Update on Save","Opdatering på Gem",module,Magento_Indexer
+"Reindex required","Genindeksere kræves",module,Magento_Indexer
 Ready,Klar,module,Magento_Indexer
+Processing,Forarbejdning,module,Magento_Indexer
+Never,Aldrig,module,Magento_Indexer
+"Index Management","Indeks Management",module,Magento_Indexer
+"Please select indexers.","Vælg indeks.",module,Magento_Indexer
 Integrations,Integrationer,module,Magento_Integration
 Save,Gem,module,Magento_Integration
 Remove,Fjern,module,Magento_Integration
@@ -2032,6 +2082,10 @@ Action,Handling,module,Magento_Email
 Enable,Aktiver,module,Magento_GoogleAnalytics
 "Account Number",Kontonummer,module,Magento_GoogleAnalytics
 "Grouped Product Image","Grupperet produktbillede",module,Magento_GroupedProduct
+Indexer,Indekseringen,module,Magento_Indexer
+Description,Beskrivelse,module,Magento_Indexer
+Mode,Indstilling,module,Magento_Indexer
+Updated,Opdateret,module,Magento_Indexer
 Options,Valgmuligheder,module,Magento_Multishipping
 "Review Order","Gennemse ordre",module,Magento_Multishipping
 "Select Shipping Method","Vælg leveringsmetode",module,Magento_Multishipping
