@@ -123,6 +123,39 @@ Clear,Slet,module,Magento_Backend
 "Search Index",Søgeindeks,module,Magento_Backend
 Rebuild,Genopbyg,module,Magento_Backend
 "Rebuild Catalog Index","Genopbyg katalogindeks",module,Magento_Backend
+"Cache Control","Cache kontrol",module,Magento_Backend
+Disable,Deaktiver,module,Magento_Backend
+Enable,Aktiverer,module,Magento_Backend
+Back,Tilbage,module,Magento_Backend
+Delete,Slet,module,Magento_Backend
+"Are you sure?","Er du sikker?",module,Magento_Backend
+Save,Gem,module,Magento_Backend
+"General Settings","Generelle indstillinger",module,Magento_Backend
+Store,Butik,module,Magento_Backend
+"Custom Design","Brugerdefineret Design",module,Magento_Backend
+"Date From","Dato fra",module,Magento_Backend
+"Date To","Dato til",module,Magento_Backend
+General,Generelt,module,Magento_Backend
+Cancel,Annuller,module,Magento_Backend
+"Delete %1 '%2'","Slet %1 '%2'",module,Magento_Backend
+"Delete %1","Slet %1",module,Magento_Backend
+"Block Information","Blok oplysninger",module,Magento_Backend
+"Backup Options","Backup indstillinger",module,Magento_Backend
+"Create DB Backup","Opret DB sikkerhedskopi",module,Magento_Backend
+Yes,Ja,module,Magento_Backend
+No,Nej,module,Magento_Backend
+"Delete Store","Slet butik",module,Magento_Backend
+"Delete Web Site","Slette websted",module,Magento_Backend
+"Save Web Site","Gem websted",module,Magento_Backend
+"Save Store","Gem butik",module,Magento_Backend
+"Save Store View","Gem butiks visning",module,Magento_Backend
+"Delete Store View","Slet Butiksvisning",module,Magento_Backend
+"Edit Web Site","Redigere Webside",module,Magento_Backend
+"New Web Site","Nyt websted",module,Magento_Backend
+"Edit Store","Rediger butik",module,Magento_Backend
+"New Store","Ny butik",module,Magento_Backend
+"Edit Store View","Rediger butiks visning",module,Magento_Backend
+"New Store View","Ny butiks visning",module,Magento_Backend
 "Store Information","Butiks information",module,Magento_Backend
 Name,Navn,module,Magento_Backend
 "Root Category","Rod Kategori",module,Magento_Backend
@@ -214,6 +247,16 @@ Time,Tid,module,Magento_Backend
 Hour,Time,module,Magento_Backend
 Minute,Minut,module,Magento_Backend
 "JavaScript may be disabled in your browser.","JavaScript kan være slået fra i din browser.",module,Magento_Backend
+Catalog,Katalog,module,Magento_Backend
+"No records found.","Ingen poster fundet.",module,Magento_Backend
+Images,Billeder,module,Magento_Backend
+"Big Image","Stort billede",module,Magento_Backend
+selected,valgt,module,Magento_Backend
+"per page","pr. side",module,Magento_Backend
+"of %1","af %1",module,Magento_Backend
+"Next page","Næste side",module,Magento_Backend
+Actions,Handlinger,module,Magento_Backend
+Loading...,Indlæser...,module,Magento_Backend
 "System Backup","System backup",module,Magento_Backup
 "Database and Media Backup","Database og Medie Backup",module,Magento_Backup
 "The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","Arkivet kan udpakkes med <a href=""%1"">%2</a> på Windows systemer.",module,Magento_Backup
@@ -792,6 +835,7 @@ Category,Kategori,module,Magento_Catalog
 "%1 and above","%1 og derover",module,Magento_Catalog
 "The filters must be an array.","Filtrene skal være et array.",module,Magento_Catalog
 "Product was not registered","Produkt blev ikke registreret",module,Magento_Catalog
+"Store was not registered","Produkt blev ikke registreret",module,Magento_Catalog
 "Group price must be a number greater than 0.","Gruppe pris skal være et tal større end 0.",module,Magento_Catalog
 "Please enter a number 0 or greater in this field.","Indtast venligst et tal 0 eller større i dette felt.",module,Magento_Catalog
 "The value of attribute ""%1"" must be set","Værdien af attributten ""%1"" skal angives",module,Magento_Catalog
@@ -854,6 +898,8 @@ Search,Søg,module,Magento_Catalog
 "Invalid product data: %1","Ugyldig produktdata: %1",module,Magento_Catalog
 "Unable to remove product %1","Ikke i stand til at fjerne produkt %1",module,Magento_Catalog
 "There are not websites for assign to product","Der er ikke hjemmesider som kan tildeles produktet",module,Magento_Catalog
+"We cannot determine the field name.","Vi kan ikke bestemme navnet på feltet.",module,Magento_Catalog
+"Do not change the scope. %1","Undlad at ændre anvendelsesområdet. %1",module,Magento_Catalog
 "Multiple Select","Marker flere",module,Magento_Catalog
 "As low as","Så lavt som",module,Magento_Catalog
 message,besked,module,Magento_Catalog
@@ -1635,7 +1681,18 @@ Availability,Tilgængelighed,module,Magento_GroupedProduct
 Export,Eksport,module,Magento_ImportExport
 "Export Settings","Eksporter indstillinger",module,Magento_ImportExport
 From,Fra,module,Magento_ImportExport
+"Indexer Management",Indekseringen,module,Magento_Indexer
+"Update by Schedule","Opdatering efter tidsplan",module,Magento_Indexer
+"Update on Save","Opdatering på Gem",module,Magento_Indexer
+"Reindex required","Genindeksere kræves",module,Magento_Indexer
 Ready,Klar,module,Magento_Indexer
+Processing,Forarbejdning,module,Magento_Indexer
+Never,Aldrig,module,Magento_Indexer
+"Index Management","Indeks Management",module,Magento_Indexer
+"Please select indexers.","Vælg indeks.",module,Magento_Indexer
+"Field '%1' not found","Feltet '%1' ikke fundet",module,Magento_Indexer
+"Some Exception Message","Undtagelses besked",module,Magento_Indexer
+"Test Phrase","Test sætning",module,Magento_Indexer
 Integrations,Integrationer,module,Magento_Integration
 Save,Gem,module,Magento_Integration
 Remove,Fjern,module,Magento_Integration
@@ -1727,6 +1784,9 @@ Items,Varer,module,Magento_Multishipping
 "Thank you for your purchase!","Tak for dit køb!",module,Magento_Multishipping
 "Thanks for your order. We'll email you order details and tracking information.","Tak for din bestilling. Vi sender dig en ordrebekræftelse på mail.",module,Magento_Multishipping
 "Continue Shopping","Fortsæt med at shoppe",module,Magento_Multishipping
+"No New Relic Application ID configured, cannot continue with Cron Event reporting","Ingen ny Relic ansøgning ID er konfigureret, kan ikke fortsætte med Cron begivenhed rapportering",module,Magento_NewRelicReporting
+"The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
+                        information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","Ny Relic integration kræver newrelic-php5-agent, som ikke er installeret. Flere oplysninger om installation af agenten er tilgængelig <a target=""_blank"" href=""%1""> her</a>.",module,Magento_NewRelicReporting
 "Delete Selected Problems","Slet de valgte problemer",module,Magento_Newsletter
 "Unsubscribe Selected","Afmeld Valgte",module,Magento_Newsletter
 Back,Tilbage,module,Magento_Newsletter
@@ -2991,11 +3051,33 @@ Select...,Vælg...,module,Magento_GroupedProduct
 Quantity,Mængde,module,Magento_GroupedProduct
 StatusText,StatusTekst,module,Magento_GroupedProduct
 Summary,Resumé,module,Magento_ImportExport
+"Change indexer mode","Ændre indekseringen tilstand",module,Magento_Indexer
+Indexer,Indekseringen,module,Magento_Indexer
+Description,Beskrivelse,module,Magento_Indexer
+Mode,Indstilling,module,Magento_Indexer
+Updated,Opdateret,module,Magento_Indexer
 Options,Valgmuligheder,module,Magento_Multishipping
 "Review Order","Gennemse ordre",module,Magento_Multishipping
 "Select Shipping Method","Vælg leveringsmetode",module,Magento_Multishipping
 "We received your order!","Vi har modtaget din bestilling!",module,Magento_Multishipping
+"New Relic Reporting Section","Ny Relic rapportering sektion",module,Magento_NewRelicReporting
+"New Relic Reporting","Ny Relic rapportering",module,Magento_NewRelicReporting
 General,Generelt,module,Magento_NewRelicReporting
+"Enable New Relic Integration","Aktiver ny Relic Integration",module,Magento_NewRelicReporting
+"New Relic API URL","Ny Relic API URL",module,Magento_NewRelicReporting
+"Insights API URL","Indsigter API URL",module,Magento_NewRelicReporting
+"Use %s to replace the account ID in the URL","Brug %s til at erstatte konto-ID i URL-adressen",module,Magento_NewRelicReporting
+"New Relic Account ID","Ny Relic konto-ID",module,Magento_NewRelicReporting
+"""Need a New Relic account? <a href=""http://www.newrelic.com/magento"" target=""_blank"">Click here to get one","""Brug for en ny Relic konto? <a href=""http://www.newrelic.com/magento"" target=""_blank""> Klik her for at få en",module,Magento_NewRelicReporting
+"New Relic Application ID","Ny Relic program-ID",module,Magento_NewRelicReporting
+"This can commonly be found at the end of the URL when viewing the APM after ""/applications/""","Dette kan almindeligvis findes i slutningen af URL-adressen, når du ser APM efter ""/ programmer /""",module,Magento_NewRelicReporting
+"New Relic API Key","Ny Relic API-nøgle",module,Magento_NewRelicReporting
+"This is located by navigating to Events -> Deployments from the New Relic APM website","Det er beliggende ved at navigere til begivenheder-> installationer fra ny Relic APM hjemmeside",module,Magento_NewRelicReporting
+"Insights API Key","Indsigter API-nøgle",module,Magento_NewRelicReporting
+"Generated under Insights in Manage data -> API Keys -> Insert Keys","Fremkommet under indsigt i Administrer data-> API nøgler-> indsætte nøgler",module,Magento_NewRelicReporting
+"New Relic Application Name","Ny Relic programnavn",module,Magento_NewRelicReporting
+"This is located by navigating to Settings from the New Relic APM website","Det er beliggende ved at navigere til indstillinger fra ny Relic APM hjemmeside",module,Magento_NewRelicReporting
+"Enable Cron","Aktivere Cron",module,Magento_NewRelicReporting
 "Newsletter Template",Nyhedsbrevsskabelon,module,Magento_Newsletter
 "Newsletter Section","Nyhedsbrev sektion",module,Magento_Newsletter
 "Subscription Options",Abonnementsmuligheder,module,Magento_Newsletter
