@@ -121,19 +121,29 @@ Refresh,Genindlæs,module,Magento_Backend
 Clear,Slet,module,Magento_Backend
 "Search Index",Søgeindeks,module,Magento_Backend
 Rebuild,Genopbyg,module,Magento_Backend
+"Inventory Stock Status",Lagerstatus,module,Magento_Backend
 "Rebuild Catalog Index","Genopbyg katalogindeks",module,Magento_Backend
+"Rebuild Flat Catalog Category","Genopbyg flad katalogkategori",module,Magento_Backend
+"Rebuild Flat Catalog Product","Genopbyg fladt katalogprodukt",module,Magento_Backend
 "Cache Control","Cache kontrol",module,Magento_Backend
+"All Cache","Alle Cache",module,Magento_Backend
+"No change","Ingen ændringer",module,Magento_Backend
 Disable,Deaktiver,module,Magento_Backend
 Enable,Aktiverer,module,Magento_Backend
+"Add Design Change","Tilføj designændringer",module,Magento_Backend
 Back,Tilbage,module,Magento_Backend
 Delete,Slet,module,Magento_Backend
 "Are you sure?","Er du sikker?",module,Magento_Backend
 Save,Gem,module,Magento_Backend
+"Edit Design Change","Redigér designændringer",module,Magento_Backend
+"New Store Design Change","Ny butiksdesign-ændringer",module,Magento_Backend
 "General Settings","Generelle indstillinger",module,Magento_Backend
 Store,Butik,module,Magento_Backend
+"-- Please Select --","-- Vælg venligst --",module,Magento_Backend
 "Custom Design","Brugerdefineret Design",module,Magento_Backend
 "Date From","Dato fra",module,Magento_Backend
 "Date To","Dato til",module,Magento_Backend
+"Design Change",Designændring,module,Magento_Backend
 General,Generelt,module,Magento_Backend
 Cancel,Annuller,module,Magento_Backend
 "Delete %1 '%2'","Slet %1 '%2'",module,Magento_Backend
@@ -200,6 +210,24 @@ Submit,Afsend,module,Magento_Backend
 "The static files cache has been cleaned.","Den statiske fil chache er slettet.",module,Magento_Backend
 "You flushed the cache storage.","Du har renset cache lager.",module,Magento_Backend
 "The Magento cache storage has been flushed.","Magento cache lager er blevet renset.",module,Magento_Backend
+"%1 cache type(s) disabled.","%1 cache type(r) deaktiveret.",module,Magento_Backend
+"An error occurred while disabling cache.","Der opstod en fejl under deaktivering af cache.",module,Magento_Backend
+"%1 cache type(s) enabled.","%1 cache type(r) aktiveret.",module,Magento_Backend
+"An error occurred while enabling cache.","Der opstod en fejl under aktivering af cache.",module,Magento_Backend
+"%1 cache type(s) refreshed.","%1 cache type(r) genindlæst.",module,Magento_Backend
+"An error occurred while refreshing cache.","Der opstod en fejl under genindlæsning af cache.",module,Magento_Backend
+Dashboard,Instrumentbræt,module,Magento_Backend
+"We updated lifetime statistic.","Vi opdaterede levetidsstatistik.",module,Magento_Backend
+"invalid request","ugyldig anmodning",module,Magento_Backend
+"see error log for details","se fejlloggen for detaljer",module,Magento_Backend
+"Service unavailable: %1","Tjenesten er ikke tilgængelig: %1",module,Magento_Backend
+Error,Fejl,module,Magento_Backend
+"Access Denied.","Adgang nægtet.",module,Magento_Backend
+"You need more permissions to do this.","Du har brug for flere tilladelser til at gøre dette.",module,Magento_Backend
+"No search modules were registered","Ingen søgemoduler blev registreret",module,Magento_Backend
+"Please make sure that all global admin search modules are installed and activated.","Sørg for, at alle globale admin søgemoduler er installeret og aktiveret.",module,Magento_Backend
+"You saved the account.","Du gemte kontoen.",module,Magento_Backend
+"An error occurred while saving account.","Der opstod en fejl under lagring af konto.",module,Magento_Backend
 "Something went wrong while saving. Please review the error log.","Noget gik galt under lagring. Se venligst fejl loggen.",module,Magento_Backend
 "Last 24 Hours","Sidste 24 timer",module,Magento_Backend
 "Last 7 Days","Sidste 7 dage",module,Magento_Backend
