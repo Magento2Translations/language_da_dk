@@ -2735,6 +2735,7 @@ Password:,Kodeord:,module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","Hvis du ikke gøre bad om denne anmodning kan du ignorere denne e-mail og adgangskode vil forblive den samme.",module,Magento_Customer
 "Your %store_name password has been changed","%store_name adgangskode er blevet ændret",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: password.","Vi har modtaget en anmodning om at ændre følgende oplysninger i forbindelse med din konto på %store_name: password.",module,Magento_Customer
+"Checkout out as a new customer","Gennemfører betalingsprocessen som en ny kunde",module,Magento_Customer
 "Creating an account has many benefits:","Oprettelse af en konto har mange fordele:",module,Magento_Customer
 "See order and shipping status","Se ordre og leveringsstatus",module,Magento_Customer
 "Track order history",Ordreoversigten,module,Magento_Customer
