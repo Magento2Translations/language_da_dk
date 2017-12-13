@@ -1108,7 +1108,7 @@ Role,Rolle,module,Magento_Catalog
 "Unselect Visible","Fravælg synlig",module,Magento_Catalog
 "Special Price","Special pris",module,Magento_Catalog
 "Regular Price",Normalpris,module,Magento_Catalog
-"Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Købe %1 til %2 hver og <strong class=""benefit"">gem<span class=""percent tier-%3"">&nbsp;%4%</span></strong>",module,Magento_Catalog
+"Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Køb %1 til %2 per styk og <strong class=""benefit"">spar<span class=""percent tier-%3"">&nbsp;%4%</span></strong>",module,Magento_Catalog
 "Buy %1 for %2 each","Købe %1 til %2 hver",module,Magento_Catalog
 "Shop By",Filtre,module,Magento_Catalog
 "Shopping Options",Købsmuligheder,module,Magento_Catalog
@@ -2012,9 +2012,12 @@ No,Nej,module,Magento_OfflineShipping
 Month,Måned,module,Magento_Payment
 Year,År,module,Magento_Payment
 N/A,"Ikke tilgængelig",module,Magento_Payment
+"Credit Card Number",Kreditkortnummer,module,Magento_Payment
 Shipping,Levering,module,Magento_Payment
 "The credit card number doesn't match the credit card type.","Kreditkortnummeret matcher ikke kreditkorttypen.",module,Magento_Payment
+"Card Verification Number","Kortnummer verifikation",module,Magento_Payment
 "We'll ask for your payment details before you place an order.","Vi vil bede om dine betalingsoplysninger, før du afgiver en ordre.",module,Magento_Payment
+"Credit Card Information",Kreditkortoplysninger,module,Magento_Payment
 "Billing Agreements",Faktureringsaftaler,module,Magento_Paypal
 Email,E-mail,module,Magento_Paypal
 "First Name",Fornavn,module,Magento_Paypal
@@ -2038,6 +2041,8 @@ Close,Luk,module,Magento_Paypal
 "Billing Information",Faktureringsoplysninger,module,Magento_Paypal
 "Shipping Information",Leveringsinformation,module,Magento_Paypal
 Custom,Brugerdefineret,module,Magento_Paypal
+"Credit Card Number",Kreditkortnummer,module,Magento_Paypal
+"Card Verification Number","Kortnummer verifikation",module,Magento_Paypal
 "Payment Method:",Betalingsmetode:,module,Magento_Paypal
 "Order #","Ordre #",module,Magento_Paypal
 Date,Dato,module,Magento_Paypal
@@ -2088,6 +2093,8 @@ Tax,Moms,module,Magento_Quote
 Filter,Filtrer,module,Magento_Reports
 Price,Pris,module,Magento_Reports
 Carrier/Method,Distributør/type,module,Magento_Reports
+"First Name",Fornavn,module,Magento_Reports
+"Last Name",Efternavn,module,Magento_Reports
 "Items in Cart","Varer i indkøbskurv",module,Magento_Reports
 "Add to Compare","Tilføj for at sammenligne",module,Magento_Reports
 "Save Review","Gem anmeldelse",module,Magento_Review
@@ -2556,6 +2563,8 @@ Back,Tilbage,module,Magento_User
 Reset,Nulstil,module,Magento_User
 "Delete Role","Slet rolle",module,Magento_User
 "Are you sure you want to do this?","Er du sikker på at du vil gøre dette?",module,Magento_User
+"First Name",Fornavn,module,Magento_User
+"Last Name",Efternavn,module,Magento_User
 "Account Information","Konto Information",module,Magento_User
 "It's time to <a href=""%1"">change your password</a>.","Det er tid til at <a href=""%1""> ændre din adgangskode</a>.",module,Magento_User
 Custom,Brugerdefineret,module,Magento_User
@@ -2624,6 +2633,7 @@ Edit,Rediger,module,Magento_Wishlist
 "Remove item","Fjern vare",module,Magento_Wishlist
 "Add to Compare","Tilføj for at sammenligne",module,Magento_Wishlist
 "This Wish List has no Items","Denne ønskeliste indeholder ingen elementer",module,Magento_Wishlist
+"Click <a href=""%1"">here</a> to continue shopping.","Klik <a href=""%1""> her</a> for at fortsætte med shopping.",module,Magento_Wishlist
 "Remove This Item","Fjerne dette produkt",module,Magento_Wishlist
 "You have no items in your wish list.","Du har ingen varer i din ønskeliste.",module,Magento_Wishlist
 "Now Shopping by","Aktive filtre",theme,frontend/Magento/luma
