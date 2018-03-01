@@ -1061,6 +1061,7 @@ Yes,Ja,module,Magento_Customer
 "Edit Customer Group ""%1""","Rediger kundegruppe ""%1""",module,Magento_Customer
 "Group Information",Gruppeoplysninger,module,Magento_Customer
 "Group Name",Gruppenavn,module,Magento_Customer
+"Maximum length must be less then %1 symbols","Maksimumlængden skal være kortere end %1 tegn",module,Magento_Customer
 "Tax Class",Momsklasse,module,Magento_Customer
 "Would you like to change the Customer Group for this order?","Vil du gerne ændre kundegruppen for denne ordre?",module,Magento_Customer
 "Validate VAT Number","Valider CVR-nummer",module,Magento_Customer
@@ -1075,6 +1076,7 @@ Yes,Ja,module,Magento_Customer
 "Your password reset link has expired.","Dit link til nulstilling af adgangskode er udløbet.",module,Magento_Customer
 "There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Der er allerede en konto med denne e-mail-adresse. Hvis du er sikker på, at er det din e-mail-adresse, <a href=""%1"">klik her</a> for at få din adgangskode og få adgang til din konto.",module,Magento_Customer
 "Account Information","Konto Information",module,Magento_Customer
+"Invalid input","Ugyldig indput",module,Magento_Customer
 "Please correct the email address.","Ret venligst e-mail-adressen.",module,Magento_Customer
 "Please enter your email.","Angiv din e-mail.",module,Magento_Customer
 "If there is an account associated with %1 you will receive an email with a link to reset your password.","Hvis der er en konto, der er knyttet til %1 vil du modtage en e-mail med et link for at nulstille din adgangskode.",module,Magento_Customer
@@ -1095,9 +1097,16 @@ Customers,Kunder,module,Magento_Customer
 "A total of %1 record(s) were deleted.","Ialt %1 post(er) blev slettet.",module,Magento_Customer
 "You saved the customer.","Du gemte kunden.",module,Magento_Customer
 "This account is not confirmed.","Denne konto er ikke bekræftet.",module,Magento_Customer
+"Please enter the first name.","Angiv fornavn.",module,Magento_Customer
+"Please enter the last name.","Angiv efternavnet.",module,Magento_Customer
+"Please enter the street.","Angiv gaden.",module,Magento_Customer
+"Please enter the city.","Angiv byen.",module,Magento_Customer
+"Please enter the zip/postal code.","Angiv postnummeret.",module,Magento_Customer
+"Please enter the country.","Angiv landet.",module,Magento_Customer
 "Billing Address",Faktureringsadresse,module,Magento_Customer
 "Shipping Address",Leveringsadresse,module,Magento_Customer
 "-- Please Select --",--Vælg--,module,Magento_Customer
+"Please correct this email address: ""%1"".","Ret venligst denne e-mail-adresse: ""%1"".",module,Magento_Customer
 """%1"" contains non-alphabetic characters.","""%1"" indeholder ikke-alfabetiske tegn.",module,Magento_Customer
 """%1"" is not a valid email address.","""%1"" er ikke en gyldig e-mail-adresse.",module,Magento_Customer
 """%1"" is not a valid hostname.","""%1"" er ikke et gyldigt værtsnavn.",module,Magento_Customer
@@ -1272,7 +1281,7 @@ From,Fra,module,Magento_ImportExport
 "Update on Save","Opdatering på Gem",module,Magento_Indexer
 "Reindex required","Genindeksere kræves",module,Magento_Indexer
 Ready,Klar,module,Magento_Indexer
-Processing,Forarbejdning,module,Magento_Indexer
+Processing,Behandler,module,Magento_Indexer
 Never,Aldrig,module,Magento_Indexer
 "Index Management","Indeks Management",module,Magento_Indexer
 "Please select indexers.","Vælg indeks.",module,Magento_Indexer
