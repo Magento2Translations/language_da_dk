@@ -1374,6 +1374,7 @@ Reset,Nulstil,module,Magento_CurrencySymbol
 "Sign Out","Log ud",module,Magento_Customer
 "Sign In","Log Ind",module,Magento_Customer
 "You subscribe to our newsletter.","Du abonnerer nu på vores nyhedsbrev.",module,Magento_Customer
+"You don't subscribe to our newsletter.","Du abonnerer ikke længere på vores nyhedsbrev.",module,Magento_Customer
 "You have not set a default shipping address.","Du har ikke angivet en standard forsendelsesadresse.",module,Magento_Customer
 "You have not set a default billing address.","Du har ikke angivet en standard faktureringsadresse.",module,Magento_Customer
 "Address Book",Adressebog,module,Magento_Customer
@@ -1413,6 +1414,7 @@ Unknown,Ukendt,module,Magento_Customer
 Order,Ordre,module,Magento_Customer
 Purchased,Købt,module,Magento_Customer
 "Order Total",Ordretotal,module,Magento_Customer
+"There are no items in customer's shopping cart.","Der er ingen varer i kundens indkøbskurv.",module,Magento_Customer
 Qty,Antal,module,Magento_Customer
 Confirmed,Bekræftet,module,Magento_Customer
 "Confirmation Required","Bekræftelse påkrævet",module,Magento_Customer
@@ -1429,6 +1431,7 @@ Yes,Ja,module,Magento_Customer
 "Edit Customer Group ""%1""","Rediger kundegruppe ""%1""",module,Magento_Customer
 "Group Information",Gruppeoplysninger,module,Magento_Customer
 "Group Name",Gruppenavn,module,Magento_Customer
+"Maximum length must be less then %1 symbols","Maksimumlængden skal være kortere end %1 tegn",module,Magento_Customer
 "Tax Class",Momsklasse,module,Magento_Customer
 "Would you like to change the Customer Group for this order?","Vil du gerne ændre kundegruppen for denne ordre?",module,Magento_Customer
 "The VAT ID is valid.","Moms-ID er gyldigt.",module,Magento_Customer
@@ -1448,12 +1451,16 @@ Yes,Ja,module,Magento_Customer
 "Your password reset link has expired.","Dit link til nulstilling af adgangskode er udløbet.",module,Magento_Customer
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Du skal bekræfte din konto. Tjek venligst din e-mail for bekræftelse link eller <a href=""%1"">klik her</a> for et nyt link.",module,Magento_Customer
 "There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Der er allerede en konto med denne e-mail-adresse. Hvis du er sikker på, at er det din e-mail-adresse, <a href=""%1"">klik her</a> for at få din adgangskode og få adgang til din konto.",module,Magento_Customer
+"We can't save the customer.","Vi kan ikke gemme kunden.",module,Magento_Customer
 "Please make sure your passwords match.","Kontroller at dine adgangskoder stemmer overens.",module,Magento_Customer
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","Hvis du er en registreret moms kunde klik <a href=""%1"">her</a> for at angive din leveringsadresse så der kan laves en korrekt momsberegning.",module,Magento_Customer
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","Hvis du er en registreret moms kunde klik <a href=""%1"">her</a> for at angive din faktureringssadresse så der kan laves en korrekt momsberegning.",module,Magento_Customer
 "Account Information","Konto Information",module,Magento_Customer
+"Invalid input","Ugyldig indput",module,Magento_Customer
 "You saved the account information.","Du gemte kontooplysningerne.",module,Magento_Customer
 "Please enter new password.","Indtast ny adgangskode.",module,Magento_Customer
+"Confirm your new password.","Bekræft din nye adgangskode.",module,Magento_Customer
+"Something went wrong while changing the password.","Noget gik galt under ændringen af kodeordet.",module,Magento_Customer
 "Please correct the email address.","Ret venligst e-mail-adressen.",module,Magento_Customer
 "Please enter your email.","Angiv din e-mail.",module,Magento_Customer
 "If there is an account associated with %1 you will receive an email with a link to reset your password.","Hvis der er en konto, der er knyttet til %1 vil du modtage en e-mail med et link for at nulstille din adgangskode.",module,Magento_Customer
@@ -1466,6 +1473,7 @@ Yes,Ja,module,Magento_Customer
 "Something went wrong while saving the new password.","Noget gik galt under lagringen af det nye adgangskode.",module,Magento_Customer
 "You deleted the address.","Du har slettet adressen.",module,Magento_Customer
 "You saved the address.","Du gemte adressen.",module,Magento_Customer
+"We can't save the address.","Vi kan ikke gemme adressen.",module,Magento_Customer
 "No customer ID defined.","Intet kunde-ID defineret.",module,Magento_Customer
 "You deleted the customer group.","Du har slettet kundegruppen.",module,Magento_Customer
 "The customer group no longer exists.","Kundegruppen eksisterer ikke længere.",module,Magento_Customer
@@ -1494,11 +1502,21 @@ Customers,Kunder,module,Magento_Customer
 "Invalid confirmation token","Ugyldig bekræftigelsestoken",module,Magento_Customer
 "This account is not confirmed.","Denne konto er ikke bekræftet.",module,Magento_Customer
 "Please enter a password with at least %1 characters.","Indtast en adgangskode med minimum %1 tegn.",module,Magento_Customer
+"Please enter the first name.","Angiv fornavn.",module,Magento_Customer
+"Please enter the last name.","Angiv efternavnet.",module,Magento_Customer
+"Please enter the street.","Angiv gaden.",module,Magento_Customer
+"Please enter the city.","Angiv byen.",module,Magento_Customer
 "Please enter the phone number.","Angiv telefonnummeret.",module,Magento_Customer
+"Please enter the zip/postal code.","Angiv postnummeret.",module,Magento_Customer
+"Please enter the country.","Angiv landet.",module,Magento_Customer
 "Billing Address",Faktureringsadresse,module,Magento_Customer
 "Shipping Address",Leveringsadresse,module,Magento_Customer
 "-- Please Select --",--Vælg--,module,Magento_Customer
+"Please enter a first name.","Indtast et fornavn.",module,Magento_Customer
+"Please enter a last name.","Indtast et efternavn.",module,Magento_Customer
+"Please correct this email address: ""%1"".","Ret venligst denne e-mail-adresse: ""%1"".",module,Magento_Customer
 "Please enter a TAX/VAT number.","Angiv et CVR-nummer.",module,Magento_Customer
+"Please enter a gender.","Indtast køn.",module,Magento_Customer
 """%1"" contains non-alphabetic characters.","""%1"" indeholder ikke-alfabetiske tegn.",module,Magento_Customer
 """%1"" is not a valid email address.","""%1"" er ikke en gyldig e-mail-adresse.",module,Magento_Customer
 """%1"" is not a valid hostname.","""%1"" er ikke et gyldigt værtsnavn.",module,Magento_Customer
@@ -1732,7 +1750,7 @@ From,Fra,module,Magento_ImportExport
 "Update on Save","Opdatering på Gem",module,Magento_Indexer
 "Reindex required","Genindeksere kræves",module,Magento_Indexer
 Ready,Klar,module,Magento_Indexer
-Processing,Forarbejdning,module,Magento_Indexer
+Processing,Behandler,module,Magento_Indexer
 Never,Aldrig,module,Magento_Indexer
 "Index Management","Indeks Management",module,Magento_Indexer
 "Please select indexers.","Vælg indeks.",module,Magento_Indexer
@@ -3016,6 +3034,7 @@ Group,Gruppe,module,Magento_Customer
 Phone,Telefon,module,Magento_Customer
 ZIP,Postnr.,module,Magento_Customer
 "Customer Since","Kunde siden",module,Magento_Customer
+"Last Logged In","Sidst logget ind",module,Magento_Customer
 "Confirmed email","Bekræftet e-mail",module,Magento_Customer
 "Account Created in","Konto oprettet i",module,Magento_Customer
 "Tax VAT Number",Moms-nummer,module,Magento_Customer
@@ -3031,6 +3050,7 @@ Addresses,Adresser,module,Magento_Customer
 "Edit Account Information","Redigere kontooplysninger",module,Magento_Customer
 "Password forgotten","Glemt adgangskode",module,Magento_Customer
 "My Dashboard","Mit betjeningspanel",module,Magento_Customer
+"You are signed out.","Du er logget ud.",module,Magento_Customer
 "Handling Fee",Ekspeditionsgebyr,module,Magento_Dhl
 "Divide Order Weight","Opdele ordre vægt",module,Magento_Dhl
 "Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds 70 kg.","Vælg dette for at tillade DHL at optimere fragtomkostninger ved at opdele ordren, hvis den overstiger 70 kg.",module,Magento_Dhl
