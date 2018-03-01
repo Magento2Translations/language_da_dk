@@ -1437,6 +1437,7 @@ Reset,Nulstil,module,Magento_CurrencySymbol
 "Sign Out","Log ud",module,Magento_Customer
 "Sign In","Log Ind",module,Magento_Customer
 "You subscribe to our newsletter.","Du abonnerer nu på vores nyhedsbrev.",module,Magento_Customer
+"You don't subscribe to our newsletter.","Du abonnerer ikke længere på vores nyhedsbrev.",module,Magento_Customer
 "You have not set a default shipping address.","Du har ikke angivet en standard forsendelsesadresse.",module,Magento_Customer
 "You have not set a default billing address.","Du har ikke angivet en standard faktureringsadresse.",module,Magento_Customer
 "Address Book",Adressebog,module,Magento_Customer
@@ -1476,6 +1477,7 @@ Unknown,Ukendt,module,Magento_Customer
 Order,Ordre,module,Magento_Customer
 Purchased,Købt,module,Magento_Customer
 "Order Total",Ordretotal,module,Magento_Customer
+"There are no items in customer's shopping cart.","Der er ingen varer i kundens indkøbskurv.",module,Magento_Customer
 Qty,Antal,module,Magento_Customer
 Confirmed,Bekræftet,module,Magento_Customer
 "Confirmation Required","Bekræftelse påkrævet",module,Magento_Customer
@@ -1515,6 +1517,7 @@ Yes,Ja,module,Magento_Customer
 "Your password reset link has expired.","Dit link til nulstilling af adgangskode er udløbet.",module,Magento_Customer
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Du skal bekræfte din konto. Tjek venligst din e-mail for bekræftelse link eller <a href=""%1"">klik her</a> for et nyt link.",module,Magento_Customer
 "There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Der er allerede en konto med denne e-mail-adresse. Hvis du er sikker på, at er det din e-mail-adresse, <a href=""%1"">klik her</a> for at få din adgangskode og få adgang til din konto.",module,Magento_Customer
+"We can't save the customer.","Vi kan ikke gemme kunden.",module,Magento_Customer
 "Please make sure your passwords match.","Kontroller at dine adgangskoder stemmer overens.",module,Magento_Customer
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","Hvis du er en registreret moms kunde klik <a href=""%1"">her</a> for at angive din leveringsadresse så der kan laves en korrekt momsberegning.",module,Magento_Customer
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","Hvis du er en registreret moms kunde klik <a href=""%1"">her</a> for at angive din faktureringssadresse så der kan laves en korrekt momsberegning.",module,Magento_Customer
@@ -1535,6 +1538,7 @@ Yes,Ja,module,Magento_Customer
 "Something went wrong while saving the new password.","Noget gik galt under lagringen af det nye adgangskode.",module,Magento_Customer
 "You deleted the address.","Du har slettet adressen.",module,Magento_Customer
 "You saved the address.","Du gemte adressen.",module,Magento_Customer
+"We can't save the address.","Vi kan ikke gemme adressen.",module,Magento_Customer
 "No customer ID defined.","Intet kunde-ID defineret.",module,Magento_Customer
 "Something went wrong while saving file.","Noget gik galt under lagring af fil.",module,Magento_Customer
 "You deleted the customer group.","Du har slettet kundegruppen.",module,Magento_Customer
@@ -1569,7 +1573,13 @@ Customers,Kunder,module,Magento_Customer
 "Please enter a password with at most %1 characters.","Indtast en adgangskode med maximum %1 tegn.",module,Magento_Customer
 "Please enter a password with at least %1 characters.","Indtast en adgangskode med minimum %1 tegn.",module,Magento_Customer
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Minimum af forskellige klasser af tegn i adgangskoden er %1. Klasser af tegn: små bogstaver, store bogstaver, cifre og specialtegn.",module,Magento_Customer
+"Please enter the first name.","Angiv fornavn.",module,Magento_Customer
+"Please enter the last name.","Angiv efternavnet.",module,Magento_Customer
+"Please enter the street.","Angiv gaden.",module,Magento_Customer
+"Please enter the city.","Angiv byen.",module,Magento_Customer
 "Please enter the phone number.","Angiv telefonnummeret.",module,Magento_Customer
+"Please enter the zip/postal code.","Angiv postnummeret.",module,Magento_Customer
+"Please enter the country.","Angiv landet.",module,Magento_Customer
 "Billing Address",Faktureringsadresse,module,Magento_Customer
 "Shipping Address",Leveringsadresse,module,Magento_Customer
 "-- Please Select --",--Vælg--,module,Magento_Customer
@@ -1827,7 +1837,7 @@ From,Fra,module,Magento_ImportExport
 "Update on Save","Opdatering på Gem",module,Magento_Indexer
 "Reindex required","Genindeksere kræves",module,Magento_Indexer
 Ready,Klar,module,Magento_Indexer
-Processing,Forarbejdning,module,Magento_Indexer
+Processing,Behandler,module,Magento_Indexer
 Never,Aldrig,module,Magento_Indexer
 "Index Management","Indeks Management",module,Magento_Indexer
 "Please select indexers.","Vælg indeks.",module,Magento_Indexer
