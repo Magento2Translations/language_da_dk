@@ -270,7 +270,7 @@ Error,Fejl,module,Magento_Backend
 YTD,ÅTD,module,Magento_Backend
 2YTD,2ÅTD,module,Magento_Backend
 "Authentication storage is incorrect.","Fejl i Godkendelseslager.",module,Magento_Backend
-"You did not sign in correctly or your account is temporarily disabled.","Du har ikke logget ind korrekt eller din konto er midlertidig deaktiveret.",module,Magento_Backend
+"You did not sign in correctly or your account is temporarily disabled.","Du har enten tastet forkert brugernavn, kodeord eller din konto er blevet midlertidig deaktiveret.",module,Magento_Backend
 "Authentication error occurred.","Der er opståen en godkendelsesfejl.",module,Magento_Backend
 Order,Rækkefølge,module,Magento_Backend
 "Order #%1","Ordre #%1",module,Magento_Backend
@@ -1080,7 +1080,7 @@ Actions,Handlinger,module,Magento_Catalog
 "Unselect Visible","Fravælg synlig",module,Magento_Catalog
 "Special Price","Special pris",module,Magento_Catalog
 "Regular Price",Normalpris,module,Magento_Catalog
-"Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Køb %1 til %2 per styk og <strong class=""benefit"">spar<span class=""percent tier-%3"">&nbsp;%4%</span></strong>",module,Magento_Catalog
+"Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Køb %1 for %2 per styk og <strong class=""benefit"">spar<span class=""percent tier-%3"">&nbsp;%4%</span></strong>",module,Magento_Catalog
 "Buy %1 for %2 each","Købe %1 til %2 hver",module,Magento_Catalog
 "Shop By",Filtre,module,Magento_Catalog
 "Shopping Options","Filtrér efter",module,Magento_Catalog
@@ -1223,7 +1223,7 @@ Qty,Antal,module,Magento_Checkout
 "Edit item parameters","Rediger vare parametre",module,Magento_Checkout
 Edit,Rediger,module,Magento_Checkout
 "Remove item","Fjern vare",module,Magento_Checkout
-"You have no items in your shopping cart.","Du har ingen varer i din indkøbskurv.",module,Magento_Checkout
+"You have no items in your shopping cart.","Der er ingen produkter i din indkøbskurv.",module,Magento_Checkout
 "Click <a href=""%1"">here</a> to continue shopping.","Klik <a href=""%1""> her</a> for at fortsætte med shopping.",module,Magento_Checkout
 "Estimate Tax","Udregnet moms",module,Magento_Checkout
 "Estimate Shipping and Tax","Udregnet forsendelse og moms",module,Magento_Checkout
@@ -1362,6 +1362,7 @@ Summary,Oversigt,module,Magento_ConfigurableProduct
 "Cannot delete option with id: %1","Kan ikke slette valget med id: %1",module,Magento_ConfigurableProduct
 "Option with id ""%1"" not found","Valget med id ""%1"" blev ikke fundet",module,Magento_ConfigurableProduct
 "You can't add the item to shopping cart.","Du kan ikke tilføje denne vare til din indkøbskurv.",module,Magento_ConfigurableProduct
+"You need to choose options for your item.","Der mangler at blive taget et valg eller der er foretaget et ugyldigt valg.",module,Magento_ConfigurableProduct
 Options,Valgmuligheder,module,Magento_ConfigurableProduct
 "Select All","Vælg alle",module,Magento_ConfigurableProduct
 "Deselect All","Fravælg alle",module,Magento_ConfigurableProduct
@@ -1824,7 +1825,7 @@ Never,Aldrig,module,Magento_Indexer
 Integrations,Integrationer,module,Magento_Integration
 Save,Gem,module,Magento_Integration
 Remove,Fjern,module,Magento_Integration
-"You did not sign in correctly or your account is temporarily disabled.","Du har ikke logget ind korrekt eller din konto er midlertidig deaktiveret.",module,Magento_Integration
+"You did not sign in correctly or your account is temporarily disabled.","Du har enten tastet forkert brugernavn, kodeord eller din konto er blevet midlertidig deaktiveret.",module,Magento_Integration
 "Are you sure ?","Er du sikker?",module,Magento_Integration
 Custom,Brugerdefineret,module,Magento_Integration
 All,Alle,module,Magento_Integration
@@ -2610,8 +2611,10 @@ None,Ingen,module,Magento_Tax
 "Something went wrong","Noget gik galt",module,Magento_Tax
 "Could not save","Kunne ikke gemme",module,Magento_Tax
 "Excl. Tax","Ekskl. moms",module,Magento_Tax
+Save,Gem,module,Magento_Tax
 "Grand Total Excl. Tax","Total ekskl. moms",module,Magento_Tax
 "Grand Total Incl. Tax","Total inkl. moms",module,Magento_Tax
+"Save and Continue Edit","Gem og fortsæt",module,Magento_Theme
 "-- Please Select --","-- Vælg venligst --",module,Magento_Theme
 Copy,Kopi,module,Magento_Theme
 Remove,Fjern,module,Magento_Theme
@@ -2625,6 +2628,7 @@ None,Ingen,module,Magento_Ups
 Category:,Kategori:,module,Magento_UrlRewrite
 SKU,Varenummer,module,Magento_UrlRewrite
 "CMS page:","CMS side:",module,Magento_UrlRewrite
+Save,Gem,module,Magento_UrlRewrite
 Description,Beskrivelse,module,Magento_UrlRewrite
 Custom,Brugerdefineret,module,Magento_UrlRewrite
 Back,Tilbage,module,Magento_User
@@ -2755,7 +2759,7 @@ Password:,Kodeord:,module,Magento_Customer
 "You have been unsubscribed from the newsletter.","Du er blevet Afmeldt fra nyhedsbrevet.",module,Magento_Newsletter
 "Thank you for your order from %store_name.","Tak for din ordre fra %store_name.",module,Magento_Sales
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Du kan se status for din ordre ved at <a href=""%account_url""> logge ind på din konto</a>.",module,Magento_Sales
-"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Hvis du har spørgsmål til din ordre, kan du kontakte os på <a href=""mailto:%store_email""> %store_email</a>",module,Magento_Sales
+"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Hvis du har spørgsmål til ordren, kan du kontakte os på <a href=""mailto:%store_email""> %store_email</a>",module,Magento_Sales
 "or call us at <a href=""tel:%store_phone"">%store_phone</a>","eller ring til os på <a href=""tel:%store_phone""> %store_phone</a>",module,Magento_Sales
 "Our hours are <span class=""no-link"">%store_hours</span>.","Vores åbningstider er <span class=""no-link"">%store_hours</span>.",module,Magento_Sales
 "Your Credit Memo #%creditmemo_id for Order #%order_id","Din kredit Memo #%creditmemo_id for ordre #%order_id",module,Magento_Sales
@@ -2765,7 +2769,7 @@ Password:,Kodeord:,module,Magento_Customer
 "Your Invoice #%invoice_id for Order #%order_id","Din faktura #%invoice_id for ordre #%order_id",module,Magento_Sales
 "Once your package ships we will send you a tracking number.","Når din pakke afsendes, vil vi sende dig et trackingnummer.",module,Magento_Sales
 "Your Order <span class=""no-link"">#%increment_id</span>","Din ordre <span class=""no-link""> #%increment_id</span>",module,Magento_Sales
-"Placed on <span class=""no-link"">%created_at</span>","Placeret på <span class=""no-link"">%created_at</span>",module,Magento_Sales
+"Placed on <span class=""no-link"">%created_at</span>","Placeret den <span class=""no-link"">%created_at</span>",module,Magento_Sales
 "Once your package ships we will send an email with a link to track your order.","Når din pakke afsendes, vil vi sende en e-mail med et link til at spore din ordre.",module,Magento_Sales
 "Your shipping confirmation is below. Thank you again for your business.","Din forsendelse bekræftelse er nedenfor. Endnu en gang tak for din ordre.",module,Magento_Sales
 "Your Shipment #%shipment_id for Order #%order_id","Din forsendelse #%shipment_id for ordre #%order_id",module,Magento_Sales
@@ -2792,7 +2796,7 @@ Password:,Kodeord:,theme,frontend/Magento/luma
 "Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Åbningstider: < br / > <span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
 "Thank you for your order from %store_name.","Tak for din ordre fra %store_name.",theme,frontend/Magento/luma
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Du kan se status for din ordre ved at <a href=""%account_url""> logge ind på din konto</a>.",theme,frontend/Magento/luma
-"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Hvis du har spørgsmål til din ordre, kan du kontakte os på <a href=""mailto:%store_email""> %store_email</a>.",theme,frontend/Magento/luma
+"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Hvis du har spørgsmål til ordren, kan du kontakte os på <a href=""mailto:%store_email""> %store_email</a>.",theme,frontend/Magento/luma
 "Your Credit Memo #%creditmemo_id for Order #%order_id","Din kredit Memo #%creditmemo_id for ordre #%order_id",theme,frontend/Magento/luma
 "Billing Info","Fakturering Info",theme,frontend/Magento/luma
 "Shipping Info","Fragt information",theme,frontend/Magento/luma
@@ -2800,9 +2804,9 @@ Password:,Kodeord:,theme,frontend/Magento/luma
 "Shipping Method",Forsendelsesmetode,theme,frontend/Magento/luma
 "Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","Din ordre #%increment_id er blevet opdateret med en status for <strong>%order_status</strong>.",theme,frontend/Magento/luma
 "Your Invoice #%invoice_id for Order #%order_id","Din faktura #%invoice_id for ordre #%order_id",theme,frontend/Magento/luma
-"Once your package ships we will send you a tracking number.","Når din pakke afsendes, sender vi et trackingnummer.",theme,frontend/Magento/luma
+"Once your package ships we will send you a tracking number.","Når din pakke er sendt, sender vi dig et trackingnummer.",theme,frontend/Magento/luma
 "Your Order <span class=""no-link"">#%increment_id</span>","Din ordre <span class=""no-link""> #%increment_id</span>",theme,frontend/Magento/luma
-"Placed on <span class=""no-link"">%created_at</span>","Placeret på <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
+"Placed on <span class=""no-link"">%created_at</span>","Placeret den <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
 "Your shipping confirmation is below. Thank you again for your business.","Din forsendelsesbekræftelse er nedenfor. Endnu en gang tak for din ordre.",theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","Din forsendelse #%shipment_id for ordre #%order_id",theme,frontend/Magento/luma
 "We could not detect a size.","Vi kunne ikke finde en størrelse.",module,Magento_Backend
@@ -2837,6 +2841,7 @@ Done,Færdig,module,Magento_ConfigurableProduct
 "Unknown video type","Ukendt video type",module,Magento_ProductVideo
 "Invalid video url","Ugyldig video url",module,Magento_ProductVideo
 "Youtube API key is invalid","YouTube API-nøgle er ugyldig",module,Magento_ProductVideo
+Save,Gem,module,Magento_ProductVideo
 "Edit Video","Rediger Video",module,Magento_ProductVideo
 "Images and Videos","Billeder og videoer",module,Magento_ProductVideo
 "Add Products","Tilføj produkter",module,Magento_Sales
