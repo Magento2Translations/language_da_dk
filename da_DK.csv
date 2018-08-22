@@ -229,7 +229,7 @@ Error,Fejl,module,Magento_Backend
 "Current Month","Indeværende måned",module,Magento_Backend
 YTD,ÅTD,module,Magento_Backend
 2YTD,2ÅTD,module,Magento_Backend
-"You did not sign in correctly or your account is temporarily disabled.","Du har ikke logget ind korrekt eller din konto er midlertidig deaktiveret.",module,Magento_Backend
+"You did not sign in correctly or your account is temporarily disabled.","Du har enten tastet forkert brugernavn, kodeord eller din konto er blevet midlertidig deaktiveret.",module,Magento_Backend
 "Authentication error occurred.","Der er opståen en godkendelsesfejl.",module,Magento_Backend
 Order,Rækkefølge,module,Magento_Backend
 "Order #%1","Ordre #%1",module,Magento_Backend
@@ -917,7 +917,7 @@ Qty,Antal,module,Magento_Checkout
 "Edit item parameters","Rediger vare parametre",module,Magento_Checkout
 Edit,Rediger,module,Magento_Checkout
 "Remove item","Fjern vare",module,Magento_Checkout
-"You have no items in your shopping cart.","Du har ingen varer i din indkøbskurv.",module,Magento_Checkout
+"You have no items in your shopping cart.","Der er ingen produkter i din indkøbskurv.",module,Magento_Checkout
 "Click <a href=""%1"">here</a> to continue shopping.","Klik <a href=""%1""> her</a> for at fortsætte med shopping.",module,Magento_Checkout
 "Estimate Shipping and Tax","Udregnet forsendelse og moms",module,Magento_Checkout
 "Excl. Tax","Ekskl. moms",module,Magento_Checkout
@@ -1969,8 +1969,10 @@ None,Ingen,module,Magento_Tax
 "Including and Excluding Tax","Inklusiv og eksklusiv moms",module,Magento_Tax
 "Incl. Tax","Inkl. moms",module,Magento_Tax
 "Excl. Tax","Ekskl. moms",module,Magento_Tax
+Save,Gem,module,Magento_Tax
 "Grand Total Excl. Tax","Total ekskl. moms",module,Magento_Tax
 "Grand Total Incl. Tax","Total inkl. moms",module,Magento_Tax
+"Save and Continue Edit","Gem og fortsæt",module,Magento_Theme
 "-- Please Select --","-- Vælg venligst --",module,Magento_Theme
 Copy,Kopi,module,Magento_Theme
 Remove,Fjern,module,Magento_Theme
@@ -1982,6 +1984,7 @@ None,Ingen,module,Magento_Ups
 Category:,Kategori:,module,Magento_UrlRewrite
 SKU,Varenummer,module,Magento_UrlRewrite
 "CMS page:","CMS side:",module,Magento_UrlRewrite
+Save,Gem,module,Magento_UrlRewrite
 Description,Beskrivelse,module,Magento_UrlRewrite
 Custom,Brugerdefineret,module,Magento_UrlRewrite
 Back,Tilbage,module,Magento_User
