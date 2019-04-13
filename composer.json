@@ -1,7 +1,7 @@
 {
   "name": "magento2translations/language_da_dk",
   "description": "Danish (dansk) Magento2 Language Pack (da_DK) - From Magento2Translations",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "http://magento2translations.github.io/",
   "license": [
     "MIT"
