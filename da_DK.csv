@@ -1026,6 +1026,7 @@ Search,Søg,module,Magento_Catalog
 message,besked,module,Magento_Catalog
 Images,Billeder,module,Magento_Catalog
 Select...,Vælg...,module,Magento_Catalog
+"Product Name or SKU","Produktnavn eller Varenummer",module,Magento_Catalog
 "Advanced Pricing","Avancerede prissætningsmuligheder",module,Magento_Catalog
 "Customer Group Price","Kundegruppe pris",module,Magento_Catalog
 "Customer Group",Kundegruppe,module,Magento_Catalog
